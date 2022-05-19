@@ -1,0 +1,4 @@
+cd /tmp/offline_install/rabbitmq
+
+# install erlang
+yum install -y *.rpm

@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "ponr8chronyntpteststatus", 
+    "name": "PONR8 Chrony NTP Test Status", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "targetserverlin", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

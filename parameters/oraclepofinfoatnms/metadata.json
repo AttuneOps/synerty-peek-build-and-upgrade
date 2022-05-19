@@ -1,0 +1,6 @@
+{
+    "key": "oraclepofinfoatnms", 
+    "name": "Oracle: pofinfo At NMS", 
+    "showInPlan": false, 
+    "type": "c.s.s.b.phv.SqlCred"
+}

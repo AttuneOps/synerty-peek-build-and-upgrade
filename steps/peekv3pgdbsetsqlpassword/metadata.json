@@ -1,0 +1,11 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "peekv3pgdbsetsqlpassword", 
+    "name": "Peek v3 PGDB Set SQL Password", 
+    "osCredKey": "linuxpeekuser", 
+    "promptResponses": "Enter new password:==={postgresqlServiceUser.password}\nEnter it again:==={postgresqlServiceUser.password}", 
+    "serverKey": "peekserver", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshPromptedTuple"
+}

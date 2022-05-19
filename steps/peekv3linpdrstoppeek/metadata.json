@@ -1,0 +1,11 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "peekv3linpdrstoppeek", 
+    "name": "Peek v3 LIN PDR Stop Peek", 
+    "osCredKey": "linuxpeekuser", 
+    "promptResponses": "password for peek:==={linuxPeekUser.password}", 
+    "serverKey": "peekserver", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshPromptedTuple"
+}

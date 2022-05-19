@@ -1,0 +1,5 @@
+{
+    "key": "rhel8kickstartconfignew2", 
+    "name": "RHEL8 Kickstart Config NEW 2", 
+    "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"
+}

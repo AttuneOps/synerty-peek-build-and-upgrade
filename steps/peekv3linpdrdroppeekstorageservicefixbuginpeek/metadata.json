@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "peekv3linpdrdroppeekstorageservicefixbuginpeek", 
+    "name": "Peek v3 LIN PDR Drop Peek Storage Service (FIX BUG IN PEEK)", 
+    "osCredKey": "linuxpeekuser", 
+    "serverKey": "peekserver", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

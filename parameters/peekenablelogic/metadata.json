@@ -1,0 +1,6 @@
+{
+    "key": "peekenablelogic", 
+    "name": "Peek: Enable Logic", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

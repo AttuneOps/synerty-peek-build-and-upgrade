@@ -1,0 +1,15 @@
+function freeze {
+    pip freeze | grep peek | sed 's/%2B/+/g'
+}
+
+VER=`freeze | grep synerty-peek | sed 's/synerty-peek==//g'`
+
+if [ `freeze | grep -v ${VER} | wc -l` -eq 0 ]
+then
+    echo "All packages installed are the right version, which is ${VER}"
+else
+    echo "Packages installed are from the wrong version" >&2
+    echo "The version should be ${VER}" >&2
+    freeze | grep -v ${VER}
+    false
+fi

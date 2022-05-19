@@ -1,0 +1,6 @@
+{
+    "key": "smtpserver", 
+    "name": "Smtp Server", 
+    "showInPlan": false, 
+    "type": "c.s.s.b.phv.Server"
+}

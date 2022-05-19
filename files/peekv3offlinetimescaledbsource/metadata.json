@@ -1,0 +1,10 @@
+{
+    "fileName": "Peek_v3_Offline_TimescaleDB_Source.tar", 
+    "formatKey": "tar", 
+    "key": "peekv3offlinetimescaledbsource", 
+    "md5": "66a15198de6597efc3691e1b1d836ab0", 
+    "name": "Peek v3 Offline TimescaleDB Source", 
+    "remoteUri": null, 
+    "size": 4904960, 
+    "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
+}

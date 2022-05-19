@@ -1,0 +1,26 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "peekv3rhel8installrabbitmq", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "peekv3rhel8rmqdeployrabbitmq"
+        }, 
+        {
+            "order": 40, 
+            "stepKey": "peekv3rhel8rmqrabbitmqinstall"
+        }, 
+        {
+            "order": 60, 
+            "stepKey": "peekv3rhel8rmqrabbitmqsetupsystemd"
+        }, 
+        {
+            "order": 80, 
+            "stepKey": "peekv3rhel8rmqenablemanagementplugins"
+        }
+    ], 
+    "name": "Peek v3 RHEL8 Install RabbitMQ", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

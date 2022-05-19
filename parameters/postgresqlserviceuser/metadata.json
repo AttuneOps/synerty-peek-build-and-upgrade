@@ -1,0 +1,6 @@
+{
+    "key": "postgresqlserviceuser", 
+    "name": "PostGreSQL: Service User", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.OsCred"
+}

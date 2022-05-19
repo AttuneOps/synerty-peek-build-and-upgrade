@@ -1,0 +1,1 @@
+initdb --pgdata=$HOME/pgdata/12 --auth-local=trust  --auth-host=md5

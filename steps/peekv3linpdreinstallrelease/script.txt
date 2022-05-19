@@ -1,0 +1,34 @@
+RELEASE_DIR="`ls -d /home/peek/peek_install/peek_release_*`"
+
+platformArchive="`ls ${RELEASE_DIR}/peek_community_linux_*`"
+pluginsArchive="`ls ${RELEASE_DIR}/peek_enterprise_linux_*`"
+
+deployScript="${RELEASE_DIR}/deploy_release_linux.sh"
+
+VER=`basename ${platformArchive} | sed  's/peek_platform_linux_//g;s/.tar.bz2//g'`
+
+EXISTING="/home/peek/synerty-peek-${VER}"
+if [ -d $EXISTING ]
+then
+    echo "Deleting existing release ${EXISTING}"
+    rm -rf ${EXISTING}
+else
+    echo "There is no existing release for version ${VER} deployed, good"
+fi
+
+# Make the deploy script not cleanup the release dir
+sed -iv 's|^rm -rf ${releaseDir}|# Commented out by Attune step : |g' $deployScript
+sed -iv 's|^pkill -9|# Commented out by Attune step : |g' $deployScript
+
+# Push the system python to the front.
+export PATH="~/opt/bin:${PATH}"
+
+# Run the platform deployment
+bash $deployScript $platformArchive $pluginsArchive
+
+# Move the release to the install directory
+# It takes minutes to extract just these files again.
+cp -pvr ~/peek_community_linux/init ${RELEASE_DIR}
+
+# Now delete the release dir
+rm -rf ~/peek_community_linux

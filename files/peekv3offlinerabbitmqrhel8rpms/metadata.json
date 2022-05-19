@@ -1,0 +1,10 @@
+{
+    "fileName": "Peek_v3_Offline_RabbitMQ_RHEL8_RPMs.tar", 
+    "formatKey": "tar", 
+    "key": "peekv3offlinerabbitmqrhel8rpms", 
+    "md5": "4816973291eb4d729f5291ea10f321b7", 
+    "name": "Peek v3 Offline RabbitMQ RHEL8 RPMs", 
+    "remoteUri": null, 
+    "size": 35256320, 
+    "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
+}

@@ -1,0 +1,2 @@
+# We don't want firewall logs from before setup was complete.
+echo > /var/log/firewalld-droppd.log

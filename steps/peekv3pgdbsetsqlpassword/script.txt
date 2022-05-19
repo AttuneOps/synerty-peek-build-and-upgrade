@@ -1,0 +1,4 @@
+psql -d postgres -U {postgresqlServiceUser.user} <<EOF
+\password
+\q
+EOF

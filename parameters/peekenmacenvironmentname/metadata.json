@@ -1,0 +1,6 @@
+{
+    "key": "peekenmacenvironmentname", 
+    "name": "Peek: Enmac Environment Name", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

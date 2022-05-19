@@ -1,0 +1,6 @@
+{
+    "key": "peek3cmakever", 
+    "name": "Peek3: CMake Ver", 
+    "showInPlan": false, 
+    "type": "c.s.s.b.phv.Text"
+}

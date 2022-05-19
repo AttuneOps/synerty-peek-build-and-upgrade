@@ -1,0 +1,11 @@
+{
+    "archiveKey": "peekv3releasev31x", 
+    "deployPath": "/home/peek/peek_install", 
+    "enabled": true, 
+    "key": "peekv3linpdredeployinstallfiles", 
+    "name": "Peek v3 LIN PDRE Deploy Install Files", 
+    "osCredKey": "linuxpeekuser", 
+    "serverKey": "peekserver", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": true
+}

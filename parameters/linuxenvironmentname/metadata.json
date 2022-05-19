@@ -1,0 +1,6 @@
+{
+    "key": "linuxenvironmentname", 
+    "name": "Linux: Environment Name", 
+    "showInPlan": false, 
+    "type": "c.s.s.b.phv.Text"
+}

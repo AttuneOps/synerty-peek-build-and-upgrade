@@ -1,0 +1,10 @@
+{
+    "fileName": "Peek_v3_Offline_FreeTDS_RHEL8_RPMs.tar", 
+    "formatKey": "tar", 
+    "key": "peekv3offlinefreetdsrhel8rpms", 
+    "md5": "628a2054bac3dd721ce0d5533f407c18", 
+    "name": "Peek v3 Offline FreeTDS RHEL8 RPMs", 
+    "remoteUri": null, 
+    "size": 1341440, 
+    "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
+}

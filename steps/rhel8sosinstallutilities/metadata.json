@@ -1,0 +1,90 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "rhel8sosinstallutilities", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "ponr8puinstallnettools"
+        }, 
+        {
+            "order": 20, 
+            "stepKey": "ponr8puinstallgit"
+        }, 
+        {
+            "order": 40, 
+            "stepKey": "ponr8puinstallrsyslog"
+        }, 
+        {
+            "order": 60, 
+            "stepKey": "ponr8puinstallperl"
+        }, 
+        {
+            "order": 80, 
+            "stepKey": "ponr8puinstalljq"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "ponr8puinstallbzip2"
+        }, 
+        {
+            "order": 120, 
+            "stepKey": "ponr8puinstallunzip"
+        }, 
+        {
+            "order": 140, 
+            "stepKey": "ponr8puinstallrsync"
+        }, 
+        {
+            "order": 160, 
+            "stepKey": "ponr8puinstalltelnet"
+        }, 
+        {
+            "order": 180, 
+            "stepKey": "ponr8puinstallwireshark"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "ponr8puinstallnano"
+        }, 
+        {
+            "order": 220, 
+            "stepKey": "ponr8pudeploynmon"
+        }, 
+        {
+            "order": 240, 
+            "stepKey": "ponr8puinstallnmon"
+        }, 
+        {
+            "order": 260, 
+            "stepKey": "ponr8pudeployiftop"
+        }, 
+        {
+            "order": 280, 
+            "stepKey": "ponr8puinstalliftop"
+        }, 
+        {
+            "order": 300, 
+            "stepKey": "ponr8pudeployp7zip"
+        }, 
+        {
+            "order": 320, 
+            "stepKey": "ponr8puinstallp7zip"
+        }, 
+        {
+            "order": 340, 
+            "stepKey": "ponr8puinstallftp"
+        }, 
+        {
+            "order": 360, 
+            "stepKey": "ponr8puinstallselinuxpolicycoreutils"
+        }, 
+        {
+            "order": 380, 
+            "stepKey": "ponr8puinstallcifsutils"
+        }
+    ], 
+    "name": "RHEL8 SOS Install Utilities", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

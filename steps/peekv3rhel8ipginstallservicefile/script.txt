@@ -1,0 +1,37 @@
+F=/usr/lib/systemd/system/postgresql-12.service
+
+cat <<"EOF" | sed "s,\$HOME,`echo ~{linuxPeekUser.user}`,g" > $F
+[Unit]
+Description=PostgreSQL 12 database server
+After=syslog.target
+After=network.target
+
+[Service]
+Type=forking
+User=peek
+Group=peek
+
+# Location of database directory
+Environment=PGDATA=$HOME/pgdata/12
+
+# Disable OOM kill on the postmaster
+OOMScoreAdjust=-1000
+Environment=PG_OOM_ADJUST_FILE=/proc/self/oom_score_adj
+Environment=PG_OOM_ADJUST_VALUE=0
+
+ExecStart=$HOME/opt/bin/pg_ctl -D ${PGDATA} start
+ExecStop=$HOME/opt/bin/pg_ctl -D ${PGDATA} stop
+ExecReload=/bin/kill -HUP $MAINPID
+KillMode=mixed
+KillSignal=SIGINT
+ 
+
+# Do not set any timeout value, so that systemd will not kill postmaster
+# during crash recovery.
+TimeoutSec=0
+
+[Install]
+WantedBy=multi-user.target
+EOF
+
+systemctl daemon-reload

@@ -1,0 +1,38 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "rhel8connecttorpmserver", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "ponr8cosdeployosconfigfiles"
+        }, 
+        {
+            "order": 20, 
+            "stepKey": "r8crscheckforrpmserver"
+        }, 
+        {
+            "order": 40, 
+            "stepKey": "r8crssetuprepofile"
+        }, 
+        {
+            "order": 60, 
+            "stepKey": "rhelupdatecatrust"
+        }, 
+        {
+            "order": 80, 
+            "stepKey": "r8crsverifyclientyumconfig"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "rhelyumupdatesecuritypackages"
+        }, 
+        {
+            "order": 120, 
+            "stepKey": "rhelyumupdateall"
+        }
+    ], 
+    "name": "RHEL8 Connect to RPM Server", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

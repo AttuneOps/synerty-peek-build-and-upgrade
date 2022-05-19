@@ -1,0 +1,252 @@
+
+psql <<"EOF"
+
+
+-- PoF Diagram Loader
+DO $$
+BEGIN
+    IF EXISTS(
+        SELECT schema_name
+          FROM information_schema.schemata
+          WHERE schema_name = 'pl_enmac_diagram_loader'
+     )
+    THEN
+		INSERT INTO pl_enmac_diagram_loader."AppServerSettingsTuple"
+			("appHost", "appSshUsername", "appSshPassword",
+			    "appOracleUsername", "appOraclePassword",
+			    "enabled", "environmentName")
+		SELECT 'replace_me', 'replace_me', 'replace_me', 'replace_me', 'replace_me', false, 'replace_me'
+		FROM (SELECT 1) as data
+		WHERE NOT EXISTS (SELECT * FROM pl_enmac_diagram_loader."AppServerSettingsTuple");
+
+		UPDATE pl_enmac_diagram_loader."AppServerSettingsTuple"
+		SET "appHost" = '{appServer.ip}',
+			"appSshUsername" = '{linuxAdmsUser.user}',
+			"appSshPassword" = '{linuxAdmsUser.password}',
+			"appOracleUsername" = 'pofinfo',
+			"appOraclePassword" = '{oraclePofinfoAtNms.password}',
+			"environmentName" = '{peekEnmacEnvironmentName}';
+    END IF;
+END
+$$;
+
+
+-- PoF Equipment Loader
+DO $$
+BEGIN
+    IF EXISTS(
+        SELECT schema_name
+          FROM information_schema.schemata
+          WHERE schema_name = 'pl_enmac_equipment_loader'
+     )
+    THEN
+		INSERT INTO pl_enmac_equipment_loader."AppServerSettings"
+			("appHost", "appOracleUsername", "appOraclePassword", "enabled")
+		SELECT 'replace_me', 'replace_me', 'replace_me', false
+		FROM (SELECT 1) as data
+		WHERE NOT EXISTS (SELECT * FROM pl_enmac_equipment_loader."AppServerSettings");
+
+		UPDATE pl_enmac_equipment_loader."AppServerSettings"
+		SET "appHost" = '{appServer.ip}',
+			"appOracleUsername" = 'pofinfo',
+			"appOraclePassword" = '{oraclePofinfoAtNms.password}';
+    END IF;
+END
+$$;
+
+
+-- PoN Event Loader
+DO $$
+BEGIN
+    IF EXISTS(
+        SELECT schema_name
+          FROM information_schema.schemata
+          WHERE schema_name = 'pl_enmac_event_loader'
+     )
+    THEN
+		INSERT INTO pl_enmac_event_loader."AppServerSettings"
+			("appHost", "appOracleUsername", "appOraclePassword", "enabled")
+		SELECT 'replace_me', 'replace_me', 'replace_me', false
+		FROM (SELECT 1) as data
+		WHERE NOT EXISTS (SELECT * FROM pl_enmac_event_loader."AppServerSettings");
+
+		UPDATE pl_enmac_event_loader."AppServerSettings"
+		SET "appHost" = '{appServer.ip}',
+			"appOracleUsername" = 'pofinfo',
+			"appOraclePassword" = '{oraclePofinfoAtNms.password}';
+    END IF;
+END
+$$;
+
+
+
+-- PoF Switching Loader
+DO $$
+BEGIN
+    IF EXISTS(
+        SELECT schema_name
+          FROM information_schema.schemata
+          WHERE schema_name = 'pl_enmac_switching_loader'
+     )
+    THEN
+		INSERT INTO pl_enmac_switching_loader."AppServerSettings"
+			("appHost", "appOracleUsername", "appOraclePassword", "enabled")
+		SELECT 'replace_me', 'replace_me', 'replace_me', false
+		FROM (SELECT 1) as data
+		WHERE NOT EXISTS (SELECT * FROM pl_enmac_switching_loader."AppServerSettings");
+
+		UPDATE pl_enmac_switching_loader."AppServerSettings"
+		SET "appHost" = '{appServer.ip}',
+			"appOracleUsername" = 'pofinfo',
+			"appOraclePassword" = '{oraclePofinfoAtNms.password}';
+    END IF;
+END
+$$;
+
+
+
+-- PoF GIS Location Loader
+DO $$
+BEGIN
+    IF EXISTS(
+        SELECT schema_name
+          FROM information_schema.schemata
+          WHERE schema_name = 'pl_enmac_gis_location_loader'
+     )
+    THEN
+		INSERT INTO pl_enmac_gis_location_loader."AppServerSettingsTuple"
+			("appHost", "appOracleUsername", "appOraclePassword", "enabled")
+		SELECT 'replace_me', 'replace_me', 'replace_me', false
+		FROM (SELECT 1) as data
+		WHERE NOT EXISTS (SELECT * FROM pl_enmac_gis_location_loader."AppServerSettingsTuple");
+
+		UPDATE pl_enmac_gis_location_loader."AppServerSettingsTuple"
+		SET "appHost" = '{appServer.ip}',
+			"appOracleUsername" = 'pofinfo',
+			"appOraclePassword" = '{oraclePofinfoAtNms.password}';
+    END IF;
+END
+$$;
+
+-- PoF User Loader
+DO $$
+BEGIN
+    IF EXISTS(
+        SELECT schema_name
+          FROM information_schema.schemata
+          WHERE schema_name = 'pl_enmac_user_loader'
+     )
+    THEN
+		INSERT INTO pl_enmac_user_loader."AppServerSettingsTuple"
+			("appHost", "appOracleUsername", "appOraclePassword", "enabled")
+		SELECT 'replace_me', 'replace_me', 'replace_me', false
+		FROM (SELECT 1) as data
+		WHERE NOT EXISTS (SELECT * FROM pl_enmac_user_loader."AppServerSettingsTuple");
+
+		UPDATE pl_enmac_user_loader."AppServerSettingsTuple"
+		SET "appHost" = '{appServer.ip}',
+			"appOracleUsername" = 'pofinfo',
+			"appOraclePassword" = '{oraclePofinfoAtNms.password}';
+    END IF;
+END
+$$;
+
+
+
+-- PoF LiveDB Loader
+DO $$
+BEGIN
+    IF EXISTS(
+        SELECT schema_name
+          FROM information_schema.schemata
+          WHERE schema_name = 'pl_enmac_livedb_loader'
+     )
+    THEN
+		INSERT INTO pl_enmac_livedb_loader."AppServerSettingsTuple"
+			("appHost", "appOracleUsername", "appOraclePassword", "enabled")
+		SELECT 'replace_me', 'replace_me', 'replace_me', false
+		FROM (SELECT 1) as data
+		WHERE NOT EXISTS (SELECT * FROM pl_enmac_livedb_loader."AppServerSettingsTuple");
+
+		UPDATE pl_enmac_livedb_loader."AppServerSettingsTuple"
+		SET "appHost" = '{appServer.ip}',
+			"appOracleUsername" = 'pofinfo',
+			"appOraclePassword" = '{oraclePofinfoAtNms.password}';
+    END IF;
+END
+$$;
+
+
+
+-- PoF GraphDB Loader
+DO $$
+BEGIN
+    IF EXISTS(
+        SELECT schema_name
+          FROM information_schema.schemata
+          WHERE schema_name = 'pl_enmac_graphdb_loader'
+     )
+    THEN
+		INSERT INTO pl_enmac_graphdb_loader."AppServerSettings"
+			("appHost", "appOracleUsername", "appOraclePassword", "enabled")
+		SELECT 'replace_me', 'replace_me', 'replace_me', false
+		FROM (SELECT 1) as data
+		WHERE NOT EXISTS (SELECT * FROM pl_enmac_graphdb_loader."AppServerSettings");
+
+		UPDATE pl_enmac_graphdb_loader."AppServerSettings"
+		SET "appHost" = '{appServer.ip}',
+			"appOracleUsername" = 'pofinfo',
+			"appOraclePassword" = '{oraclePofinfoAtNms.password}';
+    END IF;
+END
+$$;
+
+
+
+-- PoF SOAP
+DO $$
+BEGIN
+    IF EXISTS(
+        SELECT schema_name
+          FROM information_schema.schemata
+          WHERE schema_name = 'pl_enmac_soap'
+     )
+    THEN
+		UPDATE pl_enmac_soap."SettingProperty"
+		SET "char_value" = 'http://{appServer.ip}:80/enmac/SOAP/'
+		WHERE "key" = 'agent.enmac.soap.url';
+    END IF;
+END
+$$;
+
+
+
+-- PoF SQL
+DO $$
+BEGIN
+    IF EXISTS(
+        SELECT schema_name
+          FROM information_schema.schemata
+          WHERE schema_name = 'pl_enmac_sql'
+     )
+    THEN
+		UPDATE pl_enmac_sql."SettingProperty"
+		SET "char_value" = '{appServer.ip}'
+		WHERE "key" = 'agent.oracle.host';
+
+		UPDATE pl_enmac_sql."SettingProperty"
+		SET "char_value" = 'pofinfo'
+		WHERE "key" = 'agent.oracle.user';
+
+		UPDATE pl_enmac_sql."SettingProperty"
+		SET "char_value" = '{oraclePofinfoAtNms.password}'
+		WHERE "key" = 'agent.oracle.pass';
+    END IF;
+END
+$$;
+
+
+
+
+EOF
+

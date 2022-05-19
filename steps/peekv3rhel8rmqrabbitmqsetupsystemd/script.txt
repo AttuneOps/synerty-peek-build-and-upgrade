@@ -1,0 +1,2 @@
+systemctl enable rabbitmq-server.service
+systemctl restart rabbitmq-server.service

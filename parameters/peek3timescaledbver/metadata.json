@@ -1,0 +1,6 @@
+{
+    "key": "peek3timescaledbver", 
+    "name": "Peek3: TimescaleDB Ver", 
+    "showInPlan": false, 
+    "type": "c.s.s.b.phv.Text"
+}

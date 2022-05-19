@@ -1,0 +1,5 @@
+D={targetServerInstallerTmpPath}/pkg_p7zip
+
+yum install -y $D/p7zip*rpm
+
+rm -rf $D

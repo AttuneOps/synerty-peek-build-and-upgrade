@@ -1,0 +1,11 @@
+{
+    "enabled": true, 
+    "key": "linrebootwait", 
+    "minDowntime": 3, 
+    "name": "LIN Reboot Wait", 
+    "postWait": 10, 
+    "preWait": 0, 
+    "serverKey": "targetserverlin", 
+    "tcpPort": 22, 
+    "type": "com.servertribe.attune.tuples.StepTcpPingTuple"
+}

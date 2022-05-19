@@ -1,0 +1,6 @@
+{
+    "key": "appserver", 
+    "name": "App Server", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.LinuxServer"
+}

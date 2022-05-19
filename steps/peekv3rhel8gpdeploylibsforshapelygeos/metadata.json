@@ -1,0 +1,11 @@
+{
+    "archiveKey": "peekv3offlinegeosrpms", 
+    "deployPath": "/tmp/offline_install/geos", 
+    "enabled": true, 
+    "key": "peekv3rhel8gpdeploylibsforshapelygeos", 
+    "name": "Peek v3 RHEL8 GP Deploy Libs for Shapely/GEOS", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "peekserver", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": true
+}

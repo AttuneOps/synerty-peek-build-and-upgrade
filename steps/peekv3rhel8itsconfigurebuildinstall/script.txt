@@ -1,0 +1,23 @@
+PEEK_TSDB_VER={peek3TimescaledbVer}
+
+export CPPFLAGS=`pg_config --cppflags`
+export LDFLAGS=`pg_config --ldflags`
+
+tar xzf timescaledb-${PEEK_TSDB_VER}.tar.gz
+
+SRC_DIR="$HOME/timescaledb-${PEEK_TSDB_VER}"
+
+cd ${SRC_DIR}
+
+
+# Bootstrap the build system
+./bootstrap
+
+# To build the extension
+cd build && make
+
+# To install
+make install
+
+cd
+rm -rf ${SRC_DIR}*

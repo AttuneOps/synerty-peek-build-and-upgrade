@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 2, 
+    "key": "peekv3linpccconfigurerecoveryadminuser", 
+    "name": "Peek v3 LIN PCC Configure Recovery Admin User", 
+    "osCredKey": "linuxpeekuser", 
+    "serverKey": "peekserver", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

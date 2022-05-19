@@ -1,0 +1,7 @@
+cat <<"EOF">> ~/.bashrc
+
+# Setup the variables for ORACLE
+export LD_LIBRARY_PATH="/home/peek/oracle/instantclient_18_5:$LD_LIBRARY_PATH"
+export ORACLE_HOME="/home/peek/oracle/instantclient_18_5"
+
+EOF

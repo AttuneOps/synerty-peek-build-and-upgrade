@@ -1,0 +1,26 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "peekv3rhel8setuppgadmin4", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "peekv3rhel8pga4deployrpms"
+        }, 
+        {
+            "order": 20, 
+            "stepKey": "peekv3rhel8pga4installrpms"
+        }, 
+        {
+            "order": 40, 
+            "stepKey": "peekv3rhel8setuppgadmin4web"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "peekv3rhel8pga4complete"
+        }
+    ], 
+    "name": "Peek v3 RHEL8 Setup PGAdmin4", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

@@ -1,0 +1,11 @@
+{
+    "archiveKey": "rhel8epeliftop", 
+    "deployPath": "{targetServerInstallerTmpPath}", 
+    "enabled": true, 
+    "key": "ponr8pudeployiftop", 
+    "name": "PONR8 PU Deploy iftop", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "targetserverlin", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": true
+}

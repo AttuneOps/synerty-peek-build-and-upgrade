@@ -1,0 +1,11 @@
+{
+    "archiveKey": "peekv3offlinesqliterpms", 
+    "deployPath": "/tmp/offline_install/sqlite", 
+    "enabled": true, 
+    "key": "peekv3rhel8gpdeploylibsforsqlite", 
+    "name": "Peek v3 RHEL8 GP Deploy Libs for SQLite", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "peekserver", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": true
+}

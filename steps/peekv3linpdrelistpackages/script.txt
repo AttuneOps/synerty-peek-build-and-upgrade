@@ -1,0 +1,10 @@
+# Capture all the logged packages
+pip freeze
+
+echo which pip
+which pip
+
+echo which python
+which python
+
+pip freeze | grep 'peek'

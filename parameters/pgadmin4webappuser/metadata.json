@@ -1,0 +1,6 @@
+{
+    "key": "pgadmin4webappuser", 
+    "name": "PGAdmin4: WebApp User", 
+    "showInPlan": false, 
+    "type": "c.s.s.b.phv.OsCred"
+}

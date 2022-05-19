@@ -1,0 +1,11 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "peekv3linpdreinstallrelease", 
+    "name": "Peek v3 LIN PDRE Install Release", 
+    "osCredKey": "linuxpeekuser", 
+    "promptResponses": "Do you want to permanently enable this release?===y\nDo you want to update the init scripts to auto start peek?===n", 
+    "serverKey": "peekserver", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshPromptedTuple"
+}

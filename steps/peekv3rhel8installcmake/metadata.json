@@ -1,0 +1,18 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "peekv3rhel8installcmake", 
+    "links": [
+        {
+            "order": 40, 
+            "stepKey": "peekv3rhel8icmdeploycmake"
+        }, 
+        {
+            "order": 60, 
+            "stepKey": "peekv3rhel8icmconfigurebuildinstall"
+        }
+    ], 
+    "name": "Peek v3 RHEL8 Install CMake", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

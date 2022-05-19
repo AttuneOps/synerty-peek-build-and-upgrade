@@ -1,0 +1,4 @@
+chown -R peek:peek /pgdata
+
+cd ~peek
+ln -snvf /pgdata .

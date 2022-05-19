@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "peekv3linpdreinstallsystemdandrestart", 
+    "name": "Peek v3 LIN PDRE Install Systemd and Restart", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "peekserver", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

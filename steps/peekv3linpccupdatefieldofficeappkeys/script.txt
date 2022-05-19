@@ -1,0 +1,70 @@
+import json
+from os.path import expanduser, exists, dirname
+from os import makedirs, remove
+
+
+cfgFile = expanduser("~/peek-field-service.home/config.json")
+
+if exists(cfgFile):
+    print("Configuring " + cfgFile)
+    with open(cfgFile) as f:
+        data = json.loads(f.read())
+        
+        if "frontend" in data and "nativescriptBuildPrepareEnabled" in data["frontend"]:
+            del data["frontend"]["nativescriptBuildPrepareEnabled"]
+        
+        if "httpServer" in data and "office" in data["httpServer"]:
+            del data["httpServer"]["office"]
+        
+        if "server" in data:
+            if "webSocketPort" in data["server"]:
+                del data["server"]["webSocketPort"]
+            
+            if "docSitePort" in data["server"]:
+                del data["server"]["docSitePort"]
+    
+            if "desktopSitePort" in data["server"]:
+                del data["server"]["desktopSitePort"]
+    
+            if "mobileSitePort" in data["server"]:
+                data["server"]["fieldSitePort"] = data["server"]["mobileSitePort"]
+                del data["server"]["mobileSitePort"]
+
+            
+    print("Writing config")
+    with open(cfgFile, "w") as f:
+        f.write(json.dumps(data, indent=4))
+
+
+
+cfgFile = expanduser("~/peek-office-service.home/config.json")
+
+if exists(cfgFile):
+    print("Configuring " + cfgFile)
+    with open(cfgFile) as f:
+        data = json.loads(f.read())
+        
+        if "frontend" in data and "nativescriptBuildPrepareEnabled" in data["frontend"]:
+            del data["frontend"]["nativescriptBuildPrepareEnabled"]
+        
+        if "httpServer" in data and "field" in data["httpServer"]:
+            del data["httpServer"]["field"]
+        
+        if "server" in data:
+            if "webSocketPort" in data["server"]:
+                del data["server"]["webSocketPort"]
+            
+            if "docSitePort" in data["server"]:
+                del data["server"]["docSitePort"]
+    
+            if "desktopSitePort" in data["server"]:
+                data["server"]["officeSitePort"] = data["server"]["desktopSitePort"]
+                del data["server"]["desktopSitePort"]
+    
+            if "mobileSitePort" in data["server"]:
+                del data["server"]["mobileSitePort"]
+
+            
+    print("Writing config")
+    with open(cfgFile, "w") as f:
+        f.write(json.dumps(data, indent=4))

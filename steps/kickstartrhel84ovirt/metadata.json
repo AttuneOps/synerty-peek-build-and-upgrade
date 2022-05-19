@@ -1,0 +1,42 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "kickstartrhel84ovirt", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "kscleanbuildfiles"
+        }, 
+        {
+            "order": 20, 
+            "stepKey": "ksrh84deploybootiso"
+        }, 
+        {
+            "order": 40, 
+            "stepKey": "ksrh84deploykickstartconfig"
+        }, 
+        {
+            "order": 60, 
+            "stepKey": "ksrh84deployrpmcacertificate"
+        }, 
+        {
+            "order": 80, 
+            "stepKey": "ksrh84createbootiso"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "ksovirtrecreatevirtualmachine"
+        }, 
+        {
+            "order": 120, 
+            "stepKey": "kscleanbuildfiles"
+        }, 
+        {
+            "order": 160, 
+            "stepKey": "kssshwait"
+        }
+    ], 
+    "name": "Kickstart RHEL8.4+oVirt", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

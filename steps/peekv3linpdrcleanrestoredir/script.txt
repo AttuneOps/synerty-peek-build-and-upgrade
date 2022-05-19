@@ -1,0 +1,8 @@
+cd /backup
+
+if [ -d restore ]; then
+    echo "Cleaning restore directory"
+    rm -rf restore
+else
+    echo "No cleaning required"
+fi

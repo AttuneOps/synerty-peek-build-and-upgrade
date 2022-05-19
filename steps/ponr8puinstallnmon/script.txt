@@ -1,0 +1,5 @@
+D={targetServerInstallerTmpPath}/pkg_nmon
+
+yum install -y $D/nmon*rpm
+
+rm -rf $D

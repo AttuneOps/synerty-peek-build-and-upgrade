@@ -1,0 +1,12 @@
+DB_FILE=`ls /backup/restore/peek.sql`
+
+if ! [ -f ${DB_FILE} ]
+then
+    echo "The database file doesn't exist"
+    false
+fi
+
+dropdb peek
+createdb -O peek peek
+
+cat ${DB_FILE} | psql 

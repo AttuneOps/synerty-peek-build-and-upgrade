@@ -1,0 +1,11 @@
+for s in peek_agent peek_worker peek_field peek_office peek_logic
+do
+        echo "Stopping $s"
+        sudo systemctl stop ${s}.service || true
+done
+
+echo "Waiting for services to stop"
+sleep 5s
+
+echo "Killing anything left running"
+pkill -9 -u $USER -f python || true

@@ -1,0 +1,22 @@
+echo "Disabling repo management"
+subscription-manager config --rhsm.manage_repos=0
+
+echo "Removing other repositories"
+rm -f /etc/yum.repos.d/*.repo
+
+for ID in $(cat <<EOF
+    rhel-8-for-x86_64-baseos-rpms
+    rhel-8-for-x86_64-appstream-rpms
+    codeready-builder-for-rhel-8-x86_64-rpms
+EOF
+)
+do
+echo "Setting up ${ID} repository"
+cat <<EOF | tee /etc/yum.repos.d/${ID}.repo
+[${ID}]
+name=Internal RPM Server (${ID})
+baseurl=https://{rpmServer.ip}/rpm_mirror/${ID}/
+enabled=1
+gpgcheck=0
+EOF
+done

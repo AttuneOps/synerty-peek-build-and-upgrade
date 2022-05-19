@@ -1,0 +1,11 @@
+{
+    "archiveKey": "peekdatacutbnnznp1pek3", 
+    "deployPath": "/backup/restore", 
+    "enabled": true, 
+    "key": "peekv3linpdrdeploydataset", 
+    "name": "Peek v3 LIN PDR Deploy Dataset", 
+    "osCredKey": "linuxpeekuser", 
+    "serverKey": "peekserver", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": true
+}

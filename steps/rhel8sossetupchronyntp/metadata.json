@@ -1,0 +1,26 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "rhel8sossetupchronyntp", 
+    "links": [
+        {
+            "order": 20, 
+            "stepKey": "ponr8chronydeployconfig"
+        }, 
+        {
+            "order": 40, 
+            "stepKey": "ponr8chronyntpenableandrestartservice"
+        }, 
+        {
+            "order": 60, 
+            "stepKey": "ponr8chronysetrealtimeclockutc"
+        }, 
+        {
+            "order": 80, 
+            "stepKey": "ponr8chronyntpteststatus"
+        }
+    ], 
+    "name": "RHEL8 SOS Setup Chrony NTP", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

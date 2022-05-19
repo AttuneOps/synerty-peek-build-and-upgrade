@@ -1,0 +1,5 @@
+# Remove ngcc lock file to allow WebApp Build
+cd /home/peek/synerty-peek*/lib/python*/site-packages/peek_admin_app
+
+rm -v node_modules/@angular/compiler-cli/ngcc/__ngcc_lock_file__ \
+    || echo "Can't remove lock file, it may have been arleady removed"

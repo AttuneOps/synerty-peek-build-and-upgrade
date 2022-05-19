@@ -1,0 +1,11 @@
+{
+    "archiveKey": "peekv3offlineredisrpms", 
+    "deployPath": "/tmp/offline_install/redis", 
+    "enabled": true, 
+    "key": "peekv3rhel8redisdeployredis", 
+    "name": "Peek v3 RHEL8 REDIS Deploy Redis", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "peekserver", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": true
+}

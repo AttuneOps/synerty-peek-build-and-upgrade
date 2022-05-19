@@ -1,0 +1,7 @@
+PEEK_PY_VER={peek3PythonVer}
+
+tar xvzf Python-${PEEK_PY_VER}.tgz
+
+cd Python-${PEEK_PY_VER}
+./configure --prefix=/home/peek/opt/ --enable-optimizations --enable-shared
+make install

@@ -1,0 +1,1 @@
+https://synerty-peek.readthedocs.io/en/latest/setup_os_requirements/setup_os_requirements_rhel/SetupOSRequirementsRhel.html#setup-os-requirements-rhel

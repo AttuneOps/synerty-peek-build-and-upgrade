@@ -1,0 +1,2 @@
+# run the pgadmin-web.sh install script
+/usr/pgadmin4/bin/setup-web.sh

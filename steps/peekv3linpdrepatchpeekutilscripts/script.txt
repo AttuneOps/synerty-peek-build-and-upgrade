@@ -1,0 +1,14 @@
+
+SCRIPTS=""
+SCRIPTS="${SCRIPTS} restart_peek.sh"
+SCRIPTS="${SCRIPTS} stop_peek.sh"
+
+for F in ${SCRIPTS}
+do
+    [ "{peekEnableLogic}"  -eq 1 ] || sed -i 's/peek_logic//g'  synerty-peek*/bin/${F}
+    [ "{peekEnableWorker}" -eq 1 ] || sed -i 's/peek_worker//g' synerty-peek*/bin/${F}
+    [ "{peekEnableField}"  -eq 1 ] || sed -i 's/peek_field//g'  synerty-peek*/bin/${F}
+    [ "{peekEnableOffice}" -eq 1 ] || sed -i 's/peek_office//g' synerty-peek*/bin/${F}
+    [ "{peekEnableAgent}"  -eq 1 ] || sed -i 's/peek_agent//g'  synerty-peek*/bin/${F}
+done
+

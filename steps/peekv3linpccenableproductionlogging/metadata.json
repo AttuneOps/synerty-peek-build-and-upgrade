@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 2, 
+    "key": "peekv3linpccenableproductionlogging", 
+    "name": "Peek v3 LIN PCC Enable Production Logging", 
+    "osCredKey": "linuxpeekuser", 
+    "serverKey": "peekserver", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

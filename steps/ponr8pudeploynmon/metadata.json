@@ -1,0 +1,11 @@
+{
+    "archiveKey": "rhel8epelnmon", 
+    "deployPath": "{targetServerInstallerTmpPath}", 
+    "enabled": true, 
+    "key": "ponr8pudeploynmon", 
+    "name": "PONR8 PU Deploy nmon", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "targetserverlin", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": true
+}

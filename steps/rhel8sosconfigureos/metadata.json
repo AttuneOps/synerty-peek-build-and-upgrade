@@ -1,0 +1,34 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "rhel8sosconfigureos", 
+    "links": [
+        {
+            "order": 20, 
+            "stepKey": "ponr8cosdeployosconfigfiles"
+        }, 
+        {
+            "order": 40, 
+            "stepKey": "ponr8cosfixosconfigpermissions"
+        }, 
+        {
+            "order": 60, 
+            "stepKey": "ponrhel8sethostname"
+        }, 
+        {
+            "order": 80, 
+            "stepKey": "ponrhel8disableipv6"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "ponr8cosupdatednsservers"
+        }, 
+        {
+            "order": 120, 
+            "stepKey": "ponr8cossetuploginbanner"
+        }
+    ], 
+    "name": "RHEL8 SOS Configure OS", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

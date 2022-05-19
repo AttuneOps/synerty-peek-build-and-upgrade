@@ -1,0 +1,3 @@
+cd ~{linuxPeekUser.user}
+yum install -y timescale*rpm
+rm timescale*rpm

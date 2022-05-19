@@ -1,0 +1,6 @@
+cat <<"EOF">> ~/.bashrc
+
+# Setup the variables for FREE TDS
+export LD_LIBRARY_PATH="/home/peek/freetds:$LD_LIBRARY_PATH"
+
+EOF

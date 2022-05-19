@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "peekv3linpdrecleaninstallfiles", 
+    "name": "Peek v3 LIN PDRE Clean Install Files", 
+    "osCredKey": "linuxpeekuser", 
+    "serverKey": "peekserver", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

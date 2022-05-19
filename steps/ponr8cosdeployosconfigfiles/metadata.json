@@ -1,0 +1,48 @@
+{
+    "archiveKey": "rhel8etcconfignew", 
+    "deployPath": "/etc", 
+    "enabled": true, 
+    "key": "ponr8cosdeployosconfigfiles", 
+    "makoFileNames": [
+        "sysconfig/network", 
+        "profile.d/environment_prompt.sh", 
+        "etc/login_banner", 
+        "etc/hosts"
+    ], 
+    "makoParameters": [
+        {
+            "name": "smtpServer", 
+            "parameterKey": "smtpserver", 
+            "parameterType": "c.s.s.b.phv.Server"
+        }, 
+        {
+            "name": "linuxEnvironmentName", 
+            "parameterKey": "linuxenvironmentname", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }, 
+        {
+            "name": "targetEnvironmentServers", 
+            "parameterKey": "hostsfileservers", 
+            "parameterType": "c.s.s.b.phv.ServerList"
+        }, 
+        {
+            "name": "targetServer", 
+            "parameterKey": "targetserverlin", 
+            "parameterType": "c.s.s.b.phv.LinuxServer"
+        }, 
+        {
+            "name": "utility", 
+            "parameterKey": "kickstartorganisationname", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }, 
+        {
+            "name": "linuxPromptColor", 
+            "parameterKey": "linuxpromptcolor", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }
+    ], 
+    "name": "PONR8 COS Deploy OS Config Files", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "targetserverlin", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileCompiledTuple"
+}

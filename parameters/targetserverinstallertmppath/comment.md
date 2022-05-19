@@ -1,0 +1,1 @@
+The temporary path used for installers that need to be copied to the server then installed.

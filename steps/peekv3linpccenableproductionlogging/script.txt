@@ -1,0 +1,33 @@
+import json
+from os.path import expanduser, exists, dirname
+from os import makedirs, remove
+
+homeDir = expanduser("~")
+
+services = ["logic", "office", "field", "agent", "worker"]
+
+for service in services:
+    cfgFile = "%s/peek-%s-service.home/config.json" % (homeDir, service)
+    print("Configuring " + cfgFile)
+
+    if not exists(cfgFile):
+        continue
+    
+    with open(cfgFile) as f:
+        data = json.loads(f.read())
+
+        # Set default
+        print("Setting Production Flags for Logging")
+        frontend = data.get("logging", {})
+        frontend["rotateSizeMb"] = 20
+        frontend["rotationsToKeep"] = 10
+        frontend["level"] = "INFO"
+        frontend["debugMemoryMask"] = 0
+        frontend["logToStdout"] = False
+        
+        frontend["syslog"] = frontend.get("syslog", {})
+        frontend["syslog"]["logToSysloyHost"] = None
+
+    print("Writing config")
+    with open(cfgFile, "w") as f:
+        f.write(json.dumps(data, indent=4))

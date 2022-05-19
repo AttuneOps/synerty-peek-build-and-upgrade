@@ -1,0 +1,14 @@
+ZONE=public
+
+for PORT in $(sed 's/[[:space:]]*#.*// ; /^[[:space:]]*$/d' <<EOF
+    8000    # Peek Mobile
+    8002    # Peek Office
+    8010    # Peek Admin
+    8012    # Peek Agent
+    8256    # used by Interface Queue Monitor on the app servers
+EOF
+)
+do
+    echo "Opening TCP port ${PORT} for zone ${ZONE}"
+    firewall-cmd --permanent --zone=${ZONE} --add-port=${PORT}/tcp
+done

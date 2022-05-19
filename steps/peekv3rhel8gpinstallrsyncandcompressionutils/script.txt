@@ -1,0 +1,6 @@
+PKG="rsync"
+PKG="$PKG unzip"
+PKG="$PKG wget"
+PKG="$PKG bzip2"
+
+yum install -y $PKG

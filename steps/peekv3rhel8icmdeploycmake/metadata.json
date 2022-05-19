@@ -1,0 +1,11 @@
+{
+    "archiveKey": "peekv3offlinecmakesource", 
+    "deployPath": "/home/peek", 
+    "enabled": true, 
+    "key": "peekv3rhel8icmdeploycmake", 
+    "name": "Peek v3 RHEL8 ICM Deploy CMake", 
+    "osCredKey": "linuxpeekuser", 
+    "serverKey": "peekserver", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": true
+}

@@ -1,0 +1,8 @@
+# Enable auto starting of NTP
+systemctl enable chronyd
+
+# Restart the NTP service
+systemctl restart chronyd
+
+# Print the status
+systemctl status chronyd

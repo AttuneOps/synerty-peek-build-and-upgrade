@@ -1,0 +1,16 @@
+
+F="peek-logic-service.home/config.json"
+[ -f ${F} ] && sed -i 's|peek-server.home|peek-logic-service.home|g' ${F}
+
+F="peek-worker-service.home/config.json"
+[ -f ${F} ] && sed -i 's|peek-worker.home|peek-worker-service.home|g' ${F}
+
+F="peek-agent-service.home/config.json"
+[ -f ${F} ] && sed -i 's|peek-agent.home|peek-agent-service.home|g' ${F}
+
+F="peek-office-service.home/config.json"
+[ -f ${F} ] && sed -i 's|peek-client.home|peek-office-service.home|g' ${F}
+
+F="peek-field-service.home/config.json"
+[ -f ${F} ] && sed -i 's|peek-client.home|peek-field-service.home|g' ${F}
+

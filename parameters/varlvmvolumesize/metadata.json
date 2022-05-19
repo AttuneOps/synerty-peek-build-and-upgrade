@@ -1,0 +1,6 @@
+{
+    "key": "varlvmvolumesize", 
+    "name": "/var LVM Volume Size", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

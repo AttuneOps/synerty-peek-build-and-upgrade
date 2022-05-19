@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "peekv3rhel8redisinstallredis", 
+    "name": "Peek v3 RHEL8 REDIS Install Redis", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "peekserver", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

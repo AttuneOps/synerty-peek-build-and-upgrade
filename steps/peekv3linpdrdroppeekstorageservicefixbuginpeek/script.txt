@@ -1,0 +1,1 @@
+psql <<< "DROP SCHEMA peek_storage_service CASCADE;"

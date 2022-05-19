@@ -1,0 +1,11 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "ksovirtcopyisotohostsshsyn", 
+    "name": "KS oVirt Copy ISO to Host SSH (SYN)", 
+    "osCredKey": "linuxattuneuser", 
+    "promptResponses": "password:==={ovirtHostSshUser.password}\nAre you sure you want to continue connecting (yes/no)?===yes", 
+    "serverKey": "attuneosbuildserver", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshPromptedTuple"
+}

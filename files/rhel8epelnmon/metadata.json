@@ -1,0 +1,5 @@
+{
+    "key": "rhel8epelnmon", 
+    "name": "RHEL8 EPEL nmon", 
+    "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"
+}

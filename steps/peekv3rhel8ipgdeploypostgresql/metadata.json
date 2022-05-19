@@ -1,0 +1,11 @@
+{
+    "archiveKey": "peekv3offlinepostgresqlsource", 
+    "deployPath": "/home/peek", 
+    "enabled": true, 
+    "key": "peekv3rhel8ipgdeploypostgresql", 
+    "name": "Peek v3 RHEL8 IPG Deploy PostgreSQL", 
+    "osCredKey": "linuxpeekuser", 
+    "serverKey": "peekserver", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": true
+}

@@ -1,0 +1,6 @@
+yum install -y $(cat <<EOF
+    policycoreutils
+    policycoreutils-devel
+    policycoreutils-python-utils
+EOF
+)

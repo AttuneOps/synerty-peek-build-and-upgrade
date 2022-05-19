@@ -1,0 +1,22 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "peekconfigurefirewallrhel8", 
+    "links": [
+        {
+            "order": 100, 
+            "stepKey": "cfr8commonfirewallconfiguration"
+        }, 
+        {
+            "order": 120, 
+            "stepKey": "pcfr8peekfirewallconfiguration"
+        }, 
+        {
+            "order": 140, 
+            "stepKey": "cfr8finishfirewallconfiguration"
+        }
+    ], 
+    "name": "Peek Configure Firewall RHEL8", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

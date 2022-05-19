@@ -1,0 +1,10 @@
+{
+    "fileName": "Peek_v3_Offline_CMake_Source.tar", 
+    "formatKey": "tar", 
+    "key": "peekv3offlinecmakesource", 
+    "md5": "aa6b50cceb6c628c0b59d6a986429fa0", 
+    "name": "Peek v3 Offline CMake Source", 
+    "remoteUri": null, 
+    "size": 9267200, 
+    "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
+}

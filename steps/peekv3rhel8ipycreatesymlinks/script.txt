@@ -1,0 +1,4 @@
+
+cd /home/peek/opt/bin
+ln -s pip3 pip
+ln -s python3 python

@@ -1,0 +1,28 @@
+import json
+from os.path import expanduser, exists, dirname
+from os import makedirs, remove
+
+homeDir = expanduser("~")
+
+services = ["logic"]
+
+for service in services:
+    cfgFile = "%s/peek-%s-service.home/config.json" % (homeDir, service)
+    print("Configuring " + cfgFile)
+
+    if not exists(cfgFile):
+        continue
+    
+    with open(cfgFile) as f:
+        data = json.loads(f.read())
+        
+        # Set default
+        print("Enabling Celery Worker")
+        data["celery"] = data.get("celery", {})
+        data["celery"]["plpython"] = data["celery"].get("plpython", {})
+        data["celery"]["plpython"]["enable"] = False
+
+            
+    print("Writing config")
+    with open(cfgFile, "w") as f:
+        f.write(json.dumps(data, indent=4))

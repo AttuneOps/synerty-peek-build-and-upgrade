@@ -1,0 +1,3 @@
+cd ~/oracle/instantclient_18_5
+ln -snvf libclntsh.so.18.1 libclntsh.so
+ln -snvf libocci.so.18.1 libocci.so

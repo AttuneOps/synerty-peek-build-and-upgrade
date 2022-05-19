@@ -1,0 +1,17 @@
+mklv() {
+    DIR=$1
+    NAME=$2
+    SIZE=$3
+    VG=$4
+    
+    mkdir -p $DIR
+    lvcreate --size $SIZE --name $NAME $VG 
+    mkfs.xfs /dev/mapper/$VG-$NAME
+    
+    cat >> /etc/fstab <<EOF
+/dev/mapper/$VG-$NAME    $DIR                    xfs     defaults        0 0
+EOF
+    mount -a
+}
+
+mklv /backup backup 50g rootvg

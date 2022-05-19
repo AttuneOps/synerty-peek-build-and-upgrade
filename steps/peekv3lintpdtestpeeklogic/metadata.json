@@ -1,0 +1,14 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "peekv3lintpdtestpeeklogic", 
+    "links": [
+        {
+            "order": 20, 
+            "stepKey": "peekv3lintpdlogicteststart"
+        }
+    ], 
+    "name": "Peek v3 LIN TPD Test Peek Logic", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

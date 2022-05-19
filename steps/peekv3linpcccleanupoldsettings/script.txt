@@ -1,0 +1,38 @@
+import json
+from os.path import expanduser, exists, dirname
+from os import makedirs, remove
+
+homeDir = expanduser("~")
+
+services = ["logic", "agent", "worker", "office", "field"]
+
+for service in services:
+    cfgFile = "%s/peek-%s-service.home/config.json" % (homeDir, service)
+    print("Configuring " + cfgFile)
+
+    if not exists(cfgFile):
+        continue
+    
+    print("Cleaning plugins")
+    with open(cfgFile) as f:
+        data = json.loads(f.read())
+        
+        # Set default
+        plugin = data.get("plugin")
+        
+        for key in list(plugin):
+            if key.startswith("peek_plugin") or key.startswith("peek_core"):
+                del plugin[key]
+                
+        data["plugin"] = plugin
+        
+        if service == "logic":
+            if "platform" in data:
+                del data["platform"]
+                
+            if "server" in data:
+                del data["server"]
+            
+    print("Writing config")
+    with open(cfgFile, "w") as f:
+        f.write(json.dumps(data, indent=4))

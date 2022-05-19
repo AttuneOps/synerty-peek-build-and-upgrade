@@ -1,0 +1,2 @@
+sed -i 's/peek_plugin_pof/peek_plugin_enmac/g' peek*.home/config.json
+sed -i 's/peek_plugin_pon/peek_plugin_enmac/g' peek*.home/config.json

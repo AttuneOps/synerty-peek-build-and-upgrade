@@ -1,0 +1,11 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "peekv3linpdrstartpeek", 
+    "name": "Peek v3 LIN PDR Start Peek", 
+    "osCredKey": "linuxpeekuser", 
+    "promptResponses": "password:==={linuxPeekUser.password}", 
+    "serverKey": "peekserver", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshPromptedTuple"
+}

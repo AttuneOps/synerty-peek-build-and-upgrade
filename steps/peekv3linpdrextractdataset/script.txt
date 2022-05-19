@@ -1,0 +1,15 @@
+cd /backup/restore
+
+# if [ "`ls *latest.7z | wc -l`" -ne "1" ]; then
+#     echo "We expect only one file ending in *latest.7z"
+#     ls *latest.7z
+#     false
+# fi
+
+7z x -bt -mmt8 `ls -r *.7z | head -1`
+
+# 7z a \
+#     -bt \
+#     -mmt8 \
+#     -p{peekDbEncryptionKey.password} \
+#     $ARCHIVE_7Z $NEW_DIR_NAME

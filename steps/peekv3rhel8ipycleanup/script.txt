@@ -1,0 +1,1 @@
+rm -rf Python-${PEEK_PY_VER}*

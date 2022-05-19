@@ -1,0 +1,10 @@
+{
+    "fileName": "RHEL8_Boot_ISO_v84.tar", 
+    "formatKey": "tar", 
+    "key": "rhel8bootisov84", 
+    "md5": "b8bcdadf3d80954796583f489fb1f8f8", 
+    "name": "RHEL8 Boot ISO v8.4", 
+    "remoteUri": null, 
+    "size": 850298880, 
+    "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
+}

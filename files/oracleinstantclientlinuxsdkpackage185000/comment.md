@@ -1,0 +1,1 @@
+Download the ZIP "SDK Package" instantclient-sdk-linux.x64-18.5.0.0.0dbru.zip from http://www.oracle.com/technetwork/topics/linuxx86-64soft-092277.html

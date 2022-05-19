@@ -1,0 +1,11 @@
+{
+    "archiveKey": "adrootcacertificate", 
+    "deployPath": "{targetServerInstallerTmpPath}", 
+    "enabled": true, 
+    "key": "ructdeployrootca", 
+    "name": "RUCT Deploy Root CA", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "targetserverlin", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": true
+}

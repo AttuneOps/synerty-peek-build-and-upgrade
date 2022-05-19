@@ -1,0 +1,36 @@
+# Wait until chrony has got a measurement from each source
+COUNT=1
+while chronyc -c sources | awk -F, '{print $8}' | grep -q "0.000000000"
+do
+    if [[ ${COUNT} -le 12 ]]
+    then
+        echo "Waiting until chrony has got a measurement from each source..."
+        sleep 5
+    else
+        echo "chrony did not connect to the NTP server." 1>&2
+        exit $((LINENO-1))
+    fi
+    ((COUNT++))
+done
+
+# Check chrony has set the clock within acceptable limits
+LIMIT=0.5 # seconds
+SOURCES=$(chronyc -c sources)
+SOURCES=${SOURCES//-/} # make any negative numbers positive
+for OFFSET in $(awk -F, '{print $8}' <<< "${SOURCES}")
+do
+    if [ "${OFFSET}" == "0.000000000" ]
+    then
+        # It's impossible for the time to be this closely synced, therefore 
+        # chronyd has been unable to connect to the NTP server.
+        echo "chrony is unable to connect to the NTP server." 1>&2
+        exit $((LINENO-1))
+    fi
+    
+    echo "Offset is ${OFFSET} seconds."
+    if (( $(echo "${OFFSET} > ${LIMIT}" | bc -l) ))
+    then
+        echo "Offset is greater than ${LIMIT} seconds." 1>&2
+        exit $((LINENO-1))
+    fi
+done

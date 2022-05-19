@@ -1,0 +1,1 @@
+Edit ~/.bashrc and append the following to the end of the file.

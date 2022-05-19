@@ -1,0 +1,10 @@
+{
+    "fileName": "RHEL8_EPEL_p7ip.tar", 
+    "formatKey": "tar", 
+    "key": "rhel8epelp7zip", 
+    "md5": "3cf7092df0350ca9d35ec5d29bb939a0", 
+    "name": "RHEL8 EPEL p7zip", 
+    "remoteUri": null, 
+    "size": 1617920, 
+    "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
+}

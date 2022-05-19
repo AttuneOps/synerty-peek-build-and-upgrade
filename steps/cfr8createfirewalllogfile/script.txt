@@ -1,0 +1,10 @@
+# Make settings for the config file
+CONFIG=':msg,contains,"_DROP" /var/log/firewalld-droppd.log
+:msg,contains,"_REJECT" /var/log/firewalld-droppd.log
+ & stop'
+ 
+# Save the config file
+echo "$CONFIG" | tee /etc/rsyslog.d/firewalld-droppd.conf
+
+# Restart the service to apply changes
+systemctl restart rsyslog

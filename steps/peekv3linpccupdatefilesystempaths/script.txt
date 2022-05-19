@@ -1,0 +1,61 @@
+import json
+from os.path import expanduser, exists, dirname
+from os import makedirs, remove
+
+homeDir = expanduser("~")
+
+services = ["logic", "agent", "worker", "office", "field"]
+
+
+def fixPath(path, service):
+    # Strip of the c:
+    if ":" in path:
+        path = path.split(":", 1)[1]
+
+    # Ensure the separators are RHEL format
+    path = path.replace("\\", "/")
+    
+    # Rehome the path.
+    serviceDirName = "peek-%s-service.home" % service
+    
+    if serviceDirName not in path:
+        return path
+        
+    path = path[path.index(serviceDirName) + len(serviceDirName):].strip('/')
+    
+    return "%s/peek-%s-service.home/%s" % (homeDir, service, path)
+
+
+for service in services:
+    cfgFile = "%s/peek-%s-service.home/config.json" % (homeDir, service)
+
+    if not exists(cfgFile):
+        print("Skipping non-existent " + cfgFile)
+        continue
+    
+    print("Configuring " + cfgFile)
+    with open(cfgFile) as f:
+        data = json.loads(f.read())
+        
+        if "disk" in data and "tmp" in data["disk"]:
+            data["disk"]["tmp"] = fixPath(data["disk"]["tmp"], service)
+
+        if "frontend" in data:
+            frontend = data["frontend"]
+            keys = ["frontendCustomisations",
+                    "frontendNodeModuleOverlayDir",
+                    "frontendSrcOverlayDir"]
+                    
+            for key in keys:
+                if key in frontend:
+                    frontend[key] = fixPath(frontend[key], service)
+                
+            data["frontend"] = frontend
+        
+        if "plugin" in data and "dataPath" in data["plugin"]:
+            data["plugin"]["dataPath"] = fixPath(data["plugin"]["dataPath"], service)
+
+            
+    print("Writing config")
+    with open(cfgFile, "w") as f:
+        f.write(json.dumps(data, indent=4))

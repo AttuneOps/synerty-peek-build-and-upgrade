@@ -1,0 +1,25 @@
+{
+    "archiveKey": "linuxchronyconf", 
+    "deployPath": "/etc", 
+    "enabled": true, 
+    "key": "ponr8chronydeployconfig", 
+    "makoFileNames": [
+        "chrony.conf"
+    ], 
+    "makoParameters": [
+        {
+            "name": "chronyNtpSubnet", 
+            "parameterKey": "targetsubnet", 
+            "parameterType": "c.s.s.b.phv.Ip4Subnet"
+        }, 
+        {
+            "name": "chronyNtpServers", 
+            "parameterKey": "ntpservers", 
+            "parameterType": "c.s.s.b.phv.ServerList"
+        }
+    ], 
+    "name": "PONR8 Chrony Deploy Config", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "targetserverlin", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileCompiledTuple"
+}

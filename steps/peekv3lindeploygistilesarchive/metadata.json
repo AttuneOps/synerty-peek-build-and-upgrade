@@ -1,0 +1,11 @@
+{
+    "archiveKey": "peekgistilesnzte", 
+    "deployPath": "/backup/gis_tiles", 
+    "enabled": true, 
+    "key": "peekv3lindeploygistilesarchive", 
+    "name": "Peek v3 LIN Deploy GIS Tiles Archive", 
+    "osCredKey": "linuxpeekuser", 
+    "serverKey": "peekserver", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": true
+}

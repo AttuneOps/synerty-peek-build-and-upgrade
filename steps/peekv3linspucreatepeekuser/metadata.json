@@ -1,0 +1,11 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "peekv3linspucreatepeekuser", 
+    "name": "Peek v3 LIN SPU Create Peek User", 
+    "osCredKey": "linuxrootuser", 
+    "promptResponses": "password:==={linuxPeekUser.password}", 
+    "serverKey": "peekserver", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshPromptedTuple"
+}

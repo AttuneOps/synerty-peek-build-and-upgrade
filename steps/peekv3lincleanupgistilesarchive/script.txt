@@ -1,0 +1,8 @@
+cd /backup
+
+if [ -d gis_tiles ]; then
+    echo "Cleaning restore directory"
+    rm -rf gis_tiles
+else
+    echo "No cleaning required"
+fi

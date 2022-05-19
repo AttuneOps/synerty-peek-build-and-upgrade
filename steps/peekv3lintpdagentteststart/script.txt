@@ -1,0 +1,33 @@
+if [ "{peekEnableAgent}" -eq 0 ];
+then
+    echo "Agent not installed"
+else
+    LOG="peek-agent-service.log"
+    STARTED_STR="Agent"
+    
+    while :
+    do
+        if grep "Peek ${STARTED_STR} is running, version=" ${LOG}*
+        then
+            echo "Peek is running"
+            break
+        fi
+        
+        if grep "ERROR" ${LOG}*
+        then
+            echo "FAILED, peek thrown errors while starting" >&2
+            tail -n30 $LOG
+            false
+        fi
+        
+        sleep 2s
+    done
+    
+    if grep "ERROR" ${LOG}*
+    then
+        echo "FAILED, peek has started with errors" >&2
+        false
+    fi
+    
+    echo "SUCCESS, Peek has started wit no errors"
+fi

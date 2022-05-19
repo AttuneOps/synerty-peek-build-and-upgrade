@@ -1,0 +1,6 @@
+{
+    "key": "peekenableworker", 
+    "name": "Peek: Enable Worker", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

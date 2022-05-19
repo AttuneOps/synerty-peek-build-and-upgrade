@@ -1,0 +1,5 @@
+{
+    "key": "linuxchronyconf", 
+    "name": "Linux: chrony.conf", 
+    "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"
+}

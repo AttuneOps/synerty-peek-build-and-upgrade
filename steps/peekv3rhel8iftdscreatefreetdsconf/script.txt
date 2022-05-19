@@ -1,0 +1,11 @@
+mkdir ~/freetds
+touch ~/freetds/freetds.conf
+
+cat <<"EOF">> ~/freetds/freetds.conf
+
+[global]
+    port = 1433
+    instance = peek
+    tds version = 7.4
+
+EOF

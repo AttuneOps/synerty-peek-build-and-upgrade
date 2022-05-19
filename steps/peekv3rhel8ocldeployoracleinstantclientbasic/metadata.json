@@ -1,0 +1,11 @@
+{
+    "archiveKey": "oracleinstantclientlinuxbasicpackage185000", 
+    "deployPath": "/home/peek/oracle", 
+    "enabled": true, 
+    "key": "peekv3rhel8ocldeployoracleinstantclientbasic", 
+    "name": "Peek v3 RHEL8 OCL Deploy Oracle InstantClient Basic", 
+    "osCredKey": "linuxpeekuser", 
+    "serverKey": "peekserver", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": true
+}

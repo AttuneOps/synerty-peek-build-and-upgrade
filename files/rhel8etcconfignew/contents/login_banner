@@ -1,0 +1,15 @@
+<%
+    import math
+    name = utility + " Limited"
+    spaces = 62 - len(name)
+    left = math.floor(spaces * 0.5)
+    right = math.ceil(spaces * 0.5)
+    for x in range(int(left)):
+        name = " " + name
+    for x in range(int(right)):
+        name = name + " "
+%>********************************************************************
+***${name}***
+***        All connections are monitored and recorded            ***
+***  Disconnect IMMEDIATELY if you are not an authorised user!   ***
+********************************************************************

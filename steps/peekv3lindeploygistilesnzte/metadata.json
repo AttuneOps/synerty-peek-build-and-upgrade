@@ -1,0 +1,26 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "peekv3lindeploygistilesnzte", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "peekv3lincleanupgistilesarchive"
+        }, 
+        {
+            "order": 20, 
+            "stepKey": "peekv3lindeploygistilesarchive"
+        }, 
+        {
+            "order": 40, 
+            "stepKey": "peekv3lininstallgistilesarchive"
+        }, 
+        {
+            "order": 60, 
+            "stepKey": "peekv3lincleanupgistilesarchive"
+        }
+    ], 
+    "name": "Peek v3 LIN Deploy GIS Tiles (NZTE)", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

@@ -1,0 +1,6 @@
+{
+    "key": "ovirthostserver", 
+    "name": "oVirt: Host Server", 
+    "showInPlan": false, 
+    "type": "c.s.s.b.phv.LinuxServer"
+}

@@ -1,0 +1,7 @@
+psql -X <<EOF
+DROP EXTENSION timescaledb CASCADE;
+EOF
+
+psql -X <<EOF
+CREATE EXTENSION timescaledb ;
+EOF

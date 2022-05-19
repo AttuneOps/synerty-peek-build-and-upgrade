@@ -1,0 +1,6 @@
+{
+    "key": "peekenableoffice", 
+    "name": "Peek: Enable Office", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

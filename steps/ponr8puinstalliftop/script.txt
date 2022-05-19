@@ -1,0 +1,5 @@
+D={targetServerInstallerTmpPath}/pkg_iftop
+
+yum install -y $D/iftop*rpm
+
+rm -rf $D

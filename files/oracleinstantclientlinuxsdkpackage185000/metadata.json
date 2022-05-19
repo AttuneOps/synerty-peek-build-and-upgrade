@@ -1,0 +1,5 @@
+{
+    "key": "oracleinstantclientlinuxsdkpackage185000", 
+    "name": "Oracle InstantClient Linux \"SDK Package\" 18.5.0.0.0", 
+    "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"
+}

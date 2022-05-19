@@ -1,0 +1,9 @@
+cd /tmp/peek_offline/pypis
+
+pip install --find-links=. --no-index pip*.whl
+
+pip install --find-links=. --no-index virtualenv*.whl
+
+pip install --find-links=. --no-index wheel*.whl
+
+rm -rf /tmp/peek_offline

@@ -1,0 +1,1 @@
+[ ! -e ~/.psql_history ] || rm ~/.psql_history

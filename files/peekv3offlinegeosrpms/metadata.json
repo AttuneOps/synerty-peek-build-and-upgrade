@@ -1,0 +1,10 @@
+{
+    "fileName": "Peek_v3_Offline_GEOS_RPMs.tar", 
+    "formatKey": "tar", 
+    "key": "peekv3offlinegeosrpms", 
+    "md5": "e8f5350bd1303683b0d8a172ce702d82", 
+    "name": "Peek v3 Offline GEOS RPMs", 
+    "remoteUri": null, 
+    "size": 1996800, 
+    "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
+}

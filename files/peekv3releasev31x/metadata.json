@@ -1,0 +1,10 @@
+{
+    "fileName": "Peek_v3_Release_v31x.tar", 
+    "formatKey": "tar", 
+    "key": "peekv3releasev31x", 
+    "md5": "c2ea771ae9e1273ddad456ac7658de96", 
+    "name": "Peek v3 Release v3.1.x", 
+    "remoteUri": null, 
+    "size": 472176640, 
+    "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
+}

@@ -1,0 +1,10 @@
+{
+    "fileName": "Peek_v3_Offline_PostgreSQL_Source.tar", 
+    "formatKey": "tar", 
+    "key": "peekv3offlinepostgresqlsource", 
+    "md5": "816ea1f44121d3a69ae73e7b927a9017", 
+    "name": "Peek v3 Offline PostgreSQL Source", 
+    "remoteUri": null, 
+    "size": 20736000, 
+    "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
+}

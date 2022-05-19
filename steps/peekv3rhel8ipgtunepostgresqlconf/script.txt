@@ -1,0 +1,6 @@
+F="$HOME/pgdata/12/postgresql.conf"
+
+sed -i 's/max_connections = 100/max_connections = 200/g' $F
+
+# Print the changed line
+grep max_connections $F

@@ -1,0 +1,8 @@
+psql <<EOF
+
+-- GIS Diagram Loader
+UPDATE pl_gis_diagram_loader."DxfImportSettingsTuple"
+SET "dxfDirectory" = '/home/peek/gis_tiles';
+
+EOF
+

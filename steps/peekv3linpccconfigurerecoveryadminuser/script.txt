@@ -1,0 +1,30 @@
+import json
+from os.path import expanduser, exists, dirname
+from os import makedirs, remove
+
+cfgFile = "%s/peek-logic-service.home/config.json" % expanduser("~")
+print("Configuring " + cfgFile)
+
+if exists(cfgFile):
+    print("Updating plugins")
+    with open(cfgFile) as f:
+        data = json.loads(f.read())
+        
+else:
+    if not exists(dirname(cfgFile)):
+        makedirs(dirname(cfgFile))
+        
+    print("Setting plugins")
+    data = {}
+        
+# Update the login
+data["httpServer"] = data.get("httpServer", {})
+data["httpServer"]["admin"] = data["httpServer"].get("admin", {})
+data["httpServer"]["admin"]["recovery_user"] = {
+    "password": "{peekRecoveryAdminUser.password}",
+    "username": "{peekRecoveryAdminUser.user}"
+}
+    
+print("Writing config")
+with open(cfgFile, "w") as f:
+    f.write(json.dumps(data, indent=4))

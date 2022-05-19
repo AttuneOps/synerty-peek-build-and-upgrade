@@ -1,0 +1,18 @@
+# Do not remove the following line, or various programs
+# that require network functionality will fail.
+127.0.0.1               localhost.localdomain localhost
+
+# Define this server
+${targetServer.ip}    ${targetServer.hostname} ${targetServer.fqn}
+
+<%
+    sortedList = list(sorted(targetEnvironmentServers.servers,
+                      key = lambda x: x.hostname))
+%>
+
+# Define the servers in ${targetEnvironmentServers.name}
+% for server in sortedList:
+% if server.hostname != targetServer.hostname:
+${server.ip}    ${server.hostname} ${server.fqn}
+% endif
+% endfor

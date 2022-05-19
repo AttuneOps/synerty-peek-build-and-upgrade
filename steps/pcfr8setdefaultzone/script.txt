@@ -1,0 +1,2 @@
+set -x
+firewall-cmd --set-default=public

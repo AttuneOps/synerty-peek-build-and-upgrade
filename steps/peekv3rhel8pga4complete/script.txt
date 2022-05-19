@@ -1,0 +1,1 @@
+echo "PGAdmin4 is setup and accessable on http://{peekServer.fqn}/pgadmin4"

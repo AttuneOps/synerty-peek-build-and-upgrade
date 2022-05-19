@@ -1,0 +1,2 @@
+# perl is not installed by default on RHEL8
+yum install -y perl

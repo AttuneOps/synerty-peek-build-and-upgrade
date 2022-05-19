@@ -1,0 +1,10 @@
+
+echo "Create the peek user if it doesn't exist"
+if grep -q peek /etc/passwd
+then
+    echo "Peek user already exists"
+else
+    useradd -m peek
+fi
+
+passwd peek

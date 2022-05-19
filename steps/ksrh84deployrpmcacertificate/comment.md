@@ -1,0 +1,1 @@
+The CA certificate which issued the RPM server's SSL certificate.

@@ -1,0 +1,2 @@
+# Clear old firewall Rules
+rm -fv /etc/firewalld/zones/*.xml

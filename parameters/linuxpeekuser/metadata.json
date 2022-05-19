@@ -1,0 +1,6 @@
+{
+    "key": "linuxpeekuser", 
+    "name": "Linux: Peek User", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.LinOsCred"
+}

@@ -1,0 +1,18 @@
+cd /backup/restore
+
+rm -v *.7z
+
+# If this is a ad-hoc backup, check to see if we need to move files
+if [ -d peek-logic-service.home ]
+then
+    echo "We don't need need to move anything"
+else
+    mv -v */* .
+fi
+
+! [ -d peek-server.home ] || mv -v peek-server.home peek-logic-service.home
+! [ -d peek-worker.home ] || mv -v peek-worker.home peek-worker-service.home
+! [ -d peek-agent.home ] || mv -v peek-agent.home peek-agent-service.home
+! [ -d peek-storage.home ] || mv -v peek-storage.home peek-storage-service.home
+! [ -d peek-client.home ] || cp -prv peek-client.home peek-office-service.home
+! [ -d peek-client.home ] || mv -v peek-client.home peek-field-service.home

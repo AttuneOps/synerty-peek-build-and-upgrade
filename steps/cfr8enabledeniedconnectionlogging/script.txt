@@ -1,0 +1,5 @@
+set -x 
+
+# By Default we want to log our denied connections
+# This alters /etc/firewalld/firewalld.conf
+firewall-cmd --set-log-denied=all

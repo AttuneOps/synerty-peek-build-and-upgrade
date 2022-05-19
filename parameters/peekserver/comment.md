@@ -1,0 +1,1 @@
+The server where the Peek software is to be installed on.

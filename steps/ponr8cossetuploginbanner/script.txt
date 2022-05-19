@@ -1,0 +1,6 @@
+chmod 644 /etc/login_banner
+
+sed -i 's,#Banner.*,Banner /etc/login_banner,g' /etc/ssh/sshd_config
+
+systemctl restart sshd
+

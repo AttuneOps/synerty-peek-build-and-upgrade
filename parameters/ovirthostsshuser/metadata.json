@@ -1,0 +1,6 @@
+{
+    "key": "ovirthostsshuser", 
+    "name": "oVirt: Host SSH User", 
+    "showInPlan": false, 
+    "type": "c.s.s.b.phv.LinOsCred"
+}

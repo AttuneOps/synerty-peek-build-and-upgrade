@@ -1,0 +1,5 @@
+{
+    "key": "peekv3offlinesqliterpms", 
+    "name": "Peek v3 Offline SQLite RPMs", 
+    "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"
+}

@@ -1,0 +1,5 @@
+{
+    "key": "rhel8epeliftop", 
+    "name": "RHEL8 EPEL iftop", 
+    "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"
+}

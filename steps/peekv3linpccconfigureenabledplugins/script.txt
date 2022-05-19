@@ -1,0 +1,42 @@
+import json
+from os.path import expanduser, exists, dirname
+from os import makedirs, remove
+
+homeDir = expanduser("~")
+
+SKELETON_FILE = "%s/skeleton_config.json" % homeDir
+
+with open(SKELETON_FILE) as f:
+    skeletonJson = json.loads(f.read())
+
+services = ["logic", "agent", "worker", "office", "field"]
+
+for service in services:
+    cfgFile = "%s/peek-%s-service.home/config.json" % (homeDir, service)
+    print("Configuring " + cfgFile)
+
+    if exists(cfgFile):
+        print("Updating plugins")
+        with open(cfgFile) as f:
+            data = json.loads(f.read())
+            
+            # Set default
+            data["plugin"] = data.get("plugin", {})
+            
+            # Update the plugins
+            data["plugin"]["enabled"] = skeletonJson["plugin"]["enabled"]
+            
+    else:
+        print("Setting plugins")
+        data = skeletonJson
+    
+    if not exists(dirname(cfgFile)):
+        makedirs(dirname(cfgFile))
+    
+    print("Writing config")
+    with open(cfgFile, "w") as f:
+        f.write(json.dumps(data, indent=4))
+        
+print("Removing skeleton file " + SKELETON_FILE)
+remove(SKELETON_FILE)
+

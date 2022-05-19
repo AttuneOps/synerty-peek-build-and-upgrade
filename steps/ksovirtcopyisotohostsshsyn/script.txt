@@ -1,0 +1,16 @@
+USER_AT_HOST="{ovirtHostSshUser.user}@{ovirtHostServer.ip}"
+ISO_STORAGE_PATH="{ovirtIsoStoragePath}/*/images/11111111-1111-1111-1111-111111111111"
+
+ISO_STORAGE_PATH=`ssh -o PreferredAuthentications=password ${USER_AT_HOST} "ls -d ${ISO_STORAGE_PATH}"`
+    
+echo "Using storage path ${ISO_STORAGE_PATH}"
+
+FROM="{ksVmwareAttuneBaseDir}/kickstart_{targetServer.fqn}.iso"
+TO="${ISO_STORAGE_PATH}/kickstart_{targetServer.fqn}.iso"
+
+scp -p \
+    -o StrictHostKeyChecking=no \
+    -o UserKnownHostsFile=/dev/null \
+    -o  PreferredAuthentications=password \
+    ${FROM} \
+    ${USER_AT_HOST}:${TO}

@@ -1,0 +1,11 @@
+{
+    "archiveKey": "peekv3skeletonconfigjsondmsdiagram", 
+    "deployPath": "/home/peek", 
+    "enabled": true, 
+    "key": "peekv3linpccdeployskeletonconfig", 
+    "name": "Peek v3 LIN PCC Deploy Skeleton Config", 
+    "osCredKey": "linuxpeekuser", 
+    "serverKey": "peekserver", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": true
+}

@@ -1,0 +1,11 @@
+# Remove logs
+rm -rvf peek*.log*
+
+# Remove existing homges
+rm -rf peek-*.home
+
+# Move backup homes into place
+mv -v /backup/restore/peek*.home . || true
+
+# Clean temp dirs
+rm -rf peek-*.home/tmp

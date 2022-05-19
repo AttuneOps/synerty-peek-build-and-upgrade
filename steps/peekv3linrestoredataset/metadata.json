@@ -1,0 +1,78 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "peekv3linrestoredataset", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "peekv3linpdrcleanrestoredir"
+        }, 
+        {
+            "order": 20, 
+            "stepKey": "peekv3linpdrdeploydataset"
+        }, 
+        {
+            "order": 40, 
+            "stepKey": "peekv3linpdrextractdataset"
+        }, 
+        {
+            "order": 60, 
+            "stepKey": "peekv3linpdrrenamedataset"
+        }, 
+        {
+            "order": 80, 
+            "stepKey": "peekv3linpdrstoppeek"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "peekv3linpdrreloadpeekdb"
+        }, 
+        {
+            "order": 120, 
+            "stepKey": "peekv3linpdrdropplpython3ulanguage"
+        }, 
+        {
+            "order": 140, 
+            "stepKey": "peekv3linpdrrestorepeekconfigfiles"
+        }, 
+        {
+            "order": 160, 
+            "stepKey": "peekv3linconfigurejsonconfig"
+        }, 
+        {
+            "order": 180, 
+            "stepKey": "peekv3linpdrunlockwebappbuild"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "peekv3linpdrdroppeekstorageservicefixbuginpeek"
+        }, 
+        {
+            "order": 220, 
+            "stepKey": "peekv3linpdrupgradetimescaledb"
+        }, 
+        {
+            "order": 240, 
+            "stepKey": "peekv3linpdrmigratedatabase"
+        }, 
+        {
+            "order": 260, 
+            "stepKey": "peekv3linpdrupdateappservers"
+        }, 
+        {
+            "order": 280, 
+            "stepKey": "peekv3linpdrupdategistilespath"
+        }, 
+        {
+            "order": 300, 
+            "stepKey": "peekv3linpdredeleteoldlogs"
+        }, 
+        {
+            "order": 340, 
+            "stepKey": "peekv3linpdrcleanrestoredir"
+        }
+    ], 
+    "name": "Peek v3 LIN Restore Dataset", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

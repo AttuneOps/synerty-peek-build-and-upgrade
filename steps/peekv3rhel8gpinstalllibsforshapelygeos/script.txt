@@ -1,0 +1,3 @@
+cd /tmp/offline_install/geos
+
+yum install -y *.rpm

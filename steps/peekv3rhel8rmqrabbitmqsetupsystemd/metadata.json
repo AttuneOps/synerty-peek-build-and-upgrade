@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "peekv3rhel8rmqrabbitmqsetupsystemd", 
+    "name": "Peek v3 RHEL8 RMQ RabbitMQ Setup Systemd", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "peekserver", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

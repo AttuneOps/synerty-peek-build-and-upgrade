@@ -1,0 +1,14 @@
+PEEK_CMAKE_VER={peek3CmakeVer}
+
+tar xzf cmake-${PEEK_CMAKE_VER}.tar.gz
+SRC_DIR="$HOME/cmake-${PEEK_CMAKE_VER}"
+
+cd ${SRC_DIR}
+
+./configure --prefix=$HOME/opt
+
+
+make -j6 install
+
+# Remove the src dir and install file
+rm -rf ${SRC_DIR}*

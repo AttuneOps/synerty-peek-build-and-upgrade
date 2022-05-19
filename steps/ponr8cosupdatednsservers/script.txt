@@ -1,0 +1,6 @@
+IFACE=$(nmcli dev status | grep ethernet | cut -f1 -d' ')
+
+set -x
+nmcli con mod ${IFACE} ipv4.dns "{targetSubnet.dns1} {targetSubnet.dns2}"
+nmcli con mod ${IFACE} ipv4.dns-search {targetServerLin.domain}
+nmcli con up ${IFACE}

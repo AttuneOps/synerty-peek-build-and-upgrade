@@ -1,0 +1,11 @@
+cd /backup/gis_tiles
+
+if [ "`ls *.7z | wc -l`" -ne "1" ]; then
+    echo "We expect only one file ending in *.7z"
+    ls *.7z
+    false
+fi
+
+7z x -bt -mmt8 *.7z
+
+mv -v gis_tiles /home/peek

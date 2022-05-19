@@ -1,0 +1,11 @@
+{
+    "archiveKey": "peekpgadmin4rhel8rpms", 
+    "deployPath": "/tmp/pkg_pgadmin4", 
+    "enabled": true, 
+    "key": "peekv3rhel8pga4deployrpms", 
+    "name": "Peek v3 RHEL8 PGA4 Deploy RPMs", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "peekserver", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": true
+}

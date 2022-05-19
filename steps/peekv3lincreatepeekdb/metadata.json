@@ -1,0 +1,22 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "peekv3lincreatepeekdb", 
+    "links": [
+        {
+            "order": 140, 
+            "stepKey": "peekv3pgdbsetsqlpassword"
+        }, 
+        {
+            "order": 160, 
+            "stepKey": "peekv3pgdbcreatedatabase"
+        }, 
+        {
+            "order": 180, 
+            "stepKey": "peekv3pgdbcleanuppsql"
+        }
+    ], 
+    "name": "Peek v3 LIN Create Peek DB", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

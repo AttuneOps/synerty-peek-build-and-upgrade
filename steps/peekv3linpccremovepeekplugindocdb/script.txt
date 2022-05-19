@@ -1,0 +1,1 @@
+sed -i '/peek_plugin_docdb/d' peek*.home/config.json

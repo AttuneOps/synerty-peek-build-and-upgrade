@@ -1,0 +1,32 @@
+PEEK_PG_VER={peek3PostgresqlVer}
+
+SRC_DIR="$HOME/postgresql-${PEEK_PG_VER}"
+
+# Remove the src dir and install file
+rm -rf ${SRC_DIR} || true
+
+tar xjf postgresql-${PEEK_PG_VER}.tar.bz2
+
+
+cd ${SRC_DIR}
+
+export CPPFLAGS=" -I`echo $HOME/opt/include/python*m` "
+export LDFLAGS=" -L$HOME/opt/lib "
+
+./configure \
+      --disable-debug \
+      --prefix=$HOME/opt \
+      --enable-thread-safety \
+      --with-openssl \
+      --with-python
+
+
+make -j4 > make.log
+
+make install-world > make-install.log
+
+# this is required for timescale to compile
+cp ${SRC_DIR}/src/test/isolation/pg_isolation_regress ~/opt/bin
+
+# Remove the src dir and install file
+rm -rf ${SRC_DIR}*

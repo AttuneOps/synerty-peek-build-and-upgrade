@@ -1,0 +1,54 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "peekv3lindeployrelease", 
+    "links": [
+        {
+            "order": 20, 
+            "stepKey": "peekv3linpdrecleaninstallfiles"
+        }, 
+        {
+            "order": 40, 
+            "stepKey": "peekv3linpdredeployinstallfiles"
+        }, 
+        {
+            "order": 60, 
+            "stepKey": "peekv3linpdrestoppeek"
+        }, 
+        {
+            "order": 80, 
+            "stepKey": "peekv3linpdredeleteoldreleases"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "peekv3linpdredeleteoldlogs"
+        }, 
+        {
+            "order": 120, 
+            "stepKey": "peekv3linpdreinstallrelease"
+        }, 
+        {
+            "order": 140, 
+            "stepKey": "peekv3linpdrecheckpackageversions"
+        }, 
+        {
+            "order": 160, 
+            "stepKey": "peekv3linpdrepatchpeekutilscripts"
+        }, 
+        {
+            "order": 180, 
+            "stepKey": "peekv3linpdreinstallsystemdandrestart"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "peekv3linpdrecleaninstallfiles"
+        }, 
+        {
+            "order": 220, 
+            "stepKey": "peekv3linpdrelistpackages"
+        }
+    ], 
+    "name": "Peek v3 LIN Deploy Release", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

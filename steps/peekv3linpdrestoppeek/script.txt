@@ -1,0 +1,6 @@
+for s in peek_agent peek_field peek_office peek_logic peek_worker
+do
+    sudo systemctl stop $s || true
+done
+
+pkill -9 -f run_peek || true

@@ -1,0 +1,50 @@
+{
+    "archiveKey": "rhel8kickstartconfignew2", 
+    "deployPath": "{ksVmwareAttuneBaseDir}/build-{targetServer.fqn}", 
+    "enabled": true, 
+    "key": "ksrh84deploykickstartconfig", 
+    "makoFileNames": [
+        "ks.cfg"
+    ], 
+    "makoParameters": [
+        {
+            "name": "targetServer", 
+            "parameterKey": "targetserverlin", 
+            "parameterType": "c.s.s.b.phv.LinuxServer"
+        }, 
+        {
+            "name": "targetLanguage", 
+            "parameterKey": "targetserverlinuxlanguage", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }, 
+        {
+            "name": "linuxRootUser", 
+            "parameterKey": "linuxrootuser", 
+            "parameterType": "c.s.s.b.phv.LinOsCred"
+        }, 
+        {
+            "name": "rpmServer", 
+            "parameterKey": "rpmserver", 
+            "parameterType": "c.s.s.b.phv.LinuxServer"
+        }, 
+        {
+            "name": "ksLinuxDiskFirstLetter", 
+            "parameterKey": "kslinuxdiskfirstletter", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }, 
+        {
+            "name": "dmsSubnet", 
+            "parameterKey": "targetsubnet", 
+            "parameterType": "c.s.s.b.phv.Ip4Subnet"
+        }, 
+        {
+            "name": "targetTimeZone", 
+            "parameterKey": "targetserverlinuxtimezone", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }
+    ], 
+    "name": "KS RH84 Deploy Kickstart Config", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attuneosbuildserver", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileCompiledTuple"
+}

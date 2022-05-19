@@ -1,0 +1,11 @@
+{
+    "archiveKey": "adrootcacertificate", 
+    "deployPath": "{ksVmwareAttuneBaseDir}/build-{targetServer.fqn}/cacerts", 
+    "enabled": true, 
+    "key": "ksrh84deployrpmcacertificate", 
+    "name": "KS RH84 Deploy RPM CA Certificate", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attuneosbuildserver", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": true
+}

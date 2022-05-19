@@ -1,0 +1,6 @@
+# For LXML and the Oracle client
+PKG="libxml2 libxml2-devel"
+PKG="$PKG libxslt libxslt-devel"
+PKG="$PKG libaio libaio-devel"
+
+sudo yum install -y $PKG

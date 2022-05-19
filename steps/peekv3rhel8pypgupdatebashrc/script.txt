@@ -1,0 +1,17 @@
+cat <<"EOF">> ~/.bashrc
+
+##### SET THE PEEK ENVIRONMENT #####
+# Setup the variables for PYTHON and POSTGRESQL
+export PEEK_PY_VER="{peek3PythonVer}"
+export PEEK_PG_VER="{peek3PostgresqlVer}"
+export PEEK_CMAKE_VER="{peek3CmakeVer}"
+export PEEK_TSDB_VER="{peek3TimescaledbVer}"
+
+export PATH="$HOME/opt/bin:$PATH"
+export LD_LIBRARY_PATH="$HOME/opt/lib:$LD_LIBRARY_PATH"
+
+# Set the variables for the platform release
+# These are updated by the deploy script
+export PEEK_ENV=""
+[ -n "${PEEK_ENV}" ] && export PATH="${PEEK_ENV}/bin:$PATH"
+EOF

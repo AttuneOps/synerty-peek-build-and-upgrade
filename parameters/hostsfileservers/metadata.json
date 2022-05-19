@@ -1,0 +1,6 @@
+{
+    "key": "hostsfileservers", 
+    "name": "Hosts File Servers", 
+    "showInPlan": false, 
+    "type": "c.s.s.b.phv.ServerList"
+}

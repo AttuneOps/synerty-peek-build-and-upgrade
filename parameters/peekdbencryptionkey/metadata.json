@@ -1,0 +1,6 @@
+{
+    "key": "peekdbencryptionkey", 
+    "name": "Peek DB Encryption Key", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.OsCred"
+}

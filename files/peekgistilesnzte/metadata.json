@@ -1,0 +1,5 @@
+{
+    "key": "peekgistilesnzte", 
+    "name": "Peek GIS Tiles (NZTE)", 
+    "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"
+}

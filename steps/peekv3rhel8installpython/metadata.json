@@ -1,0 +1,34 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "peekv3rhel8installpython", 
+    "links": [
+        {
+            "order": 20, 
+            "stepKey": "peekv3rhel8ipydeploypython"
+        }, 
+        {
+            "order": 60, 
+            "stepKey": "peekv3rhel8ipyconfigurebuildinstall"
+        }, 
+        {
+            "order": 80, 
+            "stepKey": "peekv3rhel8ipycleanup"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "peekv3rhel8ipycreatesymlinks"
+        }, 
+        {
+            "order": 120, 
+            "stepKey": "peekv3rhel8ipydeploypythonpypis"
+        }, 
+        {
+            "order": 140, 
+            "stepKey": "peekv3rhel8ipyinstallpythonpypis"
+        }
+    ], 
+    "name": "Peek v3 RHEL8 Install Python", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

@@ -1,0 +1,2 @@
+PKG="gcc gcc-c++ kernel-devel make"
+yum install -y $PKG

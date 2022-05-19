@@ -1,0 +1,5 @@
+# enable and install the CA root certificate
+update-ca-trust enable
+mv -v {targetServerInstallerTmpPath}/root.cer /etc/pki/ca-trust/source/anchors/
+echo "Installing the Root CA certificate"
+update-ca-trust extract

@@ -1,0 +1,6 @@
+{
+    "key": "ovirtisostoragename", 
+    "name": "oVirt: ISO Storage Name", 
+    "showInPlan": false, 
+    "type": "c.s.s.b.phv.Text"
+}

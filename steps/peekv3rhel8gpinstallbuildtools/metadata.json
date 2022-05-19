@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "peekv3rhel8gpinstallbuildtools", 
+    "name": "Peek v3 RHEL8 GP Install Build Tools", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "peekserver", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

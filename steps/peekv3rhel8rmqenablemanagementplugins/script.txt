@@ -1,0 +1,4 @@
+F="/var/lib/rabbitmq/.erlang.cookie"; [ ! -f $F ] || rm -f $F
+rabbitmq-plugins enable rabbitmq_mqtt
+rabbitmq-plugins enable rabbitmq_management
+systemctl restart rabbitmq-server.service

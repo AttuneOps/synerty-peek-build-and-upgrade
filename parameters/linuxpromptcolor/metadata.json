@@ -1,0 +1,6 @@
+{
+    "key": "linuxpromptcolor", 
+    "name": "Linux: Prompt Color", 
+    "showInPlan": false, 
+    "type": "c.s.s.b.phv.Text"
+}

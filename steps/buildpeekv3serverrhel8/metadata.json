@@ -1,0 +1,82 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "buildpeekv3serverrhel8", 
+    "links": [
+        {
+            "order": 20, 
+            "stepKey": "rhel8setupos"
+        }, 
+        {
+            "order": 40, 
+            "stepKey": "peekconfigurefirewallrhel8"
+        }, 
+        {
+            "order": 80, 
+            "stepKey": "peekv3rhel8generalprerequisites"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "peekv3linsetuppeekuser"
+        }, 
+        {
+            "order": 120, 
+            "stepKey": "rhelspuchownbackup"
+        }, 
+        {
+            "order": 140, 
+            "stepKey": "peekv3rhel8setuppgadmin4"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "peekv3rhel8installsrcpythonpostgresql"
+        }, 
+        {
+            "order": 220, 
+            "stepKey": "peekv3lincreatepeekdb"
+        }, 
+        {
+            "order": 300, 
+            "stepKey": "peekv3rhel8installredis"
+        }, 
+        {
+            "order": 340, 
+            "stepKey": "peekv3rhel8installrabbitmq"
+        }, 
+        {
+            "order": 400, 
+            "stepKey": "peekv3rhel8installoracleinstantclient"
+        }, 
+        {
+            "order": 440, 
+            "stepKey": "peekv3rhel8installfreetds"
+        }, 
+        {
+            "order": 460, 
+            "stepKey": "peekv3linconfigurejsonconfig"
+        }, 
+        {
+            "order": 540, 
+            "stepKey": "rhelcleanuppackages"
+        }, 
+        {
+            "order": 560, 
+            "stepKey": "linreboot"
+        }, 
+        {
+            "order": 580, 
+            "stepKey": "linrebootwait"
+        }, 
+        {
+            "order": 600, 
+            "stepKey": "peekv3lindeployrelease"
+        }, 
+        {
+            "order": 620, 
+            "stepKey": "peekv3linrestoredataset"
+        }
+    ], 
+    "name": "Build Peek v3 Server RHEL8", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

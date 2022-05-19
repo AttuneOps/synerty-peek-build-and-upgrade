@@ -1,0 +1,28 @@
+LOG="peek-logic-service.log"
+
+echo "Cleaning old logs"
+[ ! -f $LOG ] || rm $LOG
+touch $LOG
+
+# Starting migration
+sudo systemctl restart peek_logic
+
+echo "Waiting for Peek Logic Service to finish starting."
+while ! grep "Peek Logic is running" $LOG
+do
+    echo "Checking ..."
+    sleep 5
+done
+
+# Check for Errors
+if grep -q "ERROR" $LOG
+then
+    cat $LOG
+    echo "The Peek Logic Service started with errors" >&2
+    false
+fi
+
+echo "SUCCESS The Peek Logic Service started without errors"
+
+echo "Stopping Peek Logic Service again"
+sudo systemctl stop peek_logic

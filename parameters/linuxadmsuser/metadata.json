@@ -1,0 +1,6 @@
+{
+    "key": "linuxadmsuser", 
+    "name": "Linux: ADMS User", 
+    "showInPlan": false, 
+    "type": "c.s.s.b.phv.LinOsCred"
+}

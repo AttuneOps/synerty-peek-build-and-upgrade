@@ -1,0 +1,1 @@
+Instructions from https://www.itzgeek.com/how-tos/linux/centos-how-tos/how-to-install-pgadmin-4-on-centos-7-rhel-7-fedora-29-fedora-28.html

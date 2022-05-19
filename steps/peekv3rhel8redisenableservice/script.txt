@@ -1,0 +1,2 @@
+systemctl enable redis.service
+systemctl restart redis.service

@@ -1,0 +1,9 @@
+set -x
+
+# Open port 22 for ssh to continue working
+# firewall-cmd --add-port=22/tcp --permanent
+firewall-cmd --permanent --add-service=ssh
+
+# Enable the changes before moving on
+firewall-cmd --reload
+systemctl restart firewalld.service

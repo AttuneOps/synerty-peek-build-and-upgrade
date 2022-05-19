@@ -1,0 +1,5 @@
+{
+    "key": "peekv3offlineredisrpms", 
+    "name": "Peek v3 Offline Redis RPMs", 
+    "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"
+}

@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "peekv3pgdbcleanuppsql", 
+    "name": "Peek v3 PGDB Cleanup psql", 
+    "osCredKey": "linuxserviceuser", 
+    "serverKey": "targetserverlin", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

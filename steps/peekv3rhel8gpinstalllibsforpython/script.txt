@@ -1,0 +1,6 @@
+# For the cryptography package
+PKG="libffi-devel"
+
+PKG="$PKG openldap-devel"
+
+yum install -y $PKG

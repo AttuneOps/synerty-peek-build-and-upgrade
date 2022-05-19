@@ -1,0 +1,11 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "peekv3rhel8setuppgadmin4web", 
+    "name": "Peek v3 RHEL8 Setup pgadmin4-web", 
+    "osCredKey": "linuxrootuser", 
+    "promptResponses": "Email address:==={pgadmin4WebappUser.user}\npassword:==={pgadmin4WebappUser.password}\nPassword:==={pgadmin4WebappUser.password}\nContinue (y/n)?===y", 
+    "serverKey": "targetserverlin", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshPromptedTuple"
+}
