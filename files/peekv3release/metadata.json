@@ -1,10 +1,10 @@
 {
-    "fileName": "Peek_v3_Release_v31x.tar", 
+    "fileName": "peek_release_linux_v3.2.x-b24837.tar", 
     "formatKey": "tar", 
     "key": "peekv3release", 
-    "md5": "c2ea771ae9e1273ddad456ac7658de96", 
+    "md5": "aea60c3fe1b3b271c709c763e4bc8dbb", 
     "name": "Peek v3 Release", 
-    "remoteUri": null, 
-    "size": 472176640, 
+    "remoteUri": "", 
+    "size": 647290880, 
     "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
 }

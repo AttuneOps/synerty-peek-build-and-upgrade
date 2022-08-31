@@ -19,7 +19,8 @@
             "peek_plugin_docdb_generic_menu",
             "peek_plugin_diagram_positioner",
             "peek_plugin_diagram_trace",
-            "peek_plugin_enmac_event"
+            "peek_plugin_osm_diagram_loader",
+            "peek_plugin_zepben_ednar_dms_diagram"
         ]
     }
 }

@@ -21,20 +21,20 @@
             "stepKey": "ksovirtaddnic"
         }, 
         {
-            "order": 80, 
-            "stepKey": "ksovirtcopyisotohostsshsyn"
-        }, 
-        {
-            "order": 140, 
-            "stepKey": "ksovirtloadisointovm"
+            "order": 110, 
+            "stepKey": "ksovirtaddfloatingisodisk"
         }, 
         {
             "order": 160, 
-            "stepKey": "ksovirtboottoiso"
+            "stepKey": "ksovirtimagelotransferisotofloatingdisk"
         }, 
         {
-            "order": 180, 
-            "stepKey": "ksovirtunloadisofromvm"
+            "order": 210, 
+            "stepKey": "ksovirtloaddatastorageisointovm"
+        }, 
+        {
+            "order": 310, 
+            "stepKey": "ksovirtboottoiso"
         }
     ], 
     "name": "KS oVirt Recreate Virtual Machine", 

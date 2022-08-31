@@ -25,16 +25,24 @@
             "stepKey": "ksrh84createbootiso"
         }, 
         {
-            "order": 100, 
+            "order": 130, 
+            "stepKey": "ksovirtrecreatevirtualmachinecleanup"
+        }, 
+        {
+            "order": 230, 
             "stepKey": "ksovirtrecreatevirtualmachine"
         }, 
         {
-            "order": 120, 
+            "order": 280, 
+            "stepKey": "kssshwait"
+        }, 
+        {
+            "order": 330, 
             "stepKey": "kscleanbuildfiles"
         }, 
         {
-            "order": 160, 
-            "stepKey": "kssshwait"
+            "order": 380, 
+            "stepKey": "ksovirtrecreatevirtualmachinecleanup"
         }
     ], 
     "name": "Kickstart RHEL8.4+oVirt", 

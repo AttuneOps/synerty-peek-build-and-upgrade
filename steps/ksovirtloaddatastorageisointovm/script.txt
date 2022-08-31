@@ -32,14 +32,18 @@ vms_service = system_service.vms_service()
 
 # Find the VM:
 logger.info("Searchig for VM 'name={targetServer.fqn}'")
-vmSearch = vms_service.list(search='name={targetServer.fqn}')
+vm = vms_service.list(search='name={targetServer.fqn}')[0]
 
-if not len(vmSearch):
-    logger.info("VM 'name={targetServer.fqn}' doesn't exist, exiting")
-    exit(0)
+logger.info("Getting storage_domains_services")
+sds_service = system_service.storage_domains_service()
 
-logger.info("Found VM 'name={targetServer.fqn}'")
-vm = vmSearch[0]
+logger.info("Getting storage_domains for 'name={ovirtDiskStorageName}'")
+storage_domain = sds_service.list(search='name={ovirtDiskStorageName}')[0]
+
+print("storage_domain = %s, id=%s" % (storage_domain, storage_domain.id))
+
+logger.info("Getting storage_domains_service for 'name={ovirtDiskStorageName}'")
+storage_domain_service = sds_service.storage_domain_service(storage_domain.id)
 
 logger.info("Getting VM Service for VM ID=%s" % vm.id)
 vm_service = vms_service.vm_service(vm.id)
@@ -53,19 +57,33 @@ cdrom = cdroms_service.list()[0]
 logger.info("Get the CDROM service for the first drive")
 cdrom_service = cdroms_service.cdrom_service(cdrom.id)
 
+# Find the ISO disk to attach as CD ROM
+diskName='kickstart_{targetServer.fqn}.iso'
+search_string="name=%s" % diskName
 
-logger.info("Eject the CDROM on PowerOn")
-cdrom_service.update(
-    cdrom=types.Cdrom(
-        file=types.File(
-            id=''
+logger.info("Getting the disks service")
+disks_service = system_service.disks_service()
+disks = disks_service.list(search=search_string)
+
+if len(disks) == 0:
+    logger.info("No ISO disks found")
+    exit(1)
+else:
+    disk_to_use = disks[0]
+    print("disk_to_use.id=%s" % disk_to_use.id)
+
+    logger.info("Attach the CDROM")
+    cdrom_service.update(
+        cdrom=types.Cdrom(
+            file=types.File(
+                id=disk_to_use.id
+            ),
         ),
-    ),
-    current=False,
-)
-
+        current=False,
+    )
 
 logger.info("Close the connection to the server")
 connection.close()
 
 EOF
+
