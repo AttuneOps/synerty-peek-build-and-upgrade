@@ -25,23 +25,27 @@
             "stepKey": "peekv3linsetuplvm"
         }, 
         {
-            "order": 160, 
-            "stepKey": "buildpeekv3serverrhel8"
-        }, 
-        {
-            "order": 200, 
-            "stepKey": "peekv3lindeploygistilesnzte"
-        }, 
-        {
-            "order": 220, 
-            "stepKey": "peekv3linpdredeleteoldlogs"
+            "order": 190, 
+            "stepKey": "centos8enablepowertoolsrepo"
         }, 
         {
             "order": 240, 
+            "stepKey": "buildpeekv3serverrhel8"
+        }, 
+        {
+            "order": 290, 
+            "stepKey": "peekv3lindeploygistilesnzte"
+        }, 
+        {
+            "order": 340, 
+            "stepKey": "peekv3linpdredeleteoldlogs"
+        }, 
+        {
+            "order": 390, 
             "stepKey": "peekv3linpdrstartpeek"
         }, 
         {
-            "order": 260, 
+            "order": 440, 
             "stepKey": "peekv3lintestpeekdeployment"
         }
     ], 

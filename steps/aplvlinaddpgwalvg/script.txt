@@ -1,0 +1,11 @@
+mkvg() {
+    VG=$1
+    DEV=$2
+    
+    parted -s /dev/$DEV mktable gpt
+    parted -s /dev/$DEV mkpart primary xfs 1m 100%
+    
+    vgextend $VG /dev/${DEV}1
+}
+
+mkvg rootvg {ksLinuxDiskFirstLetter}dc

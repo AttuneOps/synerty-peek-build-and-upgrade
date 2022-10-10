@@ -1,0 +1,68 @@
+cd /tmp/pkg_pgadmin4
+
+FILE="libgcc-8.4.1-1.el8.x86_64.rpm"
+if test -f "${FILE}"
+then
+    rm -v "${FILE}"
+fi
+
+FILE="libstdc++-8.4.1-1.el8.x86_64.rpm"
+if test -f "${FILE}"
+then
+    rm -v "${FILE}"
+fi
+
+
+FILE="glibc-2.28-151.el8.x86_64.rpm"
+if test -f "${FILE}"
+then
+    rm -v "${FILE}"
+fi
+
+FILE="libxml2-2.9.7-9.el8_4.2.x86_64.rpm"
+if test -f "${FILE}"
+then
+    rm -v "${FILE}"
+fi
+
+FILE="libxcrypt-4.1.1-4.el8.x86_64.rpm"
+if test -f "${FILE}"
+then
+    rm -v "${FILE}"
+fi
+
+FILE="kpartx-0.8.4-10.el8.x86_64.rpm"
+if test -f "${FILE}"
+then
+    rm -v "${FILE}"
+fi
+
+FILE="redhat-release-8.4-0.6.el8.x86_64.rpm"
+if test -f "${FILE}"
+then
+    rm -v "${FILE}"
+fi
+
+FILE="glibc-all-langpacks-2.28-151.el8.x86_64.rpm"
+if test -f "${FILE}"
+then
+    rm -v "${FILE}"
+fi
+
+FILE="glibc-common-2.28-151.el8.x86_64.rpm"
+if test -f "${FILE}"
+then
+    rm -v "${FILE}"
+fi
+
+FILE="libgomp-8.4.1-1.el8.x86_64.rpm"
+if test -f "${FILE}"
+then
+    rm -v "${FILE}"
+fi
+
+FILE="redhat-release-eula-8.4-0.6.el8.x86_64.rpm"
+if test -f "${FILE}"
+then
+    rm -v "${FILE}"
+fi

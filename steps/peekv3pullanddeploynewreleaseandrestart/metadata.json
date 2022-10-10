@@ -1,0 +1,30 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "peekv3pullanddeploynewreleaseandrestart", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "peekv3lindeployrelease"
+        }, 
+        {
+            "order": 50, 
+            "stepKey": "peekv3purgerabbitmq"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "peekv3linpdredeleteoldlogs"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "peekv3linpdrstartpeek"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "peekv3lintestpeekdeployment"
+        }
+    ], 
+    "name": "Peek v3 Pull and Deploy New Release and Restart", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

@@ -1,0 +1,6 @@
+{
+    "key": "peekreleasenumber", 
+    "name": "Peek Release Number", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

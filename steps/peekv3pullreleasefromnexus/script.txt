@@ -1,0 +1,8 @@
+PEEK_RELEASE={peekReleaseNumber}
+echo "Creating the install directory"
+mkdir /home/peek/peek_install
+cd /home/peek/peek_install
+echo "Installing the Peek Release"
+wget http://10.3.2.41/repository/synerty-packages/peek_release_linux_v$PEEK_RELEASE.tar
+
+

@@ -65,11 +65,15 @@
             "stepKey": "peekv3linpdrupdategistilespath"
         }, 
         {
-            "order": 300, 
+            "order": 330, 
+            "stepKey": "peekv3purgerabbitmq"
+        }, 
+        {
+            "order": 380, 
             "stepKey": "peekv3linpdredeleteoldlogs"
         }, 
         {
-            "order": 340, 
+            "order": 430, 
             "stepKey": "peekv3linpdrcleanrestoredir"
         }
     ], 

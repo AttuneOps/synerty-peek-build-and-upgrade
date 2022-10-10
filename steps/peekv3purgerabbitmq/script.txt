@@ -1,0 +1,5 @@
+redis-cli FLUSHDB && \
+rabbitmqctl stop_app && \
+rabbitmqctl reset && \
+rabbitmqctl start_app && \
+systemctl restart rabbitmq-server.service

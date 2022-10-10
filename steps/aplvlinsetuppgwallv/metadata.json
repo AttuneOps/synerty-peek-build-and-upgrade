@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "aplvlinsetuppgwallv", 
+    "name": "APLV LIN Setup pg_wal LV", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "targetserverlin", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

@@ -9,46 +9,50 @@
             "stepKey": "peekv3linpdrecleaninstallfiles"
         }, 
         {
-            "order": 40, 
-            "stepKey": "peekv3linpdredeployinstallfiles"
-        }, 
-        {
-            "order": 60, 
-            "stepKey": "peekv3linpdrestoppeek"
-        }, 
-        {
-            "order": 80, 
-            "stepKey": "peekv3linpdredeleteoldreleases"
-        }, 
-        {
-            "order": 100, 
-            "stepKey": "peekv3linpdredeleteoldlogs"
+            "order": 70, 
+            "stepKey": "peekv3pullreleasefromnexus"
         }, 
         {
             "order": 120, 
-            "stepKey": "peekv3linpdreinstallrelease"
+            "stepKey": "peekv3extractrelease"
         }, 
         {
-            "order": 140, 
-            "stepKey": "peekv3linpdrecheckpackageversions"
-        }, 
-        {
-            "order": 160, 
-            "stepKey": "peekv3linpdrepatchpeekutilscripts"
-        }, 
-        {
-            "order": 180, 
-            "stepKey": "peekv3linpdreinstallsystemdandrestart"
-        }, 
-        {
-            "order": 200, 
-            "stepKey": "peekv3linpdrecleaninstallfiles"
+            "order": 170, 
+            "stepKey": "peekv3linpdrestoppeek"
         }, 
         {
             "order": 220, 
+            "stepKey": "peekv3linpdredeleteoldreleases"
+        }, 
+        {
+            "order": 270, 
+            "stepKey": "peekv3linpdredeleteoldlogs"
+        }, 
+        {
+            "order": 320, 
+            "stepKey": "peekv3linpdreinstallrelease"
+        }, 
+        {
+            "order": 370, 
+            "stepKey": "peekv3linpdrecheckpackageversions"
+        }, 
+        {
+            "order": 420, 
+            "stepKey": "peekv3linpdrepatchpeekutilscripts"
+        }, 
+        {
+            "order": 470, 
+            "stepKey": "peekv3linpdreinstallsystemdandrestart"
+        }, 
+        {
+            "order": 520, 
+            "stepKey": "peekv3linpdrecleaninstallfiles"
+        }, 
+        {
+            "order": 570, 
             "stepKey": "peekv3linpdrelistpackages"
         }
     ], 
-    "name": "Peek v3 LIN Deploy Release", 
+    "name": "Peek v3 LIN Deploy Release ", 
     "type": "com.servertribe.attune.tuples.StepGroupTuple"
 }

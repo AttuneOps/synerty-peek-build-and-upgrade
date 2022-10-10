@@ -1,0 +1,3 @@
+cd /home/peek/peek_install
+tar -xvf peek_release_linux_v3.2.*.tar
+rm -r *.tar

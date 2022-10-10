@@ -6,8 +6,8 @@
     "makoFileNames": [
         "sysconfig/network", 
         "profile.d/environment_prompt.sh", 
-        "etc/login_banner", 
-        "etc/hosts"
+        "login_banner", 
+        "hosts"
     ], 
     "makoParameters": [
         {

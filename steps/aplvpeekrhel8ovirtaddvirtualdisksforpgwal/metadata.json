@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "aplvpeekrhel8ovirtaddvirtualdisksforpgwal", 
+    "name": "APLV PEEK RHEL8 oVirt Add Virtual Disks for pg_wal", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attuneosbuildserver", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}
