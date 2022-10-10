@@ -9,14 +9,6 @@
             "stepKey": "peekv3rhel8pga4deployrpms"
         }, 
         {
-            "order": 50, 
-            "stepKey": "peekv3rhel8pga4deleterpms"
-        }, 
-        {
-            "order": 100, 
-            "stepKey": "peekv3rhel8pga4installrpmsnew"
-        }, 
-        {
             "order": 150, 
             "stepKey": "peekv3rhel8pga4cleanpackages"
         }, 
