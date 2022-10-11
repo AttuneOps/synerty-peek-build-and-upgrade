@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "ssmomcreatepgwalarchivearchivedirectoryonmaster", 
+    "name": "SSMOM Create /pgwal_archive/ARCHIVE_DIRECTORY on Master", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "peekserver", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

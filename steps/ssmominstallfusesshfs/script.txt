@@ -1,0 +1,10 @@
+OUTPUT=$(rpm -qa | grep -i fuse-sshfs) || true
+echo "OUTPUT='${OUTPUT}'"
+
+if [ -z "${OUTPUT}" ]
+then
+    echo "Installing fuse-sshfs"
+    dnf -y install fuse-sshfs
+else
+    echo "fuse-sshfs is already installed, skipping."
+fi

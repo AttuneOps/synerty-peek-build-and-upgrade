@@ -14,4 +14,4 @@ EOF
     mount -a
 }
 
-mklv /pgwal_archive pgwal_archive 35g rootvg
+mklv /pgwal_archive pgwal_archive 50g rootvg

@@ -1,0 +1,46 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "setupsshfsmountonmaster", 
+    "links": [
+        {
+            "order": 50, 
+            "stepKey": "ssmomtestsftptostandby"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "ssmominstallfusesshfs"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "ssmomcreatepgwalarchivearchivedirectoryonmaster"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "ssmomcreatepgwalarchiveshippingdirectoryonstandby"
+        }, 
+        {
+            "order": 250, 
+            "stepKey": "setupsshkeysforsftp"
+        }, 
+        {
+            "order": 300, 
+            "stepKey": "enableuserallowotherinetcfuseconf"
+        }, 
+        {
+            "order": 350, 
+            "stepKey": "ssmomeditetcfstab"
+        }, 
+        {
+            "order": 400, 
+            "stepKey": "linreboot"
+        }, 
+        {
+            "order": 450, 
+            "stepKey": "linrebootwait"
+        }
+    ], 
+    "name": "Setup SSHFS Mount on Master", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

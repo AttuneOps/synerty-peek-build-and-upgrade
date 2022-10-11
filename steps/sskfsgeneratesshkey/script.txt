@@ -1,0 +1,9 @@
+ID_RSA_FILE="/home/{linuxPeekUser.user}/.ssh/id_rsa"
+
+if [ -f "${ID_RSA_FILE}" ]
+then
+    echo "${ID_RSA_FILE} already exists, skipping."
+else
+    echo "Generating ${ID_RSA_FILE}."
+    ssh-keygen -b 4096 -f /home/peek/.ssh/id_rsa -q -N ""
+fi

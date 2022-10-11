@@ -1,0 +1,6 @@
+{
+    "key": "peekstandbyserver", 
+    "name": "Peek Standby Server", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.LinuxServer"
+}

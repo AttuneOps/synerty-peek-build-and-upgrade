@@ -1,0 +1,11 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "ssmomtestsftptostandby", 
+    "name": "SSMOM Test SFTP To Standby", 
+    "osCredKey": "linuxpeekuser", 
+    "promptResponses": "Are you sure you want to continue connecting (yes/no/[fingerprint])?===yes\n{linuxPeekUser.user}@{peekStandbyServer.ip}'s password:==={linuxPeekUser.password}", 
+    "serverKey": "peekserver", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshPromptedTuple"
+}

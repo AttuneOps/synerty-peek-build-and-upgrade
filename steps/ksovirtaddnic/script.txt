@@ -53,6 +53,12 @@ dc = dcs_service.list(search='Clusters.name=%s' % cluster.name)[0]
 logger.info("Getting Networks Service")
 networks_service = dcs_service.service(dc.id).networks_service()
 
+logger.info("len(networks_service.list())=%d" % len(networks_service.list()))
+
+i = 0
+for item in networks_service.list():
+    print("%d. %s" % (i, item.name))
+    i += 1
 
 logger.info("Finding Network n.name == '{ovirtNetworkName}'")
 network = next(

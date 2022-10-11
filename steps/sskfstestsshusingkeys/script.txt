@@ -1,0 +1,1 @@
+ssh {linuxPeekUser.user}@{peekStandbyServer.ip} "exit"
