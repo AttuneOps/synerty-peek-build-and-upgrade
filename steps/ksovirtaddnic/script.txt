@@ -55,11 +55,6 @@ networks_service = dcs_service.service(dc.id).networks_service()
 
 logger.info("len(networks_service.list())=%d" % len(networks_service.list()))
 
-i = 0
-for item in networks_service.list():
-    print("%d. %s" % (i, item.name))
-    i += 1
-
 logger.info("Finding Network n.name == '{ovirtNetworkName}'")
 network = next(
     (n for n in networks_service.list()
@@ -71,13 +66,16 @@ if not network:
     logger.error("Failed to find network")
     exit(1)
 
+logger.info("network = %s, id=%s" % (network.name, network.id))
+
 logger.info("Getting Profiles Service")
 profiles_service = connection.system_service().vnic_profiles_service()
 
 logger.info("Finding Profile profile.name == '{ovirtNetworkName}'")
 profile_id = None
 for profile in profiles_service.list():
-    if profile.name == '{ovirtNetworkName}':
+    if profile.name == '{ovirtNetworkName}' and \
+    profile.network.id == network.id:
         profile_id = profile.id
         break
 
