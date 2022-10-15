@@ -9,39 +9,39 @@
             "stepKey": "kscleanbuildfiles"
         }, 
         {
-            "order": 20, 
+            "order": 90, 
             "stepKey": "ksrh84deploybootiso"
         }, 
         {
-            "order": 40, 
+            "order": 190, 
             "stepKey": "ksrh84deploykickstartconfig"
         }, 
         {
-            "order": 60, 
+            "order": 240, 
             "stepKey": "ksrh84deployrpmcacertificate"
         }, 
         {
-            "order": 80, 
+            "order": 290, 
             "stepKey": "ksrh84createbootiso"
         }, 
         {
-            "order": 130, 
+            "order": 340, 
             "stepKey": "ksovirtrecreatevirtualmachinecleanup"
         }, 
         {
-            "order": 230, 
+            "order": 360, 
             "stepKey": "ksovirtrecreatevirtualmachine"
         }, 
         {
-            "order": 280, 
+            "order": 410, 
             "stepKey": "kssshwait"
         }, 
         {
-            "order": 330, 
+            "order": 460, 
             "stepKey": "kscleanbuildfiles"
         }, 
         {
-            "order": 380, 
+            "order": 510, 
             "stepKey": "ksovirtrecreatevirtualmachinecleanup"
         }
     ], 

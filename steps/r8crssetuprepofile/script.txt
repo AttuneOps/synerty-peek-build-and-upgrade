@@ -4,19 +4,29 @@ subscription-manager config --rhsm.manage_repos=0
 echo "Removing other repositories"
 rm -f /etc/yum.repos.d/*.repo
 
-for ID in $(cat <<EOF
-    rhel-8-for-x86_64-baseos-rpms
-    rhel-8-for-x86_64-appstream-rpms
-    codeready-builder-for-rhel-8-x86_64-rpms
-EOF
-)
-do
-echo "Setting up ${ID} repository"
-cat <<EOF | tee /etc/yum.repos.d/${ID}.repo
-[${ID}]
-name=Internal RPM Server (${ID})
-baseurl=http://{rpmServer.ip}/rpm_mirror/${ID}/
+echo "Setting up rhel-8-server-rpms repository"
+cat > /etc/yum.repos.d/mirror.repo << EOF
+[codeready-builder]
+name=OS Codeready Builder Mirror
+baseurl={rpmMirrorCodereadyBuilder}
+enabled=1
+gpgcheck=0
+
+[os]
+name=OS RPM Mirror
+baseurl={rpmMirrorBaseos}
+enabled=1
+gpgcheck=0
+
+[extras]
+name=Extras RPM Mirror
+baseurl={rpmMirrorExtras}
+enabled=1
+gpgcheck=0
+
+[appstream]
+name=AppStream RPM Mirror
+baseurl={rpmMirrorAppstream}
 enabled=1
 gpgcheck=0
 EOF
-done

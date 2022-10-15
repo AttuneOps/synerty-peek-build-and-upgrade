@@ -2,7 +2,7 @@
     "concurrency": 1, 
     "enabled": true, 
     "isBlueprint": false, 
-    "key": "setupsshkeysforsftp", 
+    "key": "ssmomsetupsshkeysforsftp", 
     "links": [
         {
             "order": 100, 
@@ -17,6 +17,6 @@
             "stepKey": "sskfstestsshusingkeys"
         }
     ], 
-    "name": "Setup SSH Keys for SFTP", 
+    "name": "SSMOM Setup SSH Keys for SFTP", 
     "type": "com.servertribe.attune.tuples.StepGroupTuple"
 }

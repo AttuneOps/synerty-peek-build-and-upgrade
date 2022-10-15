@@ -1,0 +1,4 @@
+FILE_NAME="2c17bc6330e094eca7a5fc42b09388f6Ap7ae59e5a0e408fb86d324c2a73916e9aE.txt"
+MOUNT_POINT="/pgwal_archive/{peekStandbyServer.hostname}"
+cd "${MOUNT_POINT}"
+touch "${FILE_NAME}"

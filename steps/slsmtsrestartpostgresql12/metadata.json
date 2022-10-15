@@ -1,8 +1,8 @@
 {
     "enabled": true, 
     "interpreter": 1, 
-    "key": "enableuserallowotherinetcfuseconf", 
-    "name": "Enable user_allow_other in /etc/fuse.conf", 
+    "key": "slsmtsrestartpostgresql12", 
+    "name": "SLSMTS Restart postgresql-12", 
     "osCredKey": "linuxrootuser", 
     "serverKey": "peekserver", 
     "successExitCode": 0, 

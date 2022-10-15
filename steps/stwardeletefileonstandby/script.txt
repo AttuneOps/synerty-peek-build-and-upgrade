@@ -1,0 +1,12 @@
+FILE_NAME="2c17bc6330e094eca7a5fc42b09388f6Ap7ae59e5a0e408fb86d324c2a73916e9aE.txt"
+SHIPPING_DIRECTORY="/pgwal_archive/{peekStandbyServer.hostname}"
+
+cd "${SHIPPING_DIRECTORY}"
+
+if [ -f "${FILE_NAME}" ]
+then
+    rm -vf "${FILE_NAME}"
+else
+    echo "Can't find '${SHIPPING_DIRECTORY}/${FILE_NAME}'."
+    exit 1
+fi

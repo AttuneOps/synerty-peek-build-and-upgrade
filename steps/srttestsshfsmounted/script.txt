@@ -1,0 +1,40 @@
+# Check if the SSHFS mount succeeded.
+# Try 10 times waiting 1 second between tries.
+
+MOUNT_POINT="/pgwal_archive/{peekStandbyServer.hostname}"
+MOUNTED=false
+i=0
+
+while [ ${MOUNTED} = false ]
+do
+    OUTPUT=$(df -h "${MOUNT_POINT}")
+    
+    GREP_OUTPUT=$(echo ${OUTPUT} | grep \
+        "{linuxStandbyPeekUser.user}@{peekStandbyServer.ip}:/pgwal_archive/{peekStandbyServer.hostname}"
+        ) || true
+        
+    if [ -z "${GREP_OUTPUT}" ]
+    then
+        echo "${i}. ${MOUNT_POINT} Not yet mounted"
+    else
+        echo "${MOUNT_POINT} mounted successfully."
+        MOUNTED=true
+    fi
+    
+    # Don't wait if SSHFS is mounted
+    if [ ${MOUNTED} = true ]
+    then
+        exit 0
+    fi
+    
+    i=$((i+1))
+    
+    # Exit after 10 tries
+    if [ ${i} = 10 ]
+    then
+        echo "Quitting after 10 tries."
+        exit 1
+    fi
+    
+    sleep 1
+done

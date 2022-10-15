@@ -1,0 +1,6 @@
+{
+    "key": "rpmmirrorbaseos", 
+    "name": "RPM Mirror BaseOS", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

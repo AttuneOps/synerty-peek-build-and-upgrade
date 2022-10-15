@@ -1,0 +1,30 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "setuplogshippingmastertostandby", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "srttestsshfsmounted"
+        }, 
+        {
+            "order": 50, 
+            "stepKey": "slsmtspushpostgresqlconf"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "slsmtsrestartpostgresql12"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "slsmtsremovestandbyfiles"
+        }, 
+        {
+            "order": 300, 
+            "stepKey": "slsmtstakebasebackup"
+        }
+    ], 
+    "name": "Setup Log Shipping Master to Standby", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

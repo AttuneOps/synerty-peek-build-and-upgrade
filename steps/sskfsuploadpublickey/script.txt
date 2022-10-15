@@ -1,5 +1,6 @@
 # Check if the master's public key is uploaded onto the standby.
-PUBLIC_KEY_ON_STANDBY=$(ssh {linuxPeekUser.user}@{peekStandbyServer.ip} \
+PUBLIC_KEY_ON_STANDBY=$(ssh \
+    {linuxStandbyPeekUser.user}@{peekStandbyServer.ip} \
     "clear; \
     grep '{linuxPeekUser.user}@{peekServer.hostname}' \
     .ssh/authorized_keys; \
@@ -11,7 +12,9 @@ echo "PUBLIC_KEY_ON_STANDBY=${OUTPUT}"
 if [ -z "${OUTPUT}" ]
 then
     echo "Uploading public key to standby"
-    ssh-copy-id {linuxPeekUser.user}@{peekStandbyServer.ip}
+    
+    ssh-copy-id \
+        {linuxStandbyPeekUser.user}@{peekStandbyServer.ip}
 else
     echo "Public key already uploaded, skipping"
 fi

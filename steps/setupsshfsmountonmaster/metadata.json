@@ -22,23 +22,35 @@
         }, 
         {
             "order": 250, 
-            "stepKey": "setupsshkeysforsftp"
-        }, 
-        {
-            "order": 300, 
-            "stepKey": "enableuserallowotherinetcfuseconf"
+            "stepKey": "ssmomsetupsshkeysforsftp"
         }, 
         {
             "order": 350, 
-            "stepKey": "ssmomeditetcfstab"
+            "stepKey": "ssmomenableuserallowotherinetcfuseconf"
         }, 
         {
             "order": 400, 
-            "stepKey": "linreboot"
+            "stepKey": "ssmomeditetcfstab"
         }, 
         {
             "order": 450, 
+            "stepKey": "linreboot"
+        }, 
+        {
+            "order": 500, 
             "stepKey": "linrebootwait"
+        }, 
+        {
+            "order": 550, 
+            "stepKey": "ssmomtestwriteandread"
+        }, 
+        {
+            "order": 600, 
+            "stepKey": "ssmomresiliencetest"
+        }, 
+        {
+            "order": 950, 
+            "stepKey": "ssmomtestwriteandread"
         }
     ], 
     "name": "Setup SSHFS Mount on Master", 

@@ -1,0 +1,6 @@
+{
+    "key": "postgresqlarchivetimeout", 
+    "name": "PostGreSQL: archive_timeout", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

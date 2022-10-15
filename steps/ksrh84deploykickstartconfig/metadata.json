@@ -23,9 +23,9 @@
             "parameterType": "c.s.s.b.phv.LinOsCred"
         }, 
         {
-            "name": "rpmServer", 
-            "parameterKey": "rpmserver", 
-            "parameterType": "c.s.s.b.phv.LinuxServer"
+            "name": "rpmMirrorBaseOS", 
+            "parameterKey": "rpmmirrorbaseos", 
+            "parameterType": "c.s.s.b.phv.Text"
         }, 
         {
             "name": "ksLinuxDiskFirstLetter", 

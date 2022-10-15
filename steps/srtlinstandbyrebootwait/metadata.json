@@ -1,0 +1,11 @@
+{
+    "enabled": true, 
+    "key": "srtlinstandbyrebootwait", 
+    "minDowntime": 3, 
+    "name": "SRT LIN Standby Reboot Wait", 
+    "postWait": 10, 
+    "preWait": 0, 
+    "serverKey": "peekstandbyserver", 
+    "tcpPort": 22, 
+    "type": "com.servertribe.attune.tuples.StepTcpPingTuple"
+}

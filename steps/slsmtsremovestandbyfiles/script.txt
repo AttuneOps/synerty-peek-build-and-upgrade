@@ -1,0 +1,13 @@
+cd /pgdata/12/
+
+FILE="postgresql.auto.conf"
+if [ -f "${FILE}" ]
+then
+    rm -vf "${FILE}"
+fi
+
+FILE="standby.signal"
+if [ -f "${FILE}" ]
+then
+    rm -vf "${FILE}"
+fi

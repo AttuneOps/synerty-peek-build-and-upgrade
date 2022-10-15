@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "stwardeletefileonstandby", 
+    "name": "STWAR Delete File on Standby", 
+    "osCredKey": "linuxpeekuser", 
+    "serverKey": "peekstandbyserver", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

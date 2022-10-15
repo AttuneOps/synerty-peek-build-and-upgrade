@@ -1,0 +1,1 @@
+postgresql.conf archive_timeout. Timeout in seconds before Write-Ahead Log file is written to the archive directory even if we don't have "wal_buffers" worth of data.

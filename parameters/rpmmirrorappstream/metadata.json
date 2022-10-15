@@ -1,0 +1,6 @@
+{
+    "key": "rpmmirrorappstream", 
+    "name": "RPM Mirror AppStream", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

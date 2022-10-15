@@ -1,0 +1,6 @@
+{
+    "key": "postgresqlwalbuffers", 
+    "name": "PostGreSQL: wal_buffers", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}
