@@ -6,7 +6,7 @@
     "links": [
         {
             "order": 0, 
-            "stepKey": "scetdomdroptestdatabaseonmaster"
+            "stepKey": "stlsdroptestdatabaseonmaster"
         }, 
         {
             "order": 50, 

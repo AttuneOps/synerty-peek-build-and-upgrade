@@ -1,8 +1,8 @@
 {
     "enabled": true, 
     "interpreter": 1, 
-    "key": "scetdomdroptestdatabaseonmaster", 
-    "name": "SCETDOM Drop Test Database on Master", 
+    "key": "stlsdroptestdatabaseonmaster", 
+    "name": "STLS Drop Test Database on Master", 
     "osCredKey": "linuxpeekuser", 
     "serverKey": "peekserver", 
     "successExitCode": 0, 

@@ -22,7 +22,11 @@
         }, 
         {
             "order": 250, 
-            "stepKey": "scetdomdroptestdatabaseonmaster"
+            "stepKey": "stlsdroptestdatabaseonmaster"
+        }, 
+        {
+            "order": 300, 
+            "stepKey": "stlscheckifdroppedonstandby"
         }
     ], 
     "name": "Set Master Standby", 

@@ -1,2 +1,3 @@
 cd /pgdata/12/pg_wal
-find ./ -type f -maxdepth 1 -exec rm -vf {} \;
+find ./ -type f -maxdepth 1 ! -name "*.*" -exec ls -lh {} \;
+#find ./ -type f -maxdepth 1 -exec rm -vf {} \;

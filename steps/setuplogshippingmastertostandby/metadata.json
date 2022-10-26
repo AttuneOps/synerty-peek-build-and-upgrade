@@ -22,7 +22,11 @@
         }, 
         {
             "order": 500, 
-            "stepKey": "scetdomdroptestdatabaseonmaster"
+            "stepKey": "stlsdroptestdatabaseonmaster"
+        }, 
+        {
+            "order": 550, 
+            "stepKey": "stlscheckifdroppedonstandby"
         }
     ], 
     "name": "Setup Log Shipping Master to Standby", 

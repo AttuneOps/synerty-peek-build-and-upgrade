@@ -7,6 +7,10 @@
         {
             "order": 0, 
             "stepKey": "dtfddeletedatabase"
+        }, 
+        {
+            "order": 50, 
+            "stepKey": "dtfdcheckifdroppedonstandby"
         }
     ], 
     "name": "Delete Test Failover Database", 

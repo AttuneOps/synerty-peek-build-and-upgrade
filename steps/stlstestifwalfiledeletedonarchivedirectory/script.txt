@@ -15,7 +15,7 @@ cd "${ARCHIVE_DIRECTORY}"
 
 if [ -f "${WAL_FILE}" ]
 then
-    echo "WAL file ${WAL_FILE} not exists in Archive Directory"
+    echo "WAL file ${WAL_FILE} exists in Archive Directory"
     # It's non critical if the WAL file exists.
     # 
     # This is to notify the user that the restore_archive
