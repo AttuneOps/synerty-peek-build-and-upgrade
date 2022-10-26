@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "ssmrestartpostgresql12master", 
+    "name": "SSM Restart postgresql-12 Master", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "peekserver", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

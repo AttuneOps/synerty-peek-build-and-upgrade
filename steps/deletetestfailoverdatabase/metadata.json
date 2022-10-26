@@ -1,0 +1,14 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "deletetestfailoverdatabase", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "dtfddeletedatabase"
+        }
+    ], 
+    "name": "Delete Test Failover Database", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

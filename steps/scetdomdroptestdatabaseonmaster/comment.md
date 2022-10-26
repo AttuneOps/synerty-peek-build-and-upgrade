@@ -1,0 +1,1 @@
+No need to drop on the standby as it will be dropped by log shipping.

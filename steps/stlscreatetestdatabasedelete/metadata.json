@@ -1,0 +1,9 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "stlscreatetestdatabasedelete", 
+    "links": [], 
+    "name": "STLS Create Test Database - DELETE", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

@@ -1,6 +1,0 @@
-BACKUP_DIRECTORY="/home/{linuxPeekUser.user}/postgresqlBaseBackup"
-mkdir -p "${BACKUP_DIRECTORY}"
-cd "${BACKUP_DIRECTORY}"
-rm *
-echo "Putting backup in ${BACKUP_DIRECTORY}"
-pg_basebackup --pgdata=./ --format=t --write-recovery-conf --gzip --wal-method=fetch --progress

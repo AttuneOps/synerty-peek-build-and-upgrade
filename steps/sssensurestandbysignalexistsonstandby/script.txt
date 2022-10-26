@@ -1,0 +1,9 @@
+cd /pgdata/12/
+FILE="standby.signal"
+if [ -f "${FILE}" ]
+then
+    echo "Ok, ${FILE} exists."
+else
+    touch ${FILE}
+    echo "${FILE} does not exist. Created it"
+fi

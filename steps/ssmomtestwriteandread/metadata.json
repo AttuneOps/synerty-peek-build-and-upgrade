@@ -6,7 +6,7 @@
     "links": [
         {
             "order": 50, 
-            "stepKey": "stwarwritefiletostandby"
+            "stepKey": "stwarwritefiletostandbyfrommaster"
         }, 
         {
             "order": 100, 

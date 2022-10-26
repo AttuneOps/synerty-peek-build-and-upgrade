@@ -1,0 +1,22 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "stlscreateemptytestdatabaseonmaster", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "scetdomdroptestdatabaseonmaster"
+        }, 
+        {
+            "order": 50, 
+            "stepKey": "scetdomcreatetestdatabase"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "scetdomcreatetesttable"
+        }
+    ], 
+    "name": "STLS Create Empty Test Database on Master", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

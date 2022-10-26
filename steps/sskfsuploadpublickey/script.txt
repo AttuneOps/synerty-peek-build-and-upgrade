@@ -4,7 +4,7 @@ PUBLIC_KEY_ON_STANDBY=$(ssh \
     "clear; \
     grep '{linuxPeekUser.user}@{peekServer.hostname}' \
     .ssh/authorized_keys; \
-    exit")
+    exit") || true
 
 OUTPUT=${PUBLIC_KEY_ON_STANDBY}
 echo "PUBLIC_KEY_ON_STANDBY=${OUTPUT}"

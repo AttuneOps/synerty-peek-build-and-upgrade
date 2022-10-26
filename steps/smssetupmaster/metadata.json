@@ -1,0 +1,30 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "smssetupmaster", 
+    "links": [
+        {
+            "order": 250, 
+            "stepKey": "ssmremovestandbyfilesonmaster"
+        }, 
+        {
+            "order": 350, 
+            "stepKey": "ssmrestartpostgresql12master"
+        }, 
+        {
+            "order": 400, 
+            "stepKey": "ssmcheckpostgresql12"
+        }, 
+        {
+            "order": 450, 
+            "stepKey": "ssmtakebasebackup"
+        }, 
+        {
+            "order": 500, 
+            "stepKey": "ssmcopybasebackuptostandby"
+        }
+    ], 
+    "name": "SMS Setup Master", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

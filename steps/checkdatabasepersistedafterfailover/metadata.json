@@ -1,0 +1,14 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "checkdatabasepersistedafterfailover", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "cdpafcheckifwrittenonmaster"
+        }
+    ], 
+    "name": "Check Database Persisted After Failover", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

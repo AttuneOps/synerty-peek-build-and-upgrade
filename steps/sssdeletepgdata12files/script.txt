@@ -1,0 +1,3 @@
+DIRECTORY="/pgdata/12"
+cd "${DIRECTORY}"
+rm -rvf *

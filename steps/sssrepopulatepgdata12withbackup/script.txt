@@ -1,0 +1,3 @@
+tar -vxzf \
+    "postgresqlBaseBackup/base.tar.gz" \
+    -C "/pgdata/12"

@@ -4,7 +4,7 @@
     "key": "sskfsuploadpublickey", 
     "name": "SSKFS Upload Public Key", 
     "osCredKey": "linuxpeekuser", 
-    "promptResponses": "{linuxStandbyPeekUser.user}@{peekStandbyServer.ip}'s password:==={linuxStandbyPeekUser.password}", 
+    "promptResponses": "{linuxStandbyPeekUser.user}@{peekStandbyServer.ip}'s password: ==={linuxStandbyPeekUser.password}", 
     "serverKey": "peekserver", 
     "successExitCode": 0, 
     "type": "com.servertribe.attune.tuples.StepSshPromptedTuple"

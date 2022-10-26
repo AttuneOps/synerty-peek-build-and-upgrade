@@ -1,0 +1,11 @@
+BACKUP_DIRECTORY="postgresqlBaseBackup"
+mkdir -p "${BACKUP_DIRECTORY}"
+cd "${BACKUP_DIRECTORY}"
+rm -v *
+echo "Putting backup in ${BACKUP_DIRECTORY}"
+
+pg_basebackup --pgdata=./ \
+    --format=t \
+    --gzip \
+    --wal-method=fetch \
+    --progress

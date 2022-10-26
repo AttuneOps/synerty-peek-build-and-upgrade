@@ -1,0 +1,6 @@
+{
+    "key": "testfailoverdatabase", 
+    "name": "Test Failover Database ", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

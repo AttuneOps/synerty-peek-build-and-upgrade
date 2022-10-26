@@ -1,0 +1,38 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "slsmtssetupmaster", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "srttestsshfsmounted"
+        }, 
+        {
+            "order": 50, 
+            "stepKey": "ssmpushpostgresqlconf"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "ssmremovestandbyfilesonmaster"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "ssmrestartpostgresql12master"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "ssmcheckpostgresql12"
+        }, 
+        {
+            "order": 250, 
+            "stepKey": "ssmtakebasebackup"
+        }, 
+        {
+            "order": 300, 
+            "stepKey": "ssmcopybasebackuptostandby"
+        }
+    ], 
+    "name": "SLSMTS Setup Master", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

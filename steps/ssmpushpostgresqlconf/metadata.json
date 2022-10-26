@@ -1,0 +1,30 @@
+{
+    "archiveKey": "logshippingpostgresqlconf", 
+    "deployPath": "/pgdata/12/", 
+    "enabled": true, 
+    "key": "ssmpushpostgresqlconf", 
+    "makoFileNames": [
+        "postgresql.conf"
+    ], 
+    "makoParameters": [
+        {
+            "name": "standbyServer", 
+            "parameterKey": "peekstandbyserver", 
+            "parameterType": "c.s.s.b.phv.LinuxServer"
+        }, 
+        {
+            "name": "archiveTimeout", 
+            "parameterKey": "postgresqlarchivetimeout", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }, 
+        {
+            "name": "walBuffers", 
+            "parameterKey": "postgresqlwalbuffers", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }
+    ], 
+    "name": "SSM Push postgresql.conf", 
+    "osCredKey": "linuxpeekuser", 
+    "serverKey": "peekserver", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileCompiledTuple"
+}

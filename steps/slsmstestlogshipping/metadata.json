@@ -1,0 +1,30 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "slsmstestlogshipping", 
+    "links": [
+        {
+            "order": 50, 
+            "stepKey": "stlscreateemptytestdatabaseonmaster"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "stlsinserttestrow"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "stlscheckifwrittenonstandby"
+        }, 
+        {
+            "order": 300, 
+            "stepKey": "stlsdeletetestrow"
+        }, 
+        {
+            "order": 350, 
+            "stepKey": "stlscheckifdeletedonstandby"
+        }
+    ], 
+    "name": "SLSMS Test Log Shipping", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

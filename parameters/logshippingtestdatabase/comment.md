@@ -1,0 +1,1 @@
+Will be created for testing log shipping and deleted afterwards. Don't use any exisiting database.

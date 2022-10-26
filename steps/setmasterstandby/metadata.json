@@ -2,29 +2,29 @@
     "concurrency": 1, 
     "enabled": true, 
     "isBlueprint": true, 
-    "key": "setuplogshippingmastertostandby", 
+    "key": "setmasterstandby", 
     "links": [
         {
-            "order": 0, 
+            "order": 50, 
             "stepKey": "slsmtsstoppostgresql12onstandby"
         }, 
         {
-            "order": 50, 
-            "stepKey": "slsmtssetupmaster"
+            "order": 100, 
+            "stepKey": "smssetupmaster"
         }, 
         {
-            "order": 400, 
+            "order": 150, 
             "stepKey": "slsmtssetupstandby"
         }, 
         {
-            "order": 450, 
+            "order": 200, 
             "stepKey": "slsmstestlogshipping"
         }, 
         {
-            "order": 500, 
+            "order": 250, 
             "stepKey": "scetdomdroptestdatabaseonmaster"
         }
     ], 
-    "name": "Setup Log Shipping Master to Standby", 
+    "name": "Set Master Standby", 
     "type": "com.servertribe.attune.tuples.StepGroupTuple"
 }

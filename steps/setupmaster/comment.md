@@ -1,0 +1,1 @@
+Sets up the master node with an existing `postgresql.conf` file.

@@ -1,0 +1,4 @@
+psql --dbname='{logShippingTestDatabase}' \
+    --command="INSERT INTO COMPANY 
+        (ID,NAME,AGE,ADDRESS,SALARY) 
+        VALUES (1, 'Adam', 32, 'California', 20000.00);"

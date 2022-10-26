@@ -1,0 +1,1 @@
+Will be created for testing if data written to the master persists on the standby after the master fails. Please don't use any exisiting database.

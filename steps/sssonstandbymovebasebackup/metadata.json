@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "sssonstandbymovebasebackup", 
+    "name": "SSS on Standby Move Base Backup", 
+    "osCredKey": "linuxstandbypeekuser", 
+    "serverKey": "peekstandbyserver", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

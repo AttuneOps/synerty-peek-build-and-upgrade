@@ -29,23 +29,27 @@
             "stepKey": "ssmomenableuserallowotherinetcfuseconf"
         }, 
         {
-            "order": 400, 
-            "stepKey": "ssmomeditetcfstab"
-        }, 
-        {
             "order": 450, 
-            "stepKey": "linreboot"
+            "stepKey": "ssmomsshfsmountmanuallyasroot"
         }, 
         {
             "order": 500, 
-            "stepKey": "linrebootwait"
+            "stepKey": "ssmomeditetcfstab"
         }, 
         {
             "order": 550, 
-            "stepKey": "ssmomtestwriteandread"
+            "stepKey": "linreboot"
         }, 
         {
             "order": 600, 
+            "stepKey": "linrebootwait"
+        }, 
+        {
+            "order": 650, 
+            "stepKey": "ssmomtestwriteandread"
+        }, 
+        {
+            "order": 700, 
             "stepKey": "ssmomresiliencetest"
         }, 
         {

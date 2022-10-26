@@ -1,0 +1,42 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "slsmtssetupstandby", 
+    "links": [
+        {
+            "order": 50, 
+            "stepKey": "slsmtsstoppostgresql12onstandby"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "sssonstandbymovebasebackup"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "sssdeletepgdata12files"
+        }, 
+        {
+            "order": 250, 
+            "stepKey": "sssrepopulatepgdata12withbackup"
+        }, 
+        {
+            "order": 300, 
+            "stepKey": "sssdeletepgdata12pgwalfiles"
+        }, 
+        {
+            "order": 350, 
+            "stepKey": "sssensurestandbysignalexistsonstandby"
+        }, 
+        {
+            "order": 400, 
+            "stepKey": "sssensurepostgresqlautoconfdoesnotexist"
+        }, 
+        {
+            "order": 450, 
+            "stepKey": "sssrestartpostgresql12standby"
+        }
+    ], 
+    "name": "SLSMTS Setup Standby", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}
