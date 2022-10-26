@@ -17,6 +17,10 @@
             "stepKey": "stlscheckifwrittenonstandby"
         }, 
         {
+            "order": 250, 
+            "stepKey": "stlstestifwalfiledeletedonarchivedirectory"
+        }, 
+        {
             "order": 300, 
             "stepKey": "stlsdeletetestrow"
         }, 

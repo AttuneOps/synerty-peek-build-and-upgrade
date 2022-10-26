@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "stlstestifwalfiledeletedonarchivedirectory", 
+    "name": "STLS Test if WAL File Deleted on Archive Directory", 
+    "osCredKey": "linuxpeekuser", 
+    "serverKey": "peekserver", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}
