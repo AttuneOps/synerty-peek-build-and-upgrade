@@ -7,9 +7,6 @@
 ## Project Blueprints
 
 
-### Add pg_wal Logical Volume
-
-
 ### Build Peek v3 Server on RHEL8+ESXi
 
 
@@ -105,6 +102,12 @@ Chrony is the service used to keep all the servers time sync'd
 
 
 ### Setup SSHFS Mount on Master
+
+
+### Add pg_wal Logical Volume oVirt
+
+
+### APLV Setup pg_wal Generic
 
 
 

@@ -1,8 +1,8 @@
 {
     "enabled": true, 
     "interpreter": 1, 
-    "key": "aplvlinaddpgwalvg", 
-    "name": "APLV LIN Add pg_wal VG", 
+    "key": "aspglinaddpgwalvg", 
+    "name": "ASPG LIN Add pg_wal VG", 
     "osCredKey": "linuxrootuser", 
     "serverKey": "targetserverlin", 
     "successExitCode": 0, 

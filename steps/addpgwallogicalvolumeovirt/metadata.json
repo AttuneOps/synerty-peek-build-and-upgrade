@@ -2,7 +2,7 @@
     "concurrency": 1, 
     "enabled": true, 
     "isBlueprint": true, 
-    "key": "addpgwallogicalvolume", 
+    "key": "addpgwallogicalvolumeovirt", 
     "links": [
         {
             "order": 0, 
@@ -10,13 +10,9 @@
         }, 
         {
             "order": 50, 
-            "stepKey": "aplvlinaddpgwalvg"
-        }, 
-        {
-            "order": 150, 
-            "stepKey": "aplvlinsetuppgwallv"
+            "stepKey": "aplvsetuppgwalgeneric"
         }
     ], 
-    "name": "Add pg_wal Logical Volume", 
+    "name": "Add pg_wal Logical Volume oVirt", 
     "type": "com.servertribe.attune.tuples.StepGroupTuple"
 }
