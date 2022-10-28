@@ -1,0 +1,11 @@
+{
+    "archiveKey": "centosminimaldvdv822004", 
+    "deployPath": "KS CentOS82 Deploy Binary DVD", 
+    "enabled": true, 
+    "key": "kscentos82deploybinarydvd", 
+    "name": "KS CentOS82 Deploy Binary DVD", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attuneosbuildserver", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": false
+}

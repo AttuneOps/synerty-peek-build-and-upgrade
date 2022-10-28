@@ -1,0 +1,9 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "kickstartcentos8esxifromdvd", 
+    "links": [], 
+    "name": "Kickstart CentOS8+ESXi From DVD", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

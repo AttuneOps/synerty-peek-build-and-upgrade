@@ -1,0 +1,34 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "buildpeekv3serveronrhel8esxi", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "kickstartcentos8esxifromdvd"
+        }, 
+        {
+            "order": 50, 
+            "stepKey": "kscleanbuildfiles"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "kscentos82deploybinarydvd"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "kscentos82deploykickstartdvdconfig"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "kscentos82createbinarydvd"
+        }, 
+        {
+            "order": 250, 
+            "stepKey": "ksesxirecreatevirtualmachine"
+        }
+    ], 
+    "name": "Build Peek v3 Server on RHEL8+ESXi", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

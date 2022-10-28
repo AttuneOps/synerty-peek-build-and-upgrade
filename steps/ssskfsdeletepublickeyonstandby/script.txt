@@ -1,0 +1,2 @@
+sed -i '/{linuxPeekUser.user}@{peekServer.hostname}/d' \
+    .ssh/authorized_keys 

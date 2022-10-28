@@ -10,6 +10,9 @@
 ### Add pg_wal Logical Volume
 
 
+### Build Peek v3 Server on RHEL8+ESXi
+
+
 ### Build Peek v3 Server on RHEL8+oVirt
 
 
@@ -18,6 +21,15 @@
 ```markdown
 https://synerty-peek.readthedocs.io/en/latest/setup_os_requirements/setup_os_requirements_rhel/SetupOSRequirementsRhel.html#setup-os-requirements-rhel
 ```
+
+### Check Database Persisted After Failover
+
+
+### Create Database to Test Failover
+
+
+### Delete Test Failover Database
+
 
 ### Kickstart RHEL8.4+oVirt
 
@@ -83,6 +95,9 @@ Chrony is the service used to keep all the servers time sync'd
 ### RHEL Update CA Trust
 
 
+### SDTTF Create Test Failover Database on Master
+
+
 ### Set Master Standby
 
 
@@ -90,18 +105,6 @@ Chrony is the service used to keep all the servers time sync'd
 
 
 ### Setup SSHFS Mount on Master
-
-
-### SDTTF Create Test Failover Database on Master
-
-
-### Create Database to Test Failover
-
-
-### Check Database Persisted After Failover
-
-
-### Delete Test Failover Database
 
 
 
@@ -174,8 +177,8 @@ Chrony is the service used to keep all the servers time sync'd
 | Target Server: Linux Language | Text | `targetserverlinuxlanguage` |
 | Target Server: Linux TimeZone | Text | `targetserverlinuxtimezone` |
 | Target Subnet | Network IPv4 Subnet | `targetsubnet` |
-| /var LVM Volume Size | Text | `varlvmvolumesize` |
 | Test Failover Database  | Text | `testfailoverdatabase` |
+| /var LVM Volume Size | Text | `varlvmvolumesize` |
 
 
 
@@ -211,6 +214,8 @@ Chrony is the service used to keep all the servers time sync'd
 | RHEL8 EPEL p7zip | Large Archives |
 | RHEL8 etc Config NEW | Version Controlled Files |
 | RHEL8 Kickstart Config NEW 2 | Version Controlled Files |
+| CentOS Minimal DVD v8.2 (2004) | Large Archives |
+| CentOS8 Kickstart DVD Config | Version Controlled Files |
 
 
 

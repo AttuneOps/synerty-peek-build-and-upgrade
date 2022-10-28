@@ -1,0 +1,4 @@
+echo "Uploading public key to standby"
+
+ssh-copy-id \
+    {linuxStandbyPeekUser.user}@{peekStandbyServer.ip}

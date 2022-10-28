@@ -6,15 +6,19 @@
     "links": [
         {
             "order": 100, 
-            "stepKey": "sskfsgeneratesshkey"
+            "stepKey": "ssskfsgeneratesshkey"
         }, 
         {
             "order": 150, 
-            "stepKey": "sskfsuploadpublickey"
+            "stepKey": "ssskfsdeletepublickeyonstandby"
         }, 
         {
             "order": 200, 
-            "stepKey": "sskfstestsshusingkeys"
+            "stepKey": "ssskfsuploadpublickey"
+        }, 
+        {
+            "order": 250, 
+            "stepKey": "ssskfstestsshusingkeys"
         }
     ], 
     "name": "SSMOM Setup SSH Keys for SFTP", 

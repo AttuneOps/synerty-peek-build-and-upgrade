@@ -1,0 +1,5 @@
+{
+    "key": "centos8kickstartdvdconfig", 
+    "name": "CentOS8 Kickstart DVD Config", 
+    "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"
+}

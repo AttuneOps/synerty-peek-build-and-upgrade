@@ -1,8 +1,8 @@
 {
     "enabled": true, 
     "interpreter": 1, 
-    "key": "sskfstestsshusingkeys", 
-    "name": "SSKFS Test SSH Using Keys", 
+    "key": "ssskfsgeneratesshkey", 
+    "name": "SSSKFS Generate SSH KEY", 
     "osCredKey": "linuxpeekuser", 
     "serverKey": "peekserver", 
     "successExitCode": 0, 

@@ -1,0 +1,10 @@
+{
+    "fileName": "209_v1_CentOS_Minimal_DVD_v8_2_2004_.tar", 
+    "formatKey": "tar", 
+    "key": "centosminimaldvdv822004", 
+    "md5": "b117e99df70803f7bd13d64f7b286c30", 
+    "name": "CentOS Minimal DVD v8.2 (2004)", 
+    "remoteUri": null, 
+    "size": 1800980480, 
+    "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
+}

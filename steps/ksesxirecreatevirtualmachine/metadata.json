@@ -1,0 +1,9 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "ksesxirecreatevirtualmachine", 
+    "links": [], 
+    "name": "KS ESXi Recreate Virtual Machine", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

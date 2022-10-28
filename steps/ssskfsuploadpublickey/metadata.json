@@ -1,8 +1,8 @@
 {
     "enabled": true, 
     "interpreter": 1, 
-    "key": "sskfsuploadpublickey", 
-    "name": "SSKFS Upload Public Key", 
+    "key": "ssskfsuploadpublickey", 
+    "name": "SSSKFS Upload Public Key", 
     "osCredKey": "linuxpeekuser", 
     "promptResponses": "{linuxStandbyPeekUser.user}@{peekStandbyServer.ip}'s password: ==={linuxStandbyPeekUser.password}", 
     "serverKey": "peekserver", 
