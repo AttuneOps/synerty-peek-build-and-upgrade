@@ -1,7 +1,15 @@
 BACKUP_DIRECTORY="postgresqlBaseBackup"
 mkdir -p "${BACKUP_DIRECTORY}"
 cd "${BACKUP_DIRECTORY}"
-rm -v *
+
+if [ -z "$(ls -A)" ]
+then
+    echo "${BACKUP_DIRECTORY} is Empty"
+else
+    echo "${BACKUP_DIRECTORY} is not Empty, deleting it's contents."
+    rm -v *
+fi
+
 echo "Putting backup in ${BACKUP_DIRECTORY}"
 
 pg_basebackup --pgdata=./ \
