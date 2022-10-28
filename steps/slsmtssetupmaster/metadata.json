@@ -31,6 +31,10 @@
         {
             "order": 300, 
             "stepKey": "ssmcopybasebackuptostandby"
+        }, 
+        {
+            "order": 350, 
+            "stepKey": "ssmdeletebasebackup"
         }
     ], 
     "name": "SLSMTS Setup Master", 
