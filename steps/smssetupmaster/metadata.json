@@ -23,6 +23,10 @@
         {
             "order": 500, 
             "stepKey": "ssmcopybasebackuptostandby"
+        }, 
+        {
+            "order": 550, 
+            "stepKey": "ssmdeletebasebackup"
         }
     ], 
     "name": "SMS Setup Master", 
