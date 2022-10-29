@@ -1,8 +1,8 @@
 {
     "enabled": true, 
     "interpreter": 1, 
-    "key": "slsmtsstoppeekonmaster", 
-    "name": "SLSMTS Stop Peek on Master", 
+    "key": "slsmtsstartpeekonmaster", 
+    "name": "SLSMTS Start Peek on Master", 
     "osCredKey": "linuxpeekuser", 
     "serverKey": "peekserver", 
     "successExitCode": 0, 

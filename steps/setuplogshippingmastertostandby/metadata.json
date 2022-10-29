@@ -23,6 +23,14 @@
         {
             "order": 450, 
             "stepKey": "slsmstestlogshipping"
+        }, 
+        {
+            "order": 500, 
+            "stepKey": "slsmtsstartpeekonmaster"
+        }, 
+        {
+            "order": 550, 
+            "stepKey": "peekv3linpdrstartpeek"
         }
     ], 
     "name": "Setup Log Shipping Master to Standby", 

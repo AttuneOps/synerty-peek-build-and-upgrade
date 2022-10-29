@@ -3,7 +3,7 @@
     "interpreter": 1, 
     "key": "slsmtsstoppeekonstandby", 
     "name": "SLSMTS Stop Peek on Standby", 
-    "osCredKey": "linuxrootuser", 
+    "osCredKey": "linuxstandbypeekuser", 
     "serverKey": "peekstandbyserver", 
     "successExitCode": 0, 
     "type": "com.servertribe.attune.tuples.StepSshTuple"
