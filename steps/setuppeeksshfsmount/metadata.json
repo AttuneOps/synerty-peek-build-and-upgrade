@@ -2,7 +2,7 @@
     "concurrency": 1, 
     "enabled": true, 
     "isBlueprint": true, 
-    "key": "setupsshfsmountonmaster", 
+    "key": "setuppeeksshfsmount", 
     "links": [
         {
             "order": 50, 
@@ -57,6 +57,6 @@
             "stepKey": "ssmomtestwriteandread"
         }
     ], 
-    "name": "Setup SSHFS Mount on Master", 
+    "name": "Setup Peek SSHFS Mount", 
     "type": "com.servertribe.attune.tuples.StepGroupTuple"
 }

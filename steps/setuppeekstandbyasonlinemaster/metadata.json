@@ -1,0 +1,18 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "setuppeekstandbyasonlinemaster", 
+    "links": [
+        {
+            "order": 50, 
+            "stepKey": "slsmtsstoppostgresql12onstandby"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "smssetupmaster"
+        }
+    ], 
+    "name": "Setup Peek Standby as Online Master", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

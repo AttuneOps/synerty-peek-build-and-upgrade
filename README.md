@@ -46,9 +46,6 @@ https://synerty-peek.readthedocs.io/en/latest/setup_os_requirements/setup_os_req
 ### KS oVirt Recreate Virtual Machine - Cleanup
 
 
-### Make Standby Online Master
-
-
 ### Peek Configure Firewall RHEL8
 
 
@@ -104,10 +101,13 @@ Chrony is the service used to keep all the servers time sync'd
 ### SDTTF Create Test Failover Database on Master
 
 
-### Setup Log Shipping Master to Standby
+### Setup Peek Server as Standby
 
 
-### Setup SSHFS Mount on Master
+### Setup Peek Standby as Online Master
+
+
+### Setup Peek SSHFS Mount
 
 
 

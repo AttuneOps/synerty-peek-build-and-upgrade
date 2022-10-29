@@ -2,7 +2,7 @@
     "concurrency": 1, 
     "enabled": true, 
     "isBlueprint": true, 
-    "key": "setuplogshippingmastertostandby", 
+    "key": "setuppeekserverasstandby", 
     "links": [
         {
             "order": 50, 
@@ -33,6 +33,6 @@
             "stepKey": "peekv3linpdrstartpeek"
         }
     ], 
-    "name": "Setup Log Shipping Master to Standby", 
+    "name": "Setup Peek Server as Standby", 
     "type": "com.servertribe.attune.tuples.StepGroupTuple"
 }
