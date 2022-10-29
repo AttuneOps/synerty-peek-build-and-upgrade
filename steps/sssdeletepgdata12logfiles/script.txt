@@ -1,0 +1,2 @@
+cd /pgdata/12/log
+rm *.log

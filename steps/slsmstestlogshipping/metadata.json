@@ -5,11 +5,11 @@
     "key": "slsmstestlogshipping", 
     "links": [
         {
-            "order": 50, 
+            "order": 100, 
             "stepKey": "stlscreateemptytestdatabaseonmaster"
         }, 
         {
-            "order": 100, 
+            "order": 150, 
             "stepKey": "stlsinserttestrow"
         }, 
         {
@@ -27,6 +27,14 @@
         {
             "order": 350, 
             "stepKey": "stlscheckifdeletedonstandby"
+        }, 
+        {
+            "order": 400, 
+            "stepKey": "stlsdroptestdatabaseonmaster"
+        }, 
+        {
+            "order": 450, 
+            "stepKey": "stlscheckifdroppedonstandby"
         }
     ], 
     "name": "SLSMS Test Log Shipping", 

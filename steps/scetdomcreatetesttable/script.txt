@@ -1,8 +1,10 @@
-psql --dbname='{logShippingTestDatabase}' \
-    --command='CREATE TABLE COMPANY( 
-          ID INT PRIMARY KEY     NOT NULL, 
-          NAME           TEXT    NOT NULL, 
-          AGE            INT     NOT NULL, 
-          ADDRESS        CHAR(50), 
-          SALARY         REAL 
-        );'
+psql --dbname='{logShippingTestDatabase}' <<EOF
+\set ON_ERROR_STOP on;
+CREATE TABLE COMPANY( 
+  ID INT PRIMARY KEY     NOT NULL, 
+  NAME           TEXT    NOT NULL, 
+  AGE            INT     NOT NULL, 
+  ADDRESS        CHAR(50), 
+  SALARY         REAL 
+);
+EOF

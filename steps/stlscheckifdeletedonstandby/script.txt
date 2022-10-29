@@ -21,8 +21,7 @@ while [ ${FOUND} = true ]
 do
 
     PSQL_OUTPUT=$(psql --dbname="{logShippingTestDatabase}" \
-        --command="SELECT * FROM company WHERE
-            id=1;")
+        --command="SELECT * FROM company WHERE id=1;")
         
     if echo "${PSQL_OUTPUT}" | grep -q "(1 row)"
     then

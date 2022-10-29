@@ -2,7 +2,7 @@
     "concurrency": 1, 
     "enabled": true, 
     "isBlueprint": true, 
-    "key": "setmasterstandby", 
+    "key": "makestandbyonlinemaster", 
     "links": [
         {
             "order": 50, 
@@ -29,6 +29,6 @@
             "stepKey": "stlscheckifdroppedonstandby"
         }
     ], 
-    "name": "Set Master Standby", 
+    "name": "Make Standby Online Master", 
     "type": "com.servertribe.attune.tuples.StepGroupTuple"
 }

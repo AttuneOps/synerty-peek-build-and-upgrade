@@ -1,8 +1,8 @@
 {
     "enabled": true, 
     "interpreter": 1, 
-    "key": "sssonstandbymovebasebackup", 
-    "name": "SSS on Standby Move Base Backup", 
+    "key": "sssmovebasebackuponstandby", 
+    "name": "SSS Move Base Backup on Standby", 
     "osCredKey": "linuxstandbypeekuser", 
     "serverKey": "peekstandbyserver", 
     "successExitCode": 0, 

@@ -10,7 +10,7 @@
         }, 
         {
             "order": 150, 
-            "stepKey": "sssonstandbymovebasebackup"
+            "stepKey": "sssmovebasebackuponstandby"
         }, 
         {
             "order": 200, 
@@ -18,7 +18,7 @@
         }, 
         {
             "order": 250, 
-            "stepKey": "sssrepopulatepgdata12withbackup"
+            "stepKey": "sssuntarmasterpgdata12onstandby"
         }, 
         {
             "order": 300, 
@@ -26,15 +26,23 @@
         }, 
         {
             "order": 350, 
-            "stepKey": "sssensurestandbysignalexistsonstandby"
+            "stepKey": "sssdeletepgdata12logfiles"
         }, 
         {
             "order": 400, 
-            "stepKey": "sssensurepostgresqlautoconfdoesnotexist"
+            "stepKey": "sssensurestandbysignalexistsonstandby"
         }, 
         {
             "order": 450, 
+            "stepKey": "sssensurepostgresqlautoconfdoesnotexist"
+        }, 
+        {
+            "order": 500, 
             "stepKey": "sssrestartpostgresql12standby"
+        }, 
+        {
+            "order": 550, 
+            "stepKey": "sssensurestandbyisrunninginstandby"
         }
     ], 
     "name": "SLSMTS Setup Standby", 

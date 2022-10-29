@@ -1,13 +1,7 @@
 cd /pgdata/12/
 
 FILE="postgresql.auto.conf"
-if [ -f "${FILE}" ]
-then
-    rm -vf "${FILE}"
-fi
+[ ! -f "${FILE}" ] || rm -vf "${FILE}"
 
 FILE="standby.signal"
-if [ -f "${FILE}" ]
-then
-    rm -vf "${FILE}"
-fi
+[ ! -f "${FILE}" ] || rm -vf "${FILE}"

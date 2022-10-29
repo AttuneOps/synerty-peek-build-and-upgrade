@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "sssuntarmasterpgdata12onstandby", 
+    "name": "SSS Untar Master /pgdata/12 on Standby", 
+    "osCredKey": "linuxstandbypeekuser", 
+    "serverKey": "peekstandbyserver", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

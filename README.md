@@ -7,6 +7,12 @@
 ## Project Blueprints
 
 
+### Add pg_wal Logical Volume oVirt
+
+
+### APLV Setup pg_wal Generic
+
+
 ### Build Peek v3 Server on RHEL8+ESXi
 
 
@@ -38,6 +44,9 @@ https://synerty-peek.readthedocs.io/en/latest/setup_os_requirements/setup_os_req
 
 
 ### KS oVirt Recreate Virtual Machine - Cleanup
+
+
+### Make Standby Online Master
 
 
 ### Peek Configure Firewall RHEL8
@@ -95,19 +104,10 @@ Chrony is the service used to keep all the servers time sync'd
 ### SDTTF Create Test Failover Database on Master
 
 
-### Set Master Standby
-
-
 ### Setup Log Shipping Master to Standby
 
 
 ### Setup SSHFS Mount on Master
-
-
-### Add pg_wal Logical Volume oVirt
-
-
-### APLV Setup pg_wal Generic
 
 
 
@@ -192,6 +192,8 @@ Chrony is the service used to keep all the servers time sync'd
 | Name | Type |
 | ---- | ---- |
 | AD Root CA certificate | Version Controlled Files |
+| CentOS8 Kickstart DVD Config | Version Controlled Files |
+| CentOS Minimal DVD v8.2 (2004) | Large Archives |
 | Linux: chrony.conf | Version Controlled Files |
 | Log Shipping postgresql.conf | Version Controlled Files |
 | Oracle InstantClient Linux "Basic Package" 18.5.0.0.0 | Large Archives |
@@ -217,8 +219,6 @@ Chrony is the service used to keep all the servers time sync'd
 | RHEL8 EPEL p7zip | Large Archives |
 | RHEL8 etc Config NEW | Version Controlled Files |
 | RHEL8 Kickstart Config NEW 2 | Version Controlled Files |
-| CentOS Minimal DVD v8.2 (2004) | Large Archives |
-| CentOS8 Kickstart DVD Config | Version Controlled Files |
 
 
 

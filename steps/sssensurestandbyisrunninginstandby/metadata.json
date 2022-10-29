@@ -1,8 +1,8 @@
 {
     "enabled": true, 
     "interpreter": 1, 
-    "key": "sssrepopulatepgdata12withbackup", 
-    "name": "SSS Repopulate /pgdata/12 with Backup", 
+    "key": "sssensurestandbyisrunninginstandby", 
+    "name": "SSS Ensure Standby is Running in Standby", 
     "osCredKey": "linuxstandbypeekuser", 
     "serverKey": "peekstandbyserver", 
     "successExitCode": 0, 
