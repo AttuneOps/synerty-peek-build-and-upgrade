@@ -1,8 +1,8 @@
 {
     "enabled": true, 
     "interpreter": 1, 
-    "key": "ssmomcreatepgwalarchiveshippingdirectoryonstandby", 
-    "name": "SSMOM Create /pgwal_archive/SHIPPING_DIRECTORY on STANDBY", 
+    "key": "ssmomcreatepgwalarchiveremote", 
+    "name": "SSMOM Create /pgwal_archive/ Remote", 
     "osCredKey": "linuxrootuser", 
     "serverKey": "peekstandbyserver", 
     "successExitCode": 0, 

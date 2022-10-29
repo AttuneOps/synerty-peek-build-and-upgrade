@@ -1,8 +1,8 @@
 {
     "enabled": true, 
     "interpreter": 1, 
-    "key": "ssmomcreatepgwalarchivearchivedirectoryonmaster", 
-    "name": "SSMOM Create /pgwal_archive/ARCHIVE_DIRECTORY on Master", 
+    "key": "ssmomcreatepgwalarchivelocal", 
+    "name": "SSMOM Create /pgwal_archive/ Local", 
     "osCredKey": "linuxrootuser", 
     "serverKey": "peekserver", 
     "successExitCode": 0, 

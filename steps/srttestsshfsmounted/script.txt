@@ -7,9 +7,8 @@ i=0
 
 while [ ${MOUNTED} = false ]
 do
-    OUTPUT=$(df -h "${MOUNT_POINT}")
     
-    GREP_OUTPUT=$(echo ${OUTPUT} | grep \
+    GREP_OUTPUT=$(df -h "${MOUNT_POINT}" | grep \
         "{linuxStandbyPeekUser.user}@{peekStandbyServer.ip}:/pgwal_archive/{peekStandbyServer.hostname}"
         ) || true
         
@@ -36,5 +35,5 @@ do
         exit 1
     fi
     
-    sleep 1
+    sleep 5
 done

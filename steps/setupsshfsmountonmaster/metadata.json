@@ -14,11 +14,11 @@
         }, 
         {
             "order": 150, 
-            "stepKey": "ssmomcreatepgwalarchivearchivedirectoryonmaster"
+            "stepKey": "ssmomcreatepgwalarchivelocal"
         }, 
         {
             "order": 200, 
-            "stepKey": "ssmomcreatepgwalarchiveshippingdirectoryonstandby"
+            "stepKey": "ssmomcreatepgwalarchiveremote"
         }, 
         {
             "order": 250, 

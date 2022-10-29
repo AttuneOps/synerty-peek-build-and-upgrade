@@ -1,7 +1,7 @@
-OUTPUT=$(rpm -qa | grep -i fuse-sshfs) || true
-echo "OUTPUT='${OUTPUT}'"
+#OUTPUT=$(rpm -qa | grep -iq fuse-sshfs) || true
+#cho "OUTPUT='${OUTPUT}'"
 
-if [ -z "${OUTPUT}" ]
+if rpm -qa | grep -iq fuse-sshfs
 then
     echo "Installing fuse-sshfs"
     dnf -y install fuse-sshfs
