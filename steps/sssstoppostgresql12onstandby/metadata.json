@@ -1,10 +1,10 @@
 {
     "enabled": true, 
     "interpreter": 1, 
-    "key": "ssmremovestandbyfilesonmaster", 
-    "name": "SSM Remove Standby Files on Master", 
+    "key": "sssstoppostgresql12onstandby", 
+    "name": "SSS Stop postgresql-12 on Standby", 
     "osCredKey": "linuxrootuser", 
-    "serverKey": "peekmasterserver", 
+    "serverKey": "peekstandbyserver", 
     "successExitCode": 0, 
     "type": "com.servertribe.attune.tuples.StepSshTuple"
 }

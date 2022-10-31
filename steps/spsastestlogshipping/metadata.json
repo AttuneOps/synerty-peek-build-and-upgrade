@@ -1,0 +1,42 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "spsastestlogshipping", 
+    "links": [
+        {
+            "order": 100, 
+            "stepKey": "stlscreateemptytestdatabaseonmaster"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "stlsinserttestrow"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "stlscheckifwrittenonstandby"
+        }, 
+        {
+            "order": 250, 
+            "stepKey": "stlstestifwalfiledeletedonarchivedirectory"
+        }, 
+        {
+            "order": 300, 
+            "stepKey": "stlsdeletetestrow"
+        }, 
+        {
+            "order": 350, 
+            "stepKey": "stlscheckifdeletedonstandby"
+        }, 
+        {
+            "order": 400, 
+            "stepKey": "stlsdroptestdatabaseonmaster"
+        }, 
+        {
+            "order": 450, 
+            "stepKey": "stlscheckifdroppedonstandby"
+        }
+    ], 
+    "name": "SPSAS Test Log Shipping", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

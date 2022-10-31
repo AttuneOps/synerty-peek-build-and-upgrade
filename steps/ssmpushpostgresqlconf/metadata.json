@@ -24,7 +24,7 @@
         }
     ], 
     "name": "SSM Push postgresql.conf", 
-    "osCredKey": "linuxpeekuser", 
-    "serverKey": "peekserver", 
+    "osCredKey": "linuxmasterpeekuser", 
+    "serverKey": "peekmasterserver", 
     "type": "com.servertribe.attune.tuples.StepPushDesignFileCompiledTuple"
 }

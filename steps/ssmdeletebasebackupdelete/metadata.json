@@ -1,9 +1,9 @@
 {
     "enabled": true, 
     "interpreter": 1, 
-    "key": "ssmremovestandbyfilesonmaster", 
-    "name": "SSM Remove Standby Files on Master", 
-    "osCredKey": "linuxrootuser", 
+    "key": "ssmdeletebasebackupdelete", 
+    "name": "SSM Delete Base Backup - DELETE", 
+    "osCredKey": "linuxmasterpeekuser", 
     "serverKey": "peekmasterserver", 
     "successExitCode": 0, 
     "type": "com.servertribe.attune.tuples.StepSshTuple"

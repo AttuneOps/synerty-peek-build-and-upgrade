@@ -6,35 +6,35 @@
     "links": [
         {
             "order": 50, 
-            "stepKey": "ssmomtestsftptostandby"
+            "stepKey": "spsmtestsftptostandby"
         }, 
         {
             "order": 100, 
-            "stepKey": "ssmominstallfusesshfs"
+            "stepKey": "spsminstallfusesshfs"
         }, 
         {
             "order": 150, 
-            "stepKey": "ssmomcreatepgwalarchivelocal"
+            "stepKey": "spsmcreatepgwalarchivelocal"
         }, 
         {
             "order": 200, 
-            "stepKey": "ssmomcreatepgwalarchiveremote"
+            "stepKey": "spsmcreatepgwalarchiveremote"
         }, 
         {
             "order": 250, 
-            "stepKey": "ssmomsetupsshkeysforsftp"
+            "stepKey": "spsmsetupsshkeysforsftp"
         }, 
         {
             "order": 350, 
-            "stepKey": "ssmomenableuserallowotherinetcfuseconf"
+            "stepKey": "spsmenableuserallowotherinetcfuseconf"
         }, 
         {
             "order": 450, 
-            "stepKey": "ssmomsshfsmountmanuallyasroot"
+            "stepKey": "spsmsshfsmountmanuallyasroot"
         }, 
         {
             "order": 500, 
-            "stepKey": "ssmomeditetcfstab"
+            "stepKey": "spsmeditetcfstab"
         }, 
         {
             "order": 550, 
@@ -46,15 +46,15 @@
         }, 
         {
             "order": 650, 
-            "stepKey": "ssmomtestwriteandread"
+            "stepKey": "spsmtestwriteandread"
         }, 
         {
             "order": 700, 
-            "stepKey": "ssmomresiliencetest"
+            "stepKey": "spsmresiliencetest"
         }, 
         {
             "order": 950, 
-            "stepKey": "ssmomtestwriteandread"
+            "stepKey": "spsmtestwriteandread"
         }
     ], 
     "name": "Setup Peek SSHFS Mount", 

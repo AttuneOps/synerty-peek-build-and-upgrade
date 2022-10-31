@@ -1,0 +1,4 @@
+cd "/pgwal_archive/{peekStandbyServer.hostname}"
+
+FILE="base.tar.gz"
+[ ! -f "${FILE}" ] || rm -vf "${FILE}"

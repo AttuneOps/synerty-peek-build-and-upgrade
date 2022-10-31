@@ -3,8 +3,8 @@
     "interpreter": 1, 
     "key": "ssmcheckpostgresql12", 
     "name": "SSM Check postgresql-12", 
-    "osCredKey": "linuxpeekuser", 
-    "serverKey": "peekserver", 
+    "osCredKey": "linuxmasterpeekuser", 
+    "serverKey": "peekmasterserver", 
     "successExitCode": 0, 
     "type": "com.servertribe.attune.tuples.StepSshTuple"
 }

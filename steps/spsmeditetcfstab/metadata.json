@@ -1,10 +1,10 @@
 {
     "enabled": true, 
     "interpreter": 1, 
-    "key": "ssmremovestandbyfilesonmaster", 
-    "name": "SSM Remove Standby Files on Master", 
+    "key": "spsmeditetcfstab", 
+    "name": "SPSM Edit /etc/fstab", 
     "osCredKey": "linuxrootuser", 
-    "serverKey": "peekmasterserver", 
+    "serverKey": "peekserver", 
     "successExitCode": 0, 
     "type": "com.servertribe.attune.tuples.StepSshTuple"
 }

@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "spsasstoppeekonstandby", 
+    "name": "SPSAS Stop Peek on Standby", 
+    "osCredKey": "linuxstandbypeekuser", 
+    "serverKey": "peekstandbyserver", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

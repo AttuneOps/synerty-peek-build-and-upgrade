@@ -6,31 +6,31 @@
     "links": [
         {
             "order": 50, 
-            "stepKey": "slsmtsstoppeekonstandby"
+            "stepKey": "spsasstoppeekonstandby"
         }, 
         {
             "order": 100, 
-            "stepKey": "slsmtsstoppeekonmaster"
+            "stepKey": "spsasstoppeekonmaster"
         }, 
         {
             "order": 200, 
-            "stepKey": "slsmtssetupmaster"
+            "stepKey": "spsassetupmaster"
         }, 
         {
             "order": 400, 
-            "stepKey": "slsmtssetupstandby"
+            "stepKey": "spsassetupstandby"
         }, 
         {
             "order": 450, 
-            "stepKey": "slsmstestlogshipping"
+            "stepKey": "spsastestlogshipping"
         }, 
         {
             "order": 500, 
-            "stepKey": "slsmtsstartpeekonmaster"
+            "stepKey": "spsasstartpeekonmaster"
         }, 
         {
             "order": 550, 
-            "stepKey": "peekv3linpdrstartpeek"
+            "stepKey": "spsasstartpeekonstandby"
         }
     ], 
     "name": "Setup Peek Server as Standby", 

@@ -1,16 +1,7 @@
-BACKUP_DIRECTORY="postgresqlBaseBackup"
-mkdir -p "${BACKUP_DIRECTORY}"
-cd "${BACKUP_DIRECTORY}"
+DIRECTORY=/pgwal_archive/{peekStandbyServer.hostname}
+cd "${DIRECTORY}"
 
-if [ -z "$(ls -A)" ]
-then
-    echo "${BACKUP_DIRECTORY} is Empty"
-else
-    echo "${BACKUP_DIRECTORY} is not Empty, deleting it's contents."
-    rm -v *
-fi
-
-echo "Putting backup in ${BACKUP_DIRECTORY}"
+echo "Putting backup in ${DIRECTORY}"
 
 pg_basebackup --pgdata=./ \
     --format=t \

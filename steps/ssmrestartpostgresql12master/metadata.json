@@ -4,7 +4,7 @@
     "key": "ssmrestartpostgresql12master", 
     "name": "SSM Restart postgresql-12 Master", 
     "osCredKey": "linuxrootuser", 
-    "serverKey": "peekserver", 
+    "serverKey": "peekmasterserver", 
     "successExitCode": 0, 
     "type": "com.servertribe.attune.tuples.StepSshTuple"
 }

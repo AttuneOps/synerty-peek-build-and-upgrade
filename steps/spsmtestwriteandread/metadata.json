@@ -1,0 +1,22 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "spsmtestwriteandread", 
+    "links": [
+        {
+            "order": 50, 
+            "stepKey": "stwarwritefiletostandbyfrommaster"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "stwartestiffilewaswrittentostandby"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "stwardeletefileonstandby"
+        }
+    ], 
+    "name": "SPSM Test Write and Read", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

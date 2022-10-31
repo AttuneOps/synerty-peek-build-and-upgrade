@@ -1,0 +1,46 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "spsassetupstandby", 
+    "links": [
+        {
+            "order": 50, 
+            "stepKey": "sssstoppostgresql12onstandby"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "sssdeletepgdata12files"
+        }, 
+        {
+            "order": 250, 
+            "stepKey": "sssuntarmasterpgdata12onstandby"
+        }, 
+        {
+            "order": 300, 
+            "stepKey": "sssdeletepgdata12pgwalfiles"
+        }, 
+        {
+            "order": 350, 
+            "stepKey": "sssdeletepgdata12logfiles"
+        }, 
+        {
+            "order": 400, 
+            "stepKey": "sssensurestandbysignalexistsonstandby"
+        }, 
+        {
+            "order": 450, 
+            "stepKey": "sssensurepostgresqlautoconfdoesnotexist"
+        }, 
+        {
+            "order": 500, 
+            "stepKey": "sssrestartpostgresql12standby"
+        }, 
+        {
+            "order": 550, 
+            "stepKey": "sssensurestandbyisrunninginstandby"
+        }
+    ], 
+    "name": "SPSAS Setup Standby", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

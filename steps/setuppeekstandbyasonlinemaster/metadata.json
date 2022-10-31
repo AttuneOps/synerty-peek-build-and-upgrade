@@ -6,7 +6,7 @@
     "links": [
         {
             "order": 50, 
-            "stepKey": "slsmtsstoppostgresql12onstandby"
+            "stepKey": "sssstoppostgresql12onstandby"
         }, 
         {
             "order": 100, 
