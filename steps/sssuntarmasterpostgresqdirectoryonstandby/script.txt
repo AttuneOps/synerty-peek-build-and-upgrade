@@ -2,4 +2,4 @@ cd "/pgwal_archive/{peekStandbyServer.hostname}"
 
 tar -vxzf \
     "base.tar.gz" \
-    -C "/pgdata/12"
+    -C "{postgresqlDirectory}"

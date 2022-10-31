@@ -1,2 +1,2 @@
-cd /pgdata/12/pg_wal
+cd "{postgresqlDirectory}/pg_wal"
 find ./ -type f -maxdepth 1 ! -name "*.*" -exec ls -lh {} \;

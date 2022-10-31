@@ -1,4 +1,4 @@
-if cat /pgdata/12/log/*.log | grep -q 'entering standby mode'
+if cat "{postgresqlDirectory}/log/*.log" | grep -q 'entering standby mode'
 then
     echo "Success, Standby did enter standby mode."
 else

@@ -1,0 +1,3 @@
+DIRECTORY="{postgresqlDirectory}"
+cd "${DIRECTORY}"
+rm -rvf *

@@ -1,8 +1,8 @@
 {
     "enabled": true, 
     "interpreter": 1, 
-    "key": "sssdeletepgdata12logfiles", 
-    "name": "SSS Delete /pgdata/12/log Files", 
+    "key": "sssdeletepostgresqldirectorylogfiles", 
+    "name": "SSS Delete PostgreSQL Directory Log Files", 
     "osCredKey": "linuxstandbypeekuser", 
     "serverKey": "peekstandbyserver", 
     "successExitCode": 0, 

@@ -4,7 +4,7 @@ cd "${DIRECTORY}"
 echo "Putting backup in ${DIRECTORY}"
 
 pg_basebackup --pgdata=./ \
-    --format=t \
+    --format=tar \
     --gzip \
     --wal-method=fetch \
     --progress

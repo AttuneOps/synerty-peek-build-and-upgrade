@@ -10,19 +10,19 @@
         }, 
         {
             "order": 200, 
-            "stepKey": "sssdeletepgdata12files"
+            "stepKey": "sssdeletepostgresqldirectoryfiles"
         }, 
         {
             "order": 250, 
-            "stepKey": "sssuntarmasterpgdata12onstandby"
+            "stepKey": "sssuntarmasterpostgresqdirectoryonstandby"
         }, 
         {
             "order": 300, 
-            "stepKey": "sssdeletepgdata12pgwalfiles"
+            "stepKey": "sssdeletepostgresqldirectorypgwalfiles"
         }, 
         {
             "order": 350, 
-            "stepKey": "sssdeletepgdata12logfiles"
+            "stepKey": "sssdeletepostgresqldirectorylogfiles"
         }, 
         {
             "order": 400, 

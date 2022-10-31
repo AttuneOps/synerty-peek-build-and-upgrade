@@ -1,4 +1,4 @@
-WAL_DIRECTORY="/pgdata/12/pg_wal"
+WAL_DIRECTORY="{postgresqlDirectory}/pg_wal"
 cd "${WAL_DIRECTORY}"
 
 # Find all the files in the WAL Directory.

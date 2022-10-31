@@ -1,8 +1,8 @@
 {
     "enabled": true, 
     "interpreter": 1, 
-    "key": "sssdeletepgdata12pgwalfiles", 
-    "name": "SSS Delete /pgdata/12/pg_wal Files", 
+    "key": "sssdeletepostgresqldirectorypgwalfiles", 
+    "name": "SSS Delete PostgreSQL Directory pg_wal Files", 
     "osCredKey": "linuxstandbypeekuser", 
     "serverKey": "peekstandbyserver", 
     "successExitCode": 0, 

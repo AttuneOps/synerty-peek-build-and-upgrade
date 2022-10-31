@@ -184,6 +184,7 @@ Chrony is the service used to keep all the servers time sync'd
 | /var LVM Volume Size | Text | `varlvmvolumesize` |
 | Peek Master Server | Linux/Unix Node | `peekmasterserver` |
 | Linux Master: Peek User | Linux/Unix Credential | `linuxmasterpeekuser` |
+| PostGreSQL: Directory | Text | `postgresqldirectory` |
 
 
 

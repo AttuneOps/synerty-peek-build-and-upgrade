@@ -1,8 +1,8 @@
 {
     "enabled": true, 
     "interpreter": 1, 
-    "key": "sssdeletepgdata12files", 
-    "name": "SSS Delete /pgdata/12 Files", 
+    "key": "sssuntarmasterpostgresqdirectoryonstandby", 
+    "name": "SSS Untar Master PostgreSQ Directory on Standby", 
     "osCredKey": "linuxstandbypeekuser", 
     "serverKey": "peekstandbyserver", 
     "successExitCode": 0, 

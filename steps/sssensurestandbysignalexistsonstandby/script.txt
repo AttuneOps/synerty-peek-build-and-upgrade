@@ -1,4 +1,4 @@
-cd /pgdata/12/
+cd {postgresqlDirectory}
 FILE="standby.signal"
 if [ -f "${FILE}" ]
 then

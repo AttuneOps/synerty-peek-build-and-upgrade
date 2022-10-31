@@ -1,6 +1,6 @@
 {
     "archiveKey": "logshippingpostgresqlconf", 
-    "deployPath": "/pgdata/12/", 
+    "deployPath": "{postgresqlDataDirectory}", 
     "enabled": true, 
     "key": "ssmpushpostgresqlconf", 
     "makoFileNames": [
