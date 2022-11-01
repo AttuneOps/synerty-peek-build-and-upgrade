@@ -39,10 +39,6 @@
         {
             "order": 550, 
             "stepKey": "sssensurestandbyisrunninginstandby"
-        }, 
-        {
-            "order": 600, 
-            "stepKey": "sssdeletebasebackup"
         }
     ], 
     "name": "SPSAS Setup Standby", 

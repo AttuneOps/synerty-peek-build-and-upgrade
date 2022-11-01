@@ -1,5 +1,5 @@
 {
-    "concurrency": 2, 
+    "concurrency": 1, 
     "enabled": true, 
     "isBlueprint": true, 
     "key": "setuppeekserverasstandby", 
@@ -18,14 +18,18 @@
         }, 
         {
             "order": 450, 
-            "stepKey": "spsastestlogshipping"
+            "stepKey": "ssmdeletebasebackup"
         }, 
         {
             "order": 500, 
-            "stepKey": "spsasstartpeekonmaster"
+            "stepKey": "spsastestlogshipping"
         }, 
         {
             "order": 550, 
+            "stepKey": "spsasstartpeekonmaster"
+        }, 
+        {
+            "order": 600, 
             "stepKey": "spsasstartpeekonstandby"
         }
     ], 

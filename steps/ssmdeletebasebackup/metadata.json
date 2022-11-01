@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "ssmdeletebasebackup", 
+    "name": "SSM Delete Base Backup", 
+    "osCredKey": "linuxmasterpeekuser", 
+    "serverKey": "peekmasterserver", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

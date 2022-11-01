@@ -26,6 +26,10 @@
         }, 
         {
             "order": 250, 
+            "stepKey": "ssmdeletebasebackup"
+        }, 
+        {
+            "order": 300, 
             "stepKey": "ssmtakebasebackup"
         }
     ], 
