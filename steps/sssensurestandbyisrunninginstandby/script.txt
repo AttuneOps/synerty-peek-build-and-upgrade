@@ -1,4 +1,10 @@
-if cat "{postgresqlDirectory}/log/*.log" | grep -q 'entering standby mode'
+cd "{postgresqlDirectory}/log/"
+
+TODAYS_LOG="postgresql-`date +'%a'`.log"
+echo "TODAYS_LOG=${TODAYS_LOG}"
+
+if cat "${TODAYS_LOG}" \
+    | grep -q 'entering standby mode'
 then
     echo "Success, Standby did enter standby mode."
 else
