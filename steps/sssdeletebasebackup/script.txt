@@ -1,4 +1,4 @@
-cd "/pgwal_archive/{peekStandbyServer.hostname}"
+cd "/pgwal_archive/{peekStandbyServer.hostname}/postgresqlBaseBackup"
 
 FILE="base.tar.gz"
 [ ! -f "${FILE}" ] || rm -vf "${FILE}"

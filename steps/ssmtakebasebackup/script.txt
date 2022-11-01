@@ -1,5 +1,7 @@
 DIRECTORY=/pgwal_archive/{peekStandbyServer.hostname}
-cd "${DIRECTORY}"
+mkdir -p "${DIRECTORY}/postgresqlBaseBackup"
+
+cd "${DIRECTORY}/postgresqlBaseBackup"
 
 echo "Putting backup in ${DIRECTORY}"
 
