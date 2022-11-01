@@ -3,8 +3,8 @@
     "interpreter": 1, 
     "key": "sctfdomcreatetestfailovertable", 
     "name": "SCTFDOM Create Test Failover Table", 
-    "osCredKey": "linuxpeekuser", 
-    "serverKey": "peekserver", 
+    "osCredKey": "linuxmasterpeekuser", 
+    "serverKey": "peekmasterserver", 
     "successExitCode": 0, 
     "type": "com.servertribe.attune.tuples.StepSshTuple"
 }

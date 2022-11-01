@@ -1,3 +1,3 @@
 mkdir -p /pgwal_archive/{peekStandbyServer.hostname}
-chown {linuxPeekUser.user}:{linuxPeekUser.user} \
+chown {linuxMasterPeekUser.user}:{linuxMasterPeekUser.user} \
     /pgwal_archive/{peekStandbyServer.hostname}

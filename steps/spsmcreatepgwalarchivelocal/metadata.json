@@ -4,7 +4,7 @@
     "key": "spsmcreatepgwalarchivelocal", 
     "name": "SPSM Create /pgwal_archive/ Local", 
     "osCredKey": "linuxrootuser", 
-    "serverKey": "peekserver", 
+    "serverKey": "peekmasterserver", 
     "successExitCode": 0, 
     "type": "com.servertribe.attune.tuples.StepSshTuple"
 }

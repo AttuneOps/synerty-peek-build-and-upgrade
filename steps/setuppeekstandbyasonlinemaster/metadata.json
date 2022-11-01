@@ -5,10 +5,6 @@
     "key": "setuppeekstandbyasonlinemaster", 
     "links": [
         {
-            "order": 50, 
-            "stepKey": "sssstoppostgresql12onstandby"
-        }, 
-        {
             "order": 100, 
             "stepKey": "smssetupmaster"
         }

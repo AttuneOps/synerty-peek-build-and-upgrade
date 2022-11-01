@@ -1,4 +1,4 @@
-cd {postgresqlDataDirectory}
+cd {postgresqlDirectory}
 
 FILE="postgresql.auto.conf"
 [ ! -f "${FILE}" ] || rm -vf "${FILE}"
