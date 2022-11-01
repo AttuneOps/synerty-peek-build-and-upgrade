@@ -5,12 +5,8 @@
     "key": "setuppeekserverasstandby", 
     "links": [
         {
-            "order": 50, 
-            "stepKey": "spsasstoppeekonstandby"
-        }, 
-        {
-            "order": 100, 
-            "stepKey": "spsasstoppeekonmaster"
+            "order": 0, 
+            "stepKey": "spsasstoppeek"
         }, 
         {
             "order": 200, 

@@ -1,8 +1,8 @@
 {
     "enabled": true, 
     "interpreter": 1, 
-    "key": "spsasstoppeekonmaster", 
-    "name": "SPSAS Stop Peek on Master", 
+    "key": "sspstoppeekonmaster", 
+    "name": "SSP Stop Peek on Master", 
     "osCredKey": "linuxmasterpeekuser", 
     "serverKey": "peekmasterserver", 
     "successExitCode": 0, 
