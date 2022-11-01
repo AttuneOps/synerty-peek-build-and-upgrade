@@ -1,10 +1,9 @@
-#OUTPUT=$(rpm -qa | grep -iq fuse-sshfs) || true
-#cho "OUTPUT='${OUTPUT}'"
-
 if rpm -qa | grep -iq fuse-sshfs
 then
+    # $? is 0, fuse-sshfs is installed
+    echo "fuse-sshfs is already installed, skipping."
+else
+    # $? is 1, fuse-sshfs is not installed
     echo "Installing fuse-sshfs"
     dnf -y install fuse-sshfs
-else
-    echo "fuse-sshfs is already installed, skipping."
 fi
