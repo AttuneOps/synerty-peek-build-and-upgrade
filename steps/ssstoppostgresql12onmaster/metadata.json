@@ -4,7 +4,7 @@
     "key": "ssstoppostgresql12onmaster", 
     "name": "SS Stop postgresql-12 on Master", 
     "osCredKey": "linuxrootuser", 
-    "serverKey": "peekserver", 
+    "serverKey": "peekmasterserver", 
     "successExitCode": 0, 
     "type": "com.servertribe.attune.tuples.StepSshTuple"
 }

@@ -9,12 +9,20 @@
             "stepKey": "ssmremovestandbyfilesonmaster"
         }, 
         {
-            "order": 350, 
+            "order": 400, 
+            "stepKey": "sspstoppeekonmaster"
+        }, 
+        {
+            "order": 450, 
             "stepKey": "ssmrestartpostgresql12master"
         }, 
         {
-            "order": 400, 
+            "order": 500, 
             "stepKey": "ssmcheckpostgresql12"
+        }, 
+        {
+            "order": 550, 
+            "stepKey": "spsasstartpeekonmaster"
         }
     ], 
     "name": "SMS Setup Master", 

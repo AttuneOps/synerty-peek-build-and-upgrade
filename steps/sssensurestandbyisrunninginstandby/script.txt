@@ -6,8 +6,8 @@ echo "TODAYS_LOG=${TODAYS_LOG}"
 if cat "${TODAYS_LOG}" \
     | grep -q 'entering standby mode'
 then
-    echo "Success, Standby ${peekStandbyServer.hostname} did enter standby mode."
+    echo "Success, Standby {peekStandbyServer.hostname} did enter standby mode."
 else
-    echo "FAILED, Standby ${peekStandbyServer.hostname} did not enter standby mode." >&2
+    echo "FAILED, Standby {peekStandbyServer.hostname} did not enter standby mode." >&2
     false
 fi

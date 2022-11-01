@@ -1,7 +1,7 @@
 {
     "concurrency": 1, 
     "enabled": true, 
-    "isBlueprint": false, 
+    "isBlueprint": true, 
     "key": "spsastestlogshipping", 
     "links": [
         {
