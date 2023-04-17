@@ -17,7 +17,8 @@ for ($i = 0; $i -lt 1; $i=$i+1) {
     $path_to_disk = "$VM-disk$DISK_NUMBER.vhdx"
     
     if (Test-Path "$path_to_disk") {
-        Write-Host "$path_to_disk exists, skipping."
+        Write-Host "$path_to_disk exists, please delete it first."
+        exit 1
     } else {
         Write-Host "$path_to_disk does not exists, creating."
         
