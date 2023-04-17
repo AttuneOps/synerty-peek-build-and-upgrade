@@ -1,2 +1,0 @@
-echo "exit" | \
-    sftp {linuxStandbyPeekUser.user}@{peekStandbyServer.ip}

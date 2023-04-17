@@ -1,7 +1,0 @@
-cd {postgresqlDirectory}
-
-FILE="postgresql.auto.conf"
-[ ! -f "${FILE}" ] || rm -vf "${FILE}"
-
-FILE="standby.signal"
-[ ! -f "${FILE}" ] || rm -vf "${FILE}"

@@ -1,2 +1,0 @@
-psql --dbname="{logShippingTestDatabase}" \
-    --command="DELETE FROM COMPANY WHERE ID = 1;"

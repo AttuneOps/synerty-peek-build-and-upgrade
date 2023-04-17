@@ -1,7 +1,0 @@
-cd {postgresqlDirectory}
-FILE="postgresql.auto.conf"
-if [ -f "${FILE}" ]
-then
-    rm -vf "${FILE}"
-    echo "${FILE} existed. Deleted it."
-fi

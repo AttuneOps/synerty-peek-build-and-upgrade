@@ -1,2 +1,0 @@
-cd "{postgresqlDirectory}/log"
-rm *.log

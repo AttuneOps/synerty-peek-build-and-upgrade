@@ -1,4 +1,0 @@
-psql --dbname='{testFailoverDatabase}' \
-    --command="INSERT INTO BOOKS 
-        (ID,TITLE,PAGES) 
-        VALUES (1, 'Book 1', 101);"

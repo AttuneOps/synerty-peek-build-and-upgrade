@@ -1,6 +1,0 @@
-psql --dbname='{testFailoverDatabase}' \
-    --command='CREATE TABLE BOOKS( 
-          ID INT PRIMARY KEY     NOT NULL, 
-          TITLE          TEXT    NOT NULL,
-          PAGES          INT     NOT NULL
-        );'

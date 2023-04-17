@@ -1,0 +1,34 @@
+$VM = '{targetServer.name}'
+
+$DISK_SIZE = 100GB
+
+#Start the disk count at 2 as 1 is the original disk.
+$DISK_NUMBER = 2
+
+cd "{virtualHardDiskFolder}"
+Write-Host "We are in {virtualHardDiskFolder}."
+
+for ($i = 0; $i -lt 1; $i=$i+1) {
+    #Write-Host $i
+    
+    # Path of the VM's virtual disk
+    # The full path will look something like 
+    # "C:\ProgramData\Microsoft\Windows\Virtual Hard Disks{targetServer.name}-disk1.vhdx"
+    $path_to_disk = "$VM-disk$DISK_NUMBER.vhdx"
+    
+    if (Test-Path "$path_to_disk") {
+        Write-Host "$path_to_disk exists, skipping."
+    } else {
+        Write-Host "$path_to_disk does not exists, creating."
+        
+        # Create the new VHDX disk - the path and size.
+        Write-Host "Creating hard disk '$path_to_disk'"
+        New-VHD -Path "$path_to_disk" -SizeBytes $disk_size
+    
+        # Add the new disk to the VM
+        Write-Host "Attaching hard disk to VM" 
+        Add-VMHardDiskDrive -VMName $VM -Path "$path_to_disk"
+    }
+    
+    $DISK_NUMBER++
+}

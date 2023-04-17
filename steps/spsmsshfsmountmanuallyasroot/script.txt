@@ -1,5 +1,0 @@
-sshfs -o allow_other,default_permissions \
-    {linuxStandbyPeekUser.user}@{peekStandbyServer.ip}:/pgwal_archive/{peekStandbyServer.hostname} \
-    /pgwal_archive/{peekStandbyServer.hostname}
-
-df -h /pgwal_archive/{peekStandbyServer.hostname}

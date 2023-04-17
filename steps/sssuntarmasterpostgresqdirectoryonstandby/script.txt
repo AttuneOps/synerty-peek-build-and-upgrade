@@ -1,5 +1,0 @@
-cd "/pgwal_archive/{peekStandbyServer.hostname}/postgresqlBaseBackup"
-
-tar -vxzf \
-    "base.tar.gz" \
-    -C "{postgresqlDirectory}"

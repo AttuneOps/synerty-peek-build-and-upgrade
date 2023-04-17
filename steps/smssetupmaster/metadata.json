@@ -3,28 +3,7 @@
     "enabled": true, 
     "isBlueprint": false, 
     "key": "smssetupmaster", 
-    "links": [
-        {
-            "order": 250, 
-            "stepKey": "ssmremovestandbyfilesonmaster"
-        }, 
-        {
-            "order": 400, 
-            "stepKey": "sspstoppeekonmaster"
-        }, 
-        {
-            "order": 450, 
-            "stepKey": "ssmrestartpostgresql12master"
-        }, 
-        {
-            "order": 500, 
-            "stepKey": "ssmcheckpostgresql12"
-        }, 
-        {
-            "order": 550, 
-            "stepKey": "spsasstartpeekonmaster"
-        }
-    ], 
+    "links": [], 
     "name": "SMS Setup Master", 
     "type": "com.servertribe.attune.tuples.StepGroupTuple"
 }

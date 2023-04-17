@@ -1,1 +1,0 @@
-The standby.signal file is created by pg_basebackup in step "SSM Take Base Backup".

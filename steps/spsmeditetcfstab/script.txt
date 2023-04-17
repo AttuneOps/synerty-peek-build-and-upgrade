@@ -1,7 +1,0 @@
-    cat >> /etc/fstab <<EOF
-{linuxStandbyPeekUser.user}@{peekStandbyServer.ip}:/pgwal_archive/{peekStandbyServer.hostname} \
-/pgwal_archive/{peekStandbyServer.hostname} \
-fuse.sshfs \
-noauto,x-systemd.automount,_netdev,reconnect,identityfile=/home/{linuxStandbyPeekUser.user}/.ssh/id_rsa,allow_other,default_permissions 0 0
-EOF
-    mount -a

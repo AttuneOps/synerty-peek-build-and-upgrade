@@ -1,1 +1,10 @@
-lvextend -v -L{varLvmVolumeSize}m -r /dev/rootvg/var
+VAR_VOLUME_MG=$(df -hm | grep rootvg-var | awk '{print $2}')
+echo "VAR_VOLUME_MG = ${VAR_VOLUME_MG}"
+echo "varLvmVolumeSize = {varLvmVolumeSize}"
+
+if [ {varLvmVolumeSize} -gt ${VAR_VOLUME_MG} ]
+then
+    lvextend -v -L{varLvmVolumeSize}m -r /dev/rootvg/var
+else
+    echo "/dev/rootvg/var is already at {varLvmVolumeSize} MB"
+fi

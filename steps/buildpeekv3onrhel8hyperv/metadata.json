@@ -1,0 +1,30 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "buildpeekv3onrhel8hyperv", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "rhel8connecttorpmserver"
+        }, 
+        {
+            "order": 50, 
+            "stepKey": "bpvorhhypervaddvirtualdisks"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "peekv3linsetuplvm"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "bpvorhrhelenablepowertoolsrepo"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "buildpeekv3serverrhel8"
+        }
+    ], 
+    "name": "Build Peek v3 on RHEL8+Hyper-V", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

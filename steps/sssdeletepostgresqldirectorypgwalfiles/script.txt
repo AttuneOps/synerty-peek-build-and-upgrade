@@ -1,2 +1,0 @@
-cd "{postgresqlDirectory}/pg_wal"
-find ./ -type f -maxdepth 1 ! -name "*.*" -exec ls -lh {} \;

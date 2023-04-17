@@ -1,1 +1,0 @@
-https://stackoverflow.com/questions/14549270/check-if-database-exists-in-postgresql-using-shell

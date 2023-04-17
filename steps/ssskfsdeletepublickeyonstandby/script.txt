@@ -1,2 +1,0 @@
-sed -i '/{linuxMasterPeekUser.user}@{peekMasterServer.hostname}/d' \
-    .ssh/authorized_keys 
