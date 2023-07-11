@@ -63,19 +63,15 @@
             "stepKey": "rhelcleanuppackages"
         }, 
         {
-            "order": 560, 
-            "stepKey": "linreboot"
+            "order": 590, 
+            "stepKey": "rhel8rebootlink"
         }, 
         {
-            "order": 580, 
-            "stepKey": "linrebootwait"
-        }, 
-        {
-            "order": 600, 
+            "order": 740, 
             "stepKey": "peekv3lindeployrelease"
         }, 
         {
-            "order": 620, 
+            "order": 790, 
             "stepKey": "peekv3linrestoredataset"
         }
     ], 

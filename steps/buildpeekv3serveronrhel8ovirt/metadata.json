@@ -28,26 +28,26 @@
         }, 
         {
             "order": 320, 
-            "stepKey": "centos8enablepowertoolsrepo"
-        }, 
-        {
-            "order": 370, 
-            "stepKey": "buildpeekv3serverrhel8"
+            "stepKey": "rhel8enablepowertoolsrepolink"
         }, 
         {
             "order": 420, 
-            "stepKey": "peekv3lindeploygistilesnzte"
+            "stepKey": "buildpeekv3serverrhel8"
         }, 
         {
             "order": 470, 
-            "stepKey": "peekv3linpdredeleteoldlogs"
+            "stepKey": "peekv3lindeploygistilesnzte"
         }, 
         {
             "order": 520, 
-            "stepKey": "peekv3linpdrstartpeek"
+            "stepKey": "peekv3linpdredeleteoldlogs"
         }, 
         {
             "order": 570, 
+            "stepKey": "peekv3linpdrstartpeek"
+        }, 
+        {
+            "order": 620, 
             "stepKey": "peekv3lintestpeekdeployment"
         }
     ], 

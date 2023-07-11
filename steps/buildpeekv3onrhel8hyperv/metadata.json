@@ -15,12 +15,8 @@
             "stepKey": "rhel8hypervaddvirtualdisksforpeeklink"
         }, 
         {
-            "order": 200, 
-            "stepKey": "linreboot"
-        }, 
-        {
-            "order": 250, 
-            "stepKey": "linrebootwait"
+            "order": 150, 
+            "stepKey": "rhel8rebootlink"
         }, 
         {
             "order": 300, 
@@ -28,26 +24,26 @@
         }, 
         {
             "order": 350, 
-            "stepKey": "bpvorhrhelenablepowertoolsrepo"
-        }, 
-        {
-            "order": 400, 
-            "stepKey": "buildpeekv3serverrhel8"
-        }, 
-        {
-            "order": 450, 
-            "stepKey": "peekv3lindeploygistilesnzte"
+            "stepKey": "rhel8enablepowertoolsrepolink"
         }, 
         {
             "order": 500, 
-            "stepKey": "peekv3linpdredeleteoldlogs"
+            "stepKey": "buildpeekv3serverrhel8"
         }, 
         {
             "order": 550, 
-            "stepKey": "peekv3linpdrstartpeek"
+            "stepKey": "peekv3lindeploygistilesnzte"
         }, 
         {
             "order": 600, 
+            "stepKey": "peekv3linpdredeleteoldlogs"
+        }, 
+        {
+            "order": 650, 
+            "stepKey": "peekv3linpdrstartpeek"
+        }, 
+        {
+            "order": 700, 
             "stepKey": "peekv3lintestpeekdeployment"
         }
     ], 

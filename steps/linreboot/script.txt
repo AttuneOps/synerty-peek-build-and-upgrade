@@ -1,1 +1,0 @@
-nohup shutdown -r now &

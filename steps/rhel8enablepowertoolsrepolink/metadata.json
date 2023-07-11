@@ -1,0 +1,15 @@
+{
+    "actionOnStepFail": null, 
+    "blueprintName": "", 
+    "blueprintUuid": "24081cb3-374c-4ae6-a75d-5ddc36496e8c", 
+    "cloneUrl": "", 
+    "enabled": true, 
+    "externalUuid4": "e98399c7-4b2d-40a8-bd0c-c0597674acdd", 
+    "key": "rhel8enablepowertoolsrepolink", 
+    "name": "RHEL8 Enable Power Tools Repo (link)", 
+    "parameterMap": [], 
+    "projectName": "", 
+    "projectUuid": "d0c58a02-9cfc-483f-9777-9c8fe7285609", 
+    "projectVersion": "", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
+}

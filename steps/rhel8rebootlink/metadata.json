@@ -1,0 +1,15 @@
+{
+    "actionOnStepFail": null, 
+    "blueprintName": "", 
+    "blueprintUuid": "28a2f8a6-de02-47c3-9997-6a78befdaef4", 
+    "cloneUrl": "", 
+    "enabled": true, 
+    "externalUuid4": "866aad9f-5ee9-45a1-899e-214a195e3e02", 
+    "key": "rhel8rebootlink", 
+    "name": "RHEL8 Reboot (link)", 
+    "parameterMap": [], 
+    "projectName": "", 
+    "projectUuid": "d0c58a02-9cfc-483f-9777-9c8fe7285609", 
+    "projectVersion": "", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
+}
