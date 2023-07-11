@@ -133,8 +133,6 @@ Chrony is the service used to keep all the servers time sync'd
 | App Server | Linux/Unix Node | `appserver` |  |
 | Attune OS Build Server | Linux/Unix Node | `attuneosbuildserver` | This variable is used in the "Kickstart" build procedures, so the "Attune Server" can be used to build Attune servers. |
 | Hosts File Servers | Node List | `hostsfileservers` | The servers in this group are added to the hosts file for this server being built |
-| HyperV Host | Windows Node | `hypervhost` |  |
-| HyperV Host User | Windows Credential | `hypervhostuser` |  |
 | Kickstart Organisation Name | Text | `kickstartorganisationname` |  |
 | KS Linux: Disk First Letter | Text | `kslinuxdiskfirstletter` | The first letter of the disk in Linux, EG, sda or xda |
 | KS VMWare: Attune Base Dir | Text | `ksvmwareattunebasedir` |  |
@@ -199,7 +197,6 @@ Chrony is the service used to keep all the servers time sync'd
 | Target Subnet | Network IPv4 Subnet | `targetsubnet` |  |
 | Test Failover Database  | Text | `testfailoverdatabase` | Will be created for testing if data written to the master persists on the standby after the master fails. Please don't use any exisiting database. |
 | /var LVM Volume Size | Text | `varlvmvolumesize` | Size in MB of /var logical volume |
-| Virtual Hard Disk Folder | Text | `virtualharddiskfolder` |  |
 
 
 

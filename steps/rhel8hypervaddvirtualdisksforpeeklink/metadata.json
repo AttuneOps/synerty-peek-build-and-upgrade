@@ -1,0 +1,15 @@
+{
+    "actionOnStepFail": "stop", 
+    "blueprintName": "RHEL8 HyperV Add Virtual Disks for Peek", 
+    "blueprintUuid": "a4016187-36c0-4006-b403-fb4729f1843d", 
+    "cloneUrl": null, 
+    "enabled": true, 
+    "externalUuid4": "a4016187-36c0-4006-b403-fb4729f1843d", 
+    "key": "rhel8hypervaddvirtualdisksforpeeklink", 
+    "name": "RHEL8 HyperV Add Virtual Disks for Peek (Link)", 
+    "parameterMap": [], 
+    "projectName": "Hyper-V PowerShell API", 
+    "projectUuid": "dd5c4a7e-c6ee-4a2d-9d18-f55d2f29e825", 
+    "projectVersion": "master", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
+}

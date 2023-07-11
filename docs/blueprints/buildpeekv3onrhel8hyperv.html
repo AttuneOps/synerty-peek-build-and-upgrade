@@ -167,8 +167,8 @@
         
 
                     <h6 class="text-muted pt-2">
-                        <a href="#bpvorhhypervaddvirtualdisks">
-                            <strong>Step 2 -</strong> BPVORH HyperV Add Virtual Disks
+                        <a href="#rhel8hypervaddvirtualdisksforpeeklink">
+                            <strong>Step 2 -</strong> RHEL8 HyperV Add Virtual Disks for Peek (Link)
                         </a>
                     </h6>
 
@@ -2013,99 +2013,20 @@
 
 
                     <div class="row pt-5">
-                        <h4 id="bpvorhhypervaddvirtualdisks">
-                            <a href="#bpvorhhypervaddvirtualdisks">
-                                <strong>Step 2 -</strong> BPVORH HyperV Add Virtual Disks
+                        <h4 id="rhel8hypervaddvirtualdisksforpeeklink">
+                            <a href="#rhel8hypervaddvirtualdisksforpeeklink">
+                                <strong>Step 2 -</strong> RHEL8 HyperV Add Virtual Disks for Peek (Link)
                             </a>
                         </h4>
                     </div>
 
-                    <div class="blueprint-description row">
-                        <p>
-                            
-                        </p>
-                    </div>
 
 
 
-
-
-
-
-
-
-
-                        <div class="row">
-                            <p>
-                                Connect via RDP:
-                            </p>
-                        </div>
-                        <div class="row py-1">
-                            <code class="language-sql">
-mstsc /admin /v:{hypervhost}
-                            </code>
-                        </div>
-                        <div class="row">
-                            <p>
-                                Login as user {hypervhostuser} and open a
-                                command prompt.
-                            </p>
-                        </div>
 
 
 
     
-
-
-
-    <div class="row">
-        <p>
-            Execute the following script:
-        </p>
-    </div>
-    <div class="row">
-        <div class="col px-0">
-            <pre>
-                <code class="language-sql py-0">
-$VM = &#x27;{targetServer.name}&#x27;
-
-$DISK_SIZE = 100GB
-
-#Start the disk count at 2 as 1 is the original disk.
-$DISK_NUMBER = 2
-
-cd &quot;{virtualHardDiskFolder}&quot;
-Write-Host &quot;We are in {virtualHardDiskFolder}.&quot;
-
-for ($i = 0; $i -lt 1; $i=$i+1) {
-    #Write-Host $i
-    
-    # Path of the VM&#x27;s virtual disk
-    # The full path will look something like 
-    # &quot;C:\ProgramData\Microsoft\Windows\Virtual Hard Disks{targetServer.name}-disk1.vhdx&quot;
-    $path_to_disk = &quot;$VM-disk$DISK_NUMBER.vhdx&quot;
-    
-    if (Test-Path &quot;$path_to_disk&quot;) {
-        Write-Host &quot;$path_to_disk exists, please delete it first.&quot;
-        exit 1
-    } else {
-        Write-Host &quot;$path_to_disk does not exists, creating.&quot;
-        
-        # Create the new VHDX disk - the path and size.
-        Write-Host &quot;Creating hard disk &#x27;$path_to_disk&#x27;&quot;
-        New-VHD -Path &quot;$path_to_disk&quot; -SizeBytes $disk_size
-    
-        # Add the new disk to the VM
-        Write-Host &quot;Attaching hard disk to VM&quot; 
-        Add-VMHardDiskDrive -VMName $VM -Path &quot;$path_to_disk&quot;
-    }
-    
-    $DISK_NUMBER++
-}
-                </code>
-            </pre>
-        </div>
-    </div>
 
 
 
