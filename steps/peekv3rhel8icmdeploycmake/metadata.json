@@ -2,6 +2,7 @@
     "archiveKey": "peekv3offlinecmakesource", 
     "deployPath": "/home/peek", 
     "enabled": true, 
+    "externalUuid4": "90ab3005-f599-4b70-8ce5-b7859fdeabbd", 
     "key": "peekv3rhel8icmdeploycmake", 
     "name": "Peek v3 RHEL8 ICM Deploy CMake", 
     "osCredKey": "linuxpeekuser", 

@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "ba12e34e-b892-495b-b1e0-109f31bd9a0b", 
     "interpreter": 1, 
     "key": "ponr8cosfixosconfigpermissions", 
     "name": "PONR8 COS Fix OS Config Permissions", 

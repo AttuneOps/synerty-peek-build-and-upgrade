@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "31466e1a-aa23-489d-aeb9-c286b0411868", 
     "interpreter": 1, 
     "key": "peekv3pgdbsetsqlpassword", 
     "name": "Peek v3 PGDB Set SQL Password", 

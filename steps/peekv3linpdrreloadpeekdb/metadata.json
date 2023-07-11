@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "03da499f-b5d7-4e35-9118-b6306cbabf86", 
     "interpreter": 1, 
     "key": "peekv3linpdrreloadpeekdb", 
     "name": "Peek v3 LIN PDR Reload Peek DB", 

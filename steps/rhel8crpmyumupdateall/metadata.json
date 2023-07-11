@@ -1,8 +1,10 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "6c585aa3-263a-4da9-80ab-203364ef2a80", 
     "interpreter": 1, 
-    "key": "rhelyumupdatesecuritypackages", 
-    "name": "RHEL Yum Update Security Packages", 
+    "key": "rhel8crpmyumupdateall", 
+    "name": "RHEL8 CRPM Yum Update All", 
     "osCredKey": "linuxrootuser", 
     "serverKey": "targetserverlin", 
     "successExitCode": 0, 

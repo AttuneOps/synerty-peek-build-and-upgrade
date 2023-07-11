@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "99dbf4ab-f478-45d0-b506-d1fa10fba3cf", 
     "key": "testfailoverdatabase", 
     "name": "Test Failover Database ", 
     "showInPlan": true, 

@@ -2,6 +2,7 @@
     "archiveKey": "peekv3offlinerabbitmqrhel8rpms", 
     "deployPath": "/tmp/offline_install/rabbitmq", 
     "enabled": true, 
+    "externalUuid4": "e965f6df-e1bf-4b6c-a99b-085c8383bbff", 
     "key": "peekv3rhel8rmqdeployrabbitmq", 
     "name": "Peek v3 RHEL8 RMQ Deploy RabbitMQ", 
     "osCredKey": "linuxrootuser", 

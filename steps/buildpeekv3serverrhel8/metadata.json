@@ -1,6 +1,7 @@
 {
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "6d346d96-9666-4191-a5bd-54c19b55eb85", 
     "isBlueprint": true, 
     "key": "buildpeekv3serverrhel8", 
     "links": [

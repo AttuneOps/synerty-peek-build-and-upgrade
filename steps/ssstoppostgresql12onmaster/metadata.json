@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "f36e8879-5161-4ffd-a1a0-5916aa4fac4c", 
     "interpreter": 1, 
     "key": "ssstoppostgresql12onmaster", 
     "name": "SS Stop postgresql-12 on Master", 

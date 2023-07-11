@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "390a5b0a-15cd-47a9-8b55-84e3bac00df9", 
     "interpreter": 1, 
     "key": "peekv3rhel8itsconfigurebuildinstall", 
     "name": "Peek v3 RHEL8 ITS Configure Build Install", 

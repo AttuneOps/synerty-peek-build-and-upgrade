@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "32026d1b-edd7-4fa3-9d90-08427918f88c", 
     "key": "linuxchronyconf", 
     "name": "Linux: chrony.conf", 
     "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"

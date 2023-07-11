@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "e038ecaf-2850-438b-8802-3187db5fe384", 
     "interpreter": 1, 
     "key": "peekv3pgdbcleanuppsql", 
     "name": "Peek v3 PGDB Cleanup psql", 

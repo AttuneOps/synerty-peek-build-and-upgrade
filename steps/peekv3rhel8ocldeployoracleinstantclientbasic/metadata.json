@@ -2,6 +2,7 @@
     "archiveKey": "oracleinstantclientlinuxbasicpackage185000", 
     "deployPath": "/home/peek/oracle", 
     "enabled": true, 
+    "externalUuid4": "24b1d9fe-1759-4af3-888a-3b5f1401b3ef", 
     "key": "peekv3rhel8ocldeployoracleinstantclientbasic", 
     "name": "Peek v3 RHEL8 OCL Deploy Oracle InstantClient Basic", 
     "osCredKey": "linuxpeekuser", 

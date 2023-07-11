@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "93d8ccb4-dc82-4fe1-8cc7-9fd96c672612", 
     "key": "postgresqlarchivetimeout", 
     "name": "PostGreSQL: archive_timeout", 
     "showInPlan": true, 

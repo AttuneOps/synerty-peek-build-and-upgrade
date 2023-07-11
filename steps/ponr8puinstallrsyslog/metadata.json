@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "4a2f8766-7a9a-431f-a772-0fe003a5565c", 
     "interpreter": 1, 
     "key": "ponr8puinstallrsyslog", 
     "name": "PONR8 PU Install rsyslog", 

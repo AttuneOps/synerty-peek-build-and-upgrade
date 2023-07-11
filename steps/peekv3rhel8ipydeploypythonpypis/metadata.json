@@ -2,6 +2,7 @@
     "archiveKey": "peekv3offlinepythonpypis", 
     "deployPath": "/tmp/peek_offline/pypis", 
     "enabled": true, 
+    "externalUuid4": "e732cf7d-341b-4fa8-a069-7de5d4d7a175", 
     "key": "peekv3rhel8ipydeploypythonpypis", 
     "name": "Peek v3 RHEL8 IPY Deploy Python PyPIs", 
     "osCredKey": "linuxpeekuser", 

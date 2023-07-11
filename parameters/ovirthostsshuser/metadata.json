@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "4ebb1a6b-e3c5-4e27-bd72-2989e15b5eda", 
     "key": "ovirthostsshuser", 
     "name": "oVirt: Host SSH User", 
     "showInPlan": false, 

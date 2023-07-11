@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "dec4f9dc-f836-4291-9dd5-7a9b090f5cef", 
     "interpreter": 1, 
     "key": "peekv3linspuaddsudocommands", 
     "name": "Peek v3 LIN SPU Add Sudo Commands", 

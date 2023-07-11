@@ -1,6 +1,7 @@
 {
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "b9c4441b-adaf-4ce9-8268-edac34bf4c6f", 
     "isBlueprint": false, 
     "key": "peekv3rhel8generalprerequisites", 
     "links": [

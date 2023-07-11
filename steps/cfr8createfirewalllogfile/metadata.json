@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "e02a74fd-807a-4df1-ae6b-c28c942e2340", 
     "interpreter": 1, 
     "key": "cfr8createfirewalllogfile", 
     "name": "CFR8 Create Firewall Log File", 

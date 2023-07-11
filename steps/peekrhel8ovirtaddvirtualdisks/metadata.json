@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "b25dc82c-488c-479e-8fd8-b432b167bbad", 
     "interpreter": 1, 
     "key": "peekrhel8ovirtaddvirtualdisks", 
     "name": "PEEK RHEL8 oVirt Add Virtual Disks", 

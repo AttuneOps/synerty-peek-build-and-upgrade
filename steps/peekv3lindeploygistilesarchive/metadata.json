@@ -2,6 +2,7 @@
     "archiveKey": "peekgistilesnzte", 
     "deployPath": "/backup/gis_tiles", 
     "enabled": true, 
+    "externalUuid4": "76b94ca1-e6e7-4c08-9a51-3f922f762f97", 
     "key": "peekv3lindeploygistilesarchive", 
     "name": "Peek v3 LIN Deploy GIS Tiles Archive", 
     "osCredKey": "linuxpeekuser", 

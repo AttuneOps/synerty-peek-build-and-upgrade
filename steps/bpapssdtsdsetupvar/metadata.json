@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "064d54e2-cd54-4183-b5c3-6ff922ac91a3", 
     "interpreter": 1, 
     "key": "bpapssdtsdsetupvar", 
     "name": "BPAPS SDTSD Setup /var", 

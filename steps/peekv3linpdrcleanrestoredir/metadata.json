@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "99b7f9f0-01da-4029-9ab9-2b9f3a2fecdf", 
     "interpreter": 1, 
     "key": "peekv3linpdrcleanrestoredir", 
     "name": "Peek v3 LIN PDR Clean Restore Dir", 

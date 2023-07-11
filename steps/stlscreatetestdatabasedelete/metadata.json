@@ -1,6 +1,7 @@
 {
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "263c18cd-e63d-4f0b-aebd-f2f0026ead7c", 
     "isBlueprint": false, 
     "key": "stlscreatetestdatabasedelete", 
     "links": [], 

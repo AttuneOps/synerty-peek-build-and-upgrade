@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "7605a70e-8815-429f-a8f6-290cfb9177a3", 
     "key": "oracleinstantclientlinuxsdkpackage185000", 
     "name": "Oracle InstantClient Linux \"SDK Package\" 18.5.0.0.0", 
     "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"

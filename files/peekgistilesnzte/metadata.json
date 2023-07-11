@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "008b48af-b16d-414b-9c73-842e08518b78", 
     "key": "peekgistilesnzte", 
     "name": "Peek GIS Tiles (NZTE)", 
     "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"

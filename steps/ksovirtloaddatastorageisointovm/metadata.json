@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "e817520f-69bd-420f-bb32-95ef15740287", 
     "interpreter": 1, 
     "key": "ksovirtloaddatastorageisointovm", 
     "name": "KS oVirt Load Data Storage ISO into VM", 

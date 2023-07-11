@@ -2,6 +2,7 @@
     "archiveKey": "peekv3offlinegeosrpms", 
     "deployPath": "/tmp/offline_install/geos", 
     "enabled": true, 
+    "externalUuid4": "443edd62-cbc9-414e-8797-d7f5344d7bc0", 
     "key": "peekv3rhel8gpdeploylibsforshapelygeos", 
     "name": "Peek v3 RHEL8 GP Deploy Libs for Shapely/GEOS", 
     "osCredKey": "linuxrootuser", 

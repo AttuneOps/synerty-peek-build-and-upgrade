@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "1f723597-1f16-4d4e-a3c0-cddbb9fa8873", 
     "interpreter": 1, 
     "key": "peekv3purgerabbitmq", 
     "name": "Peek v3 Purge RabbitMQ", 

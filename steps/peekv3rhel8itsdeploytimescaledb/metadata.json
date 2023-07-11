@@ -2,6 +2,7 @@
     "archiveKey": "peekv3offlinetimescaledbsource", 
     "deployPath": "/home/peek", 
     "enabled": true, 
+    "externalUuid4": "e613cd6e-e18d-47c9-90c6-4c89eddb3e65", 
     "key": "peekv3rhel8itsdeploytimescaledb", 
     "name": "Peek v3 RHEL8 ITS Deploy TimescaleDB", 
     "osCredKey": "linuxpeekuser", 

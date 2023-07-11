@@ -2,6 +2,7 @@
     "archiveKey": "peekv3offlineredisrpms", 
     "deployPath": "/tmp/offline_install/redis", 
     "enabled": true, 
+    "externalUuid4": "096aaf9f-627a-4810-b14a-d969369c79b3", 
     "key": "peekv3rhel8redisdeployredis", 
     "name": "Peek v3 RHEL8 REDIS Deploy Redis", 
     "osCredKey": "linuxrootuser", 

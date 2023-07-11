@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "9c70ef1b-f637-436e-a213-5d6c896157de", 
     "interpreter": 1, 
     "key": "ksrh84createbootiso", 
     "name": "KS RH84 Create Boot ISO", 

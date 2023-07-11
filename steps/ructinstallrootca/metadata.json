@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "701f653b-86e0-491e-bff0-f31ac9bced76", 
     "interpreter": 1, 
     "key": "ructinstallrootca", 
     "name": "RUCT Install Root CA", 

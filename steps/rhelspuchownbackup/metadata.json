@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "ccfde8fa-40e1-42b6-ae3e-db4bc6d182ab", 
     "interpreter": 1, 
     "key": "rhelspuchownbackup", 
     "name": "RHEL SPU Chown /backup", 

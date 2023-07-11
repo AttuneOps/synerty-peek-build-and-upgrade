@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "362ef0e4-88e5-4550-9e9e-e84b5fec0e78", 
     "interpreter": 1, 
     "key": "peekv3linsetupbackuplv", 
     "name": "Peek v3 LIN Setup Backup LV", 

@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "77ccf1ec-1fb3-4ce2-bbb7-b674830d5964", 
     "interpreter": 1, 
     "key": "peekv3rhel8rmqrabbitmqinstall", 
     "name": "Peek v3 RHEL8 RMQ RabbitMQ Install", 

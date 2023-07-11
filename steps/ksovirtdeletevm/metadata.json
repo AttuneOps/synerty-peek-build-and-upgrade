@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "96f73163-b266-4fce-8b81-47e071b24ed6", 
     "interpreter": 1, 
     "key": "ksovirtdeletevm", 
     "name": "KS oVirt Delete VM", 

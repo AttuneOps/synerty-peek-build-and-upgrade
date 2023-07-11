@@ -2,6 +2,7 @@
     "archiveKey": "adrootcacertificate", 
     "deployPath": "{targetServerInstallerTmpPath}", 
     "enabled": true, 
+    "externalUuid4": "be947e29-d8b5-4fc7-96d7-88bda8471736", 
     "key": "ructdeployrootca", 
     "name": "RUCT Deploy Root CA", 
     "osCredKey": "linuxrootuser", 

@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "098db0f2-208b-47d7-a22f-5c257e4261f8", 
     "interpreter": 1, 
     "key": "peekv3rhel8setuppgadmin4web", 
     "name": "Peek v3 RHEL8 Setup pgadmin4-web", 

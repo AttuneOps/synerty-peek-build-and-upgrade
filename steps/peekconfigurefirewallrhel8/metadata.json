@@ -1,6 +1,7 @@
 {
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "f416843d-bb5d-4797-a016-cd6287aeb675", 
     "isBlueprint": true, 
     "key": "peekconfigurefirewallrhel8", 
     "links": [

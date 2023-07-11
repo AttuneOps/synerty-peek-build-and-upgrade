@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "aa59aa03-9577-426a-91a3-75fb686c0f7f", 
     "interpreter": 1, 
     "key": "centos8enablepowertoolsrepo", 
     "name": "CentOS8 Enable PowerTools repo", 

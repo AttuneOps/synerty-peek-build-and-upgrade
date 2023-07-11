@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "71b5830e-5498-4f11-9533-9019d127f7a0", 
     "interpreter": 1, 
     "key": "ponr8chronyntpteststatus", 
     "name": "PONR8 Chrony NTP Test Status", 

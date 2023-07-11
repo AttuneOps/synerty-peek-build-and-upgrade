@@ -1,8 +1,10 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "2bdfa42e-fa1f-494c-a47c-f6857558700c", 
     "interpreter": 1, 
-    "key": "r8crscheckforrpmserver", 
-    "name": "R8CRS Check for RPM Server", 
+    "key": "rhel8crpmcheckforrpmserver", 
+    "name": "RHEL8 CRPM Check for RPM Server", 
     "osCredKey": "linuxrootuser", 
     "serverKey": "targetserverlin", 
     "successExitCode": 0, 

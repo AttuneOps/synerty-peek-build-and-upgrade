@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "1200cf53-96eb-46db-98d2-4828d98ef07d", 
     "interpreter": 1, 
     "key": "changeownershipofpostgresqlautoconfdelete", 
     "name": "Change Ownership of postgresql.auto.conf - DELETE", 

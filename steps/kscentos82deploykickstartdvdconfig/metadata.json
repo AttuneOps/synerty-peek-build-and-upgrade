@@ -2,6 +2,7 @@
     "archiveKey": "centos8kickstartdvdconfig", 
     "deployPath": "KS CentOS82 Deploy Kickstart DVD Config", 
     "enabled": true, 
+    "externalUuid4": "690afe93-8031-4067-a1d2-199a972377f3", 
     "key": "kscentos82deploykickstartdvdconfig", 
     "makoFileNames": [
         "ks.cfg"

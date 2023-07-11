@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "a86a6491-c821-4880-85a9-2dfb1528c1e3", 
     "interpreter": 1, 
     "key": "peekv3linpdrupgradetimescaledb", 
     "name": "Peek v3 LIN PDR Upgrade TimescaleDB", 

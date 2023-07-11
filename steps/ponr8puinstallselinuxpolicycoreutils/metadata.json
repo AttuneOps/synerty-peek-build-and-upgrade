@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "525271e5-1c52-4b0a-8b6a-d344f1bd88d1", 
     "interpreter": 1, 
     "key": "ponr8puinstallselinuxpolicycoreutils", 
     "name": "PONR8 PU Install SELinux PolicyCoreUtils", 

@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "f3cb7506-8cce-40cb-981c-14fb434fe196", 
     "interpreter": 2, 
     "key": "peekv3linpccconfigureenabledplugins", 
     "name": "Peek v3 LIN PCC Configure Enabled Plugins", 

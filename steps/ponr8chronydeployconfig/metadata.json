@@ -2,6 +2,7 @@
     "archiveKey": "linuxchronyconf", 
     "deployPath": "/etc", 
     "enabled": true, 
+    "externalUuid4": "68e6cf7b-02f6-4260-9286-eedae7b03f89", 
     "key": "ponr8chronydeployconfig", 
     "makoFileNames": [
         "chrony.conf"

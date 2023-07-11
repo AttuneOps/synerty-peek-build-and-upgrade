@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "55bb4aa3-b9fc-4779-94a4-268e36d4cfc8", 
     "interpreter": 1, 
     "key": "cfr8enabledeniedconnectionlogging", 
     "name": "CFR8 Enable Denied Connection Logging", 

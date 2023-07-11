@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "d5cebf85-a097-423d-8596-d50ea0d90449", 
     "interpreter": 1, 
     "key": "peekv3rhel8gpinstallrsyncandcompressionutils", 
     "name": "Peek v3 RHEL8 GP Install Rsync and Compression Utils", 

@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "4d120142-5b91-40f4-a9e7-719955489bc4", 
     "interpreter": 1, 
     "key": "ponrhel8disableipv6", 
     "name": "PON RHEL8 Disable IPv6", 

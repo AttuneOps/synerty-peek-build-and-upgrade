@@ -2,6 +2,7 @@
     "archiveKey": "peekv3skeletonconfigjsondmsdiagram", 
     "deployPath": "/home/peek", 
     "enabled": true, 
+    "externalUuid4": "08a9b911-ce63-4a5b-9aac-b9ff09999fbb", 
     "key": "peekv3linpccdeployskeletonconfig", 
     "name": "Peek v3 LIN PCC Deploy Skeleton Config", 
     "osCredKey": "linuxpeekuser", 

@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "3355ff9b-aac9-47cf-b00e-cf15f65f71b1", 
     "key": "peekv3offlinesqliterpms", 
     "name": "Peek v3 Offline SQLite RPMs", 
     "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"

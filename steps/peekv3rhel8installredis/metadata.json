@@ -1,6 +1,7 @@
 {
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "09b95f8c-2e3c-4614-a323-6abd96aaa34a", 
     "isBlueprint": false, 
     "key": "peekv3rhel8installredis", 
     "links": [

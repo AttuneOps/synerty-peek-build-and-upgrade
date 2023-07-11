@@ -2,6 +2,7 @@
     "archiveKey": "rhel8epelp7zip", 
     "deployPath": "{targetServerInstallerTmpPath}", 
     "enabled": true, 
+    "externalUuid4": "48d19d16-99ce-48eb-ac30-4cc5511639d8", 
     "key": "ponr8pudeployp7zip", 
     "name": "PONR8 PU Deploy p7zip", 
     "osCredKey": "linuxrootuser", 

@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "c5f77df6-bb6d-42ce-a4b3-94b4976f19e1", 
     "interpreter": 1, 
     "key": "peekv3rhel8pga4installrpms", 
     "name": "Peek v3 RHEL8 PGA4 Install RPMs", 

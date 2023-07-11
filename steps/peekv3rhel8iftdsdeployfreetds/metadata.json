@@ -2,6 +2,7 @@
     "archiveKey": "peekv3offlinefreetdsrhel8rpms", 
     "deployPath": "/tmp/offline_install/freetds", 
     "enabled": true, 
+    "externalUuid4": "c66b4ce0-0c03-4b5e-a639-a189f62d5fa1", 
     "key": "peekv3rhel8iftdsdeployfreetds", 
     "name": "Peek v3 RHEL8 IFTDS Deploy FreeTDS", 
     "osCredKey": "linuxrootuser", 

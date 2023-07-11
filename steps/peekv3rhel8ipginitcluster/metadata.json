@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "917402f8-ede6-45b2-b950-71f8af4b331c", 
     "interpreter": 1, 
     "key": "peekv3rhel8ipginitcluster", 
     "name": "Peek v3 RHEL8 IPG Init Cluster", 

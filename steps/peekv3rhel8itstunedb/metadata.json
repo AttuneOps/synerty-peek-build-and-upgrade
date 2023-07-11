@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "98d6631d-5173-41df-816b-8e2cf4995bbb", 
     "interpreter": 1, 
     "key": "peekv3rhel8itstunedb", 
     "name": "Peek v3 RHEL8 ITS Tune DB", 

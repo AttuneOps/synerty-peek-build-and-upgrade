@@ -2,6 +2,7 @@
     "archiveKey": "adrootcacertificate", 
     "deployPath": "{ksVmwareAttuneBaseDir}/build-{targetServer.fqn}/cacerts", 
     "enabled": true, 
+    "externalUuid4": "9df19ba4-0ae2-471b-8536-24e0f84f2820", 
     "key": "ksrh84deployrpmcacertificate", 
     "name": "KS RH84 Deploy RPM CA Certificate", 
     "osCredKey": "linuxattuneuser", 

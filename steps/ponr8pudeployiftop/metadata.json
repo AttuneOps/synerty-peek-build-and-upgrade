@@ -2,6 +2,7 @@
     "archiveKey": "rhel8epeliftop", 
     "deployPath": "{targetServerInstallerTmpPath}", 
     "enabled": true, 
+    "externalUuid4": "c6224cf8-8893-4424-ad77-4cbc08f1e362", 
     "key": "ponr8pudeployiftop", 
     "name": "PONR8 PU Deploy iftop", 
     "osCredKey": "linuxrootuser", 

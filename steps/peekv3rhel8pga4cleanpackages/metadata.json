@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "caa7c3ab-16fb-47d6-8134-2340d415ae57", 
     "interpreter": 1, 
     "key": "peekv3rhel8pga4cleanpackages", 
     "name": "Peek v3 RHEL8 PGA4 Clean Packages", 

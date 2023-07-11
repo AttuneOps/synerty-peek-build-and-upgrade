@@ -1,6 +1,7 @@
 {
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "77d53c49-feec-4546-85fc-8d2b74dbe092", 
     "isBlueprint": false, 
     "key": "peekv3rhel8installoracleinstantclient", 
     "links": [

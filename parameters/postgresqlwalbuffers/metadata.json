@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "df00f44c-f030-493b-b767-5be7ae9d094b", 
     "key": "postgresqlwalbuffers", 
     "name": "PostGreSQL: wal_buffers", 
     "showInPlan": true, 

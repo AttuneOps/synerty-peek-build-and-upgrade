@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "0cec0353-9711-4b20-ad93-28d84f53b8ac", 
     "interpreter": 1, 
     "key": "peekv3rhel8redisenableservice", 
     "name": "Peek v3 RHEL8 REDIS Enable Service", 

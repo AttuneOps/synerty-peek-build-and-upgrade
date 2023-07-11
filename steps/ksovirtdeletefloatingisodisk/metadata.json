@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "fa7f3194-8e5e-4213-93d6-5f8d78c8698b", 
     "interpreter": 1, 
     "key": "ksovirtdeletefloatingisodisk", 
     "name": "KS oVirt Delete Floating ISO Disk", 

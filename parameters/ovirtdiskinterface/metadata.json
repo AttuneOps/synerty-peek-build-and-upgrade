@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "2c8d6fba-31b2-41da-b3a7-3831e7ee17f3", 
     "key": "ovirtdiskinterface", 
     "name": "oVirt: Disk Interface", 
     "showInPlan": true, 

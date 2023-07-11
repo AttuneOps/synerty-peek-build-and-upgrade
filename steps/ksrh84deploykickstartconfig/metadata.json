@@ -2,6 +2,7 @@
     "archiveKey": "rhel8kickstartconfignew2", 
     "deployPath": "{ksVmwareAttuneBaseDir}/build-{targetServer.fqn}", 
     "enabled": true, 
+    "externalUuid4": "ece186b8-7258-4df0-8f3d-6e2ac1b31e4a", 
     "key": "ksrh84deploykickstartconfig", 
     "makoFileNames": [
         "ks.cfg"

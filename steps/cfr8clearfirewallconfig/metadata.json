@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "de243eb4-9fc1-4147-a748-c56e35afedec", 
     "interpreter": 1, 
     "key": "cfr8clearfirewallconfig", 
     "name": "CFR8 Clear Firewall Config", 

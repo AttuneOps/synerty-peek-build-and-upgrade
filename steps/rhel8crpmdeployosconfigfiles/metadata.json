@@ -1,8 +1,10 @@
 {
+    "actionOnStepFail": null, 
     "archiveKey": "rhel8etcconfignew", 
     "deployPath": "/etc", 
     "enabled": true, 
-    "key": "ponr8cosdeployosconfigfiles", 
+    "externalUuid4": "b04c9ef8-65ea-482f-96bf-81c65ae134cb", 
+    "key": "rhel8crpmdeployosconfigfiles", 
     "makoFileNames": [
         "sysconfig/network", 
         "profile.d/environment_prompt.sh", 
@@ -41,7 +43,7 @@
             "parameterType": "c.s.s.b.phv.Text"
         }
     ], 
-    "name": "PONR8 COS Deploy OS Config Files", 
+    "name": "RHEL8 CRPM Deploy OS Config Files", 
     "osCredKey": "linuxrootuser", 
     "serverKey": "targetserverlin", 
     "type": "com.servertribe.attune.tuples.StepPushDesignFileCompiledTuple"

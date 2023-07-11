@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "823f4cc4-dd0b-4ab2-8fc9-70c163ad3e5b", 
     "interpreter": 2, 
     "key": "peekv3linpccenableproductionlogging", 
     "name": "Peek v3 LIN PCC Enable Production Logging", 

@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "1e319473-13a8-49ee-937e-a72bf0ed5721", 
     "interpreter": 1, 
     "key": "cfr8printconfiguration", 
     "name": "CFR8 Print Configuration", 

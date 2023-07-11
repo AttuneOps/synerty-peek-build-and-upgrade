@@ -2,6 +2,7 @@
     "archiveKey": "peekv3offlinepostgresqlsource", 
     "deployPath": "/home/peek", 
     "enabled": true, 
+    "externalUuid4": "72611c03-1721-4bf6-8d5b-8aaba2936880", 
     "key": "peekv3rhel8ipgdeploypostgresql", 
     "name": "Peek v3 RHEL8 IPG Deploy PostgreSQL", 
     "osCredKey": "linuxpeekuser", 

@@ -1,3 +1,0 @@
-HOSTNAME=$(echo "{rpmMirrorBaseos}" | awk --field-separator / '{print $3}')
-
-ping -c1 ${HOSTNAME}

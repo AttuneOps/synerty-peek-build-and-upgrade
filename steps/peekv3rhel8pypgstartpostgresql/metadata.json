@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "70003f94-e787-487d-9d25-63658eedfcdb", 
     "interpreter": 1, 
     "key": "peekv3rhel8pypgstartpostgresql", 
     "name": "Peek v3 RHEL8 PYPG Start PostgreSQL", 

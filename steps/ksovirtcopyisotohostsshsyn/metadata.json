@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "0ea83d10-1cb6-4f73-bd8a-9777e838c7bf", 
     "interpreter": 1, 
     "key": "ksovirtcopyisotohostsshsyn", 
     "name": "KS oVirt Copy ISO to Host SSH (SYN)", 

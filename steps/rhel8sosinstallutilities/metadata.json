@@ -1,6 +1,7 @@
 {
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "d10fd352-9851-4c22-86e7-9938f85aa868", 
     "isBlueprint": false, 
     "key": "rhel8sosinstallutilities", 
     "links": [

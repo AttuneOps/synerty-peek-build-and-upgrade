@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "bd97dd8c-2dd3-4cb9-b406-091beda0c071", 
     "interpreter": 1, 
     "key": "ksovirtcreatevm", 
     "name": "KS oVirt Create VM", 

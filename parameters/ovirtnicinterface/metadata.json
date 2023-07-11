@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "5c303793-0d00-4782-b132-fbe57f2a7262", 
     "key": "ovirtnicinterface", 
     "name": "oVirt: NIC Interface", 
     "showInPlan": true, 

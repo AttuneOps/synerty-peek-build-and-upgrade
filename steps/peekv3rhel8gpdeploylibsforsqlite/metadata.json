@@ -2,6 +2,7 @@
     "archiveKey": "peekv3offlinesqliterpms", 
     "deployPath": "/tmp/offline_install/sqlite", 
     "enabled": true, 
+    "externalUuid4": "7b29a724-ae03-4e31-851f-dad56bffc42a", 
     "key": "peekv3rhel8gpdeploylibsforsqlite", 
     "name": "Peek v3 RHEL8 GP Deploy Libs for SQLite", 
     "osCredKey": "linuxrootuser", 

@@ -1,6 +1,7 @@
 {
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "a7af3409-36df-4c26-8389-bc78a7a3cde1", 
     "isBlueprint": false, 
     "key": "ksesxirecreatevirtualmachine", 
     "links": [], 

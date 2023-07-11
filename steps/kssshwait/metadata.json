@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "d79fe192-723f-43c0-b352-679149403f53", 
     "key": "kssshwait", 
     "minDowntime": 0, 
     "name": "KS SSH Wait", 

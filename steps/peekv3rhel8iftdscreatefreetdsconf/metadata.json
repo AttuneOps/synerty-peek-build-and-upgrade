@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "e28536fb-9d78-47af-946b-109a4bcc0e22", 
     "interpreter": 1, 
     "key": "peekv3rhel8iftdscreatefreetdsconf", 
     "name": "Peek v3 RHEL8 IFTDS Create freetds.conf", 

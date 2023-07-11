@@ -1,6 +1,7 @@
 {
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "304d0067-e6f1-4c67-9216-34fe0a4dc302", 
     "isBlueprint": true, 
     "key": "peekv3lindeployrelease", 
     "links": [

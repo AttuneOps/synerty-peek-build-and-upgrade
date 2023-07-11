@@ -2,6 +2,7 @@
     "archiveKey": "peekv3release", 
     "deployPath": "/home/peek/peek_install", 
     "enabled": true, 
+    "externalUuid4": "4bb44e62-050c-4c8a-a03e-805ba5a8cd69", 
     "key": "peekv3linpdredeployinstallfiles", 
     "name": "Peek v3 LIN PDRE Deploy Install Files", 
     "osCredKey": "linuxpeekuser", 

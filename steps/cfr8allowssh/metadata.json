@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "a6d502aa-4fb7-4863-92bb-94521a538020", 
     "interpreter": 1, 
     "key": "cfr8allowssh", 
     "name": "CFR8 Allow SSH", 

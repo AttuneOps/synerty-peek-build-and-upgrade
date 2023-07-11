@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "5963bb2a-d8da-4730-a1ab-02648aeaf51e", 
     "interpreter": 1, 
     "key": "peekv3rhel8gpinstalllibsforsqlite", 
     "name": "Peek v3 RHEL8 GP Install Libs for SQLite", 

@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "b29369c0-fe1e-42c0-ab61-a5be934f295a", 
     "key": "logshippingpostgresqlconf", 
     "name": "Log Shipping postgresql.conf", 
     "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"

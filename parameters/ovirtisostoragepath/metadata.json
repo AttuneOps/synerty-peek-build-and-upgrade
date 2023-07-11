@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "532673f2-2004-4195-bafc-3000245f601a", 
     "key": "ovirtisostoragepath", 
     "name": "oVirt: ISO Storage Path", 
     "showInPlan": false, 

@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "e1b7e108-7eb6-4bed-ad02-1031a4cc628d", 
     "interpreter": 1, 
     "key": "peekv3linpdrdroppeekstorageservicefixbuginpeek", 
     "name": "Peek v3 LIN PDR Drop Peek Storage Service (FIX BUG IN PEEK)", 

@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "3095dbbd-d125-4a07-98fa-9a3af10c944d", 
     "interpreter": 1, 
     "key": "ksovirtboottoiso", 
     "name": "KS oVirt Boot to ISO", 

@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "45f80f80-fd4c-410d-a7fd-06edc0818113", 
     "key": "srtlinstandbyrebootwait", 
     "minDowntime": 3, 
     "name": "SRT LIN Standby Reboot Wait", 

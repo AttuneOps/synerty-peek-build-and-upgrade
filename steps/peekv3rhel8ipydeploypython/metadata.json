@@ -2,6 +2,7 @@
     "archiveKey": "peekv3offlinepythonsource", 
     "deployPath": "/home/peek", 
     "enabled": true, 
+    "externalUuid4": "67e7ea2b-b76c-4abf-b985-d8521822460f", 
     "key": "peekv3rhel8ipydeploypython", 
     "name": "Peek v3 RHEL8 IPY Deploy Python", 
     "osCredKey": "linuxpeekuser", 

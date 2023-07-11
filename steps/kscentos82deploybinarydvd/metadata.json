@@ -2,6 +2,7 @@
     "archiveKey": "centosminimaldvdv822004", 
     "deployPath": "KS CentOS82 Deploy Binary DVD", 
     "enabled": true, 
+    "externalUuid4": "da367936-5aa1-4c27-a6ed-0085589a94f6", 
     "key": "kscentos82deploybinarydvd", 
     "name": "KS CentOS82 Deploy Binary DVD", 
     "osCredKey": "linuxattuneuser", 

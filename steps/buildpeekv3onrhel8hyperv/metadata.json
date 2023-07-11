@@ -1,51 +1,53 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "28d04cc2-87ba-4693-bd2d-f250ce54619b", 
     "isBlueprint": true, 
     "key": "buildpeekv3onrhel8hyperv", 
     "links": [
         {
-            "order": 0, 
-            "stepKey": "rhel8connecttorpmserver"
-        }, 
-        {
             "order": 50, 
-            "stepKey": "bpvorhhypervaddvirtualdisks"
+            "stepKey": "rhel8connecttorpmserverlink"
         }, 
         {
             "order": 100, 
-            "stepKey": "linreboot"
+            "stepKey": "bpvorhhypervaddvirtualdisks"
         }, 
         {
             "order": 150, 
-            "stepKey": "linrebootwait"
+            "stepKey": "linreboot"
         }, 
         {
             "order": 200, 
-            "stepKey": "peekv3linsetuplvm"
+            "stepKey": "linrebootwait"
         }, 
         {
             "order": 250, 
-            "stepKey": "bpvorhrhelenablepowertoolsrepo"
+            "stepKey": "peekv3linsetuplvm"
         }, 
         {
             "order": 300, 
-            "stepKey": "buildpeekv3serverrhel8"
+            "stepKey": "bpvorhrhelenablepowertoolsrepo"
         }, 
         {
             "order": 350, 
-            "stepKey": "peekv3lindeploygistilesnzte"
+            "stepKey": "buildpeekv3serverrhel8"
         }, 
         {
             "order": 400, 
-            "stepKey": "peekv3linpdredeleteoldlogs"
+            "stepKey": "peekv3lindeploygistilesnzte"
         }, 
         {
             "order": 450, 
-            "stepKey": "peekv3linpdrstartpeek"
+            "stepKey": "peekv3linpdredeleteoldlogs"
         }, 
         {
             "order": 500, 
+            "stepKey": "peekv3linpdrstartpeek"
+        }, 
+        {
+            "order": 550, 
             "stepKey": "peekv3lintestpeekdeployment"
         }
     ], 

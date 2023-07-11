@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "fd37cf92-f18b-4660-801b-a33adab5b24c", 
     "interpreter": 1, 
     "key": "rhelupdatepackages", 
     "name": "RHEL Update Packages", 

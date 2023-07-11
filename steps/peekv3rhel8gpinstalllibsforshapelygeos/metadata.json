@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "e2e86e9e-20aa-4907-ac2d-cdbf30ed40af", 
     "interpreter": 1, 
     "key": "peekv3rhel8gpinstalllibsforshapelygeos", 
     "name": "Peek v3 RHEL8 GP Install Libs for Shapely/GEOS", 

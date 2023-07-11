@@ -1,12 +1,14 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "8f8fbfbb-fb41-4ab8-883c-9832c0e3672d", 
     "isBlueprint": false, 
     "key": "rhel8sosconfigureos", 
     "links": [
         {
             "order": 20, 
-            "stepKey": "ponr8cosdeployosconfigfiles"
+            "stepKey": "rhel8crpmdeployosconfigfiles"
         }, 
         {
             "order": 40, 

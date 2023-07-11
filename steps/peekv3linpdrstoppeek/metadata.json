@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "e2467afa-dedb-4654-95e9-2399314f2456", 
     "interpreter": 1, 
     "key": "peekv3linpdrstoppeek", 
     "name": "Peek v3 LIN PDR Stop Peek", 

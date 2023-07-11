@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "0e42f0a1-188d-4883-8a96-507d20425bb7", 
     "interpreter": 1, 
     "key": "cfr8restartfirewall", 
     "name": "CFR8 Restart Firewall", 

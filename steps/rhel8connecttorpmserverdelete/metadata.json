@@ -1,20 +1,22 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "c0f33c07-6c2a-46a8-ba8d-91b3630a4f87", 
     "isBlueprint": true, 
-    "key": "rhel8connecttorpmserver", 
+    "key": "rhel8connecttorpmserverdelete", 
     "links": [
         {
             "order": 0, 
-            "stepKey": "ponr8cosdeployosconfigfiles"
+            "stepKey": "rhel8crpmdeployosconfigfiles"
         }, 
         {
             "order": 20, 
-            "stepKey": "r8crscheckforrpmserver"
+            "stepKey": "rhel8crpmcheckforrpmserver"
         }, 
         {
             "order": 40, 
-            "stepKey": "r8crssetuprepofile"
+            "stepKey": "rhel8crpmsetuprepofile"
         }, 
         {
             "order": 60, 
@@ -22,17 +24,17 @@
         }, 
         {
             "order": 80, 
-            "stepKey": "r8crsverifyclientyumconfig"
+            "stepKey": "rhel8crpmverifyclientyumconfig"
         }, 
         {
             "order": 100, 
-            "stepKey": "rhelyumupdatesecuritypackages"
+            "stepKey": "rhel8crpmyumupdatesecuritypackages"
         }, 
         {
             "order": 120, 
-            "stepKey": "rhelyumupdateall"
+            "stepKey": "rhel8crpmyumupdateall"
         }
     ], 
-    "name": "RHEL8 Connect to RPM Server", 
+    "name": "RHEL8 Connect to RPM Server - DELETE", 
     "type": "com.servertribe.attune.tuples.StepGroupTuple"
 }

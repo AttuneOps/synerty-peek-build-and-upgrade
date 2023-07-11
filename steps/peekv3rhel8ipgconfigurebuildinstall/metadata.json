@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "ae8d40de-68d2-4751-afb9-8766dc59d218", 
     "interpreter": 1, 
     "key": "peekv3rhel8ipgconfigurebuildinstall", 
     "name": "Peek v3 RHEL8 IPG Configure Build Install", 

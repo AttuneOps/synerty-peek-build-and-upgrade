@@ -1,6 +1,7 @@
 {
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "f2c8351f-5188-4071-b7db-8ab6694c27f5", 
     "isBlueprint": false, 
     "key": "peekv3rhel8installcmake", 
     "links": [

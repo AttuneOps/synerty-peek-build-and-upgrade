@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "7527917d-6415-4404-af53-bc1fa383ec6e", 
     "key": "rhel8epeliftop", 
     "name": "RHEL8 EPEL iftop", 
     "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"

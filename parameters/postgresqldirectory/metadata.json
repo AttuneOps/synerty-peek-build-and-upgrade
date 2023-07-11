@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "62a1f165-ad35-47d2-acb6-7ce2d487f91b", 
     "key": "postgresqldirectory", 
     "name": "PostGreSQL: Directory", 
     "showInPlan": true, 

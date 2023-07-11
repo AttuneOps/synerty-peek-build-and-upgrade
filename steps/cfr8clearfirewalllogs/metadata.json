@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "8a694b90-19e5-491f-93ab-bf910bafdb57", 
     "interpreter": 1, 
     "key": "cfr8clearfirewalllogs", 
     "name": "CFR8 Clear Firewall Logs", 

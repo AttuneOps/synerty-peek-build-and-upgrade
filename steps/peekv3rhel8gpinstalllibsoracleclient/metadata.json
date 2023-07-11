@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "18fb2cec-c854-4743-b484-c74da67c26b3", 
     "interpreter": 1, 
     "key": "peekv3rhel8gpinstalllibsoracleclient", 
     "name": "Peek v3 RHEL8 GP Install Libs Oracle Client", 

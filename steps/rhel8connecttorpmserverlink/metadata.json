@@ -1,0 +1,15 @@
+{
+    "actionOnStepFail": null, 
+    "blueprintName": "", 
+    "blueprintUuid": "8345c597-0b47-4802-b422-7807d1aca03a", 
+    "cloneUrl": "", 
+    "enabled": true, 
+    "externalUuid4": "84b37593-ab87-42fb-9e89-78cb0181b473", 
+    "key": "rhel8connecttorpmserverlink", 
+    "name": "RHEL8 Connect to RPM Server (link)", 
+    "parameterMap": [], 
+    "projectName": "", 
+    "projectUuid": "d0c58a02-9cfc-483f-9777-9c8fe7285609", 
+    "projectVersion": "", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
+}

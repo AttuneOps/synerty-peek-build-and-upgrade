@@ -1,6 +1,7 @@
 {
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "10dfea08-889e-4912-8b69-cc41f3114399", 
     "isBlueprint": true, 
     "key": "peekv3rhel8installsrcpythonpostgresql", 
     "links": [

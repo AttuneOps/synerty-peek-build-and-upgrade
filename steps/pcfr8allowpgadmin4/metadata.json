@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "fca19369-42f8-4f28-a3ac-eb6d076c9f44", 
     "interpreter": 1, 
     "key": "pcfr8allowpgadmin4", 
     "name": "PCFR8 Allow PGAdmin4", 

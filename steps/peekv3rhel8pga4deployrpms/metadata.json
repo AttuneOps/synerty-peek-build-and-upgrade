@@ -2,6 +2,7 @@
     "archiveKey": "peekpgadmin4rhel8rpms", 
     "deployPath": "/tmp/pkg_pgadmin4", 
     "enabled": true, 
+    "externalUuid4": "0c3ab329-a78f-4b74-affe-b8f181cbb06c", 
     "key": "peekv3rhel8pga4deployrpms", 
     "name": "Peek v3 RHEL8 PGA4 Deploy RPMs", 
     "osCredKey": "linuxrootuser", 

@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "594341dc-82a8-4377-b672-cf9942bd7878", 
     "key": "linrebootwait", 
     "minDowntime": 3, 
     "name": "LIN Reboot Wait", 

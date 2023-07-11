@@ -1,6 +1,7 @@
 {
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "68a79b90-4e1a-4df4-ae4d-47857c4cd369", 
     "isBlueprint": true, 
     "key": "peekv3rhel8installrabbitmq", 
     "links": [

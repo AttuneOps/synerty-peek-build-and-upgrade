@@ -2,6 +2,7 @@
     "archiveKey": "rhel8bootisov84", 
     "deployPath": "{ksVmwareAttuneBaseDir}/build-{targetServer.fqn}", 
     "enabled": true, 
+    "externalUuid4": "f1e314cf-3740-40ca-a0d8-2be3b2e6815c", 
     "key": "ksrh84deploybootiso", 
     "name": "KS RH84 Deploy Boot ISO", 
     "osCredKey": "linuxattuneuser", 

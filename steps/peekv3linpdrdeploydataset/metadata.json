@@ -2,6 +2,7 @@
     "archiveKey": "peekdatacutbnnznp1pek3", 
     "deployPath": "/backup/restore", 
     "enabled": true, 
+    "externalUuid4": "43269e80-e4a0-4b6e-96bb-8b7a40729c78", 
     "key": "peekv3linpdrdeploydataset", 
     "name": "Peek v3 LIN PDR Deploy Dataset", 
     "osCredKey": "linuxpeekuser", 

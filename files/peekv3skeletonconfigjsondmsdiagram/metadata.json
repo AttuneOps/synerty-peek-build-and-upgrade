@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "afbb0a30-6695-4eca-bef9-7c8ad5b57e73", 
     "key": "peekv3skeletonconfigjsondmsdiagram", 
     "name": "Peek v3 Skeleton Config JSON (DMS Diagram)", 
     "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"

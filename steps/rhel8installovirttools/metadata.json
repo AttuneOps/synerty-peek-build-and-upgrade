@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "55e743dc-5ab9-4f43-954d-4b0eb7468061", 
     "interpreter": 1, 
     "key": "rhel8installovirttools", 
     "name": "RHEL8 Install oVirt Tools", 

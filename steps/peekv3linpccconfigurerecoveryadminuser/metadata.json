@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "d28567ae-65f6-4da9-b5fe-b6091276b21d", 
     "interpreter": 2, 
     "key": "peekv3linpccconfigurerecoveryadminuser", 
     "name": "Peek v3 LIN PCC Configure Recovery Admin User", 

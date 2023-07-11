@@ -1,6 +1,7 @@
 {
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "46abace9-7ba2-419b-b6da-d8f8686f5f12", 
     "isBlueprint": true, 
     "key": "peekv3rhel8setuppgadmin4", 
     "links": [

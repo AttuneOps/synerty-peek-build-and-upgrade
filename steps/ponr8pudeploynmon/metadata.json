@@ -2,6 +2,7 @@
     "archiveKey": "rhel8epelnmon", 
     "deployPath": "{targetServerInstallerTmpPath}", 
     "enabled": true, 
+    "externalUuid4": "19a8a62e-10f8-4c43-884c-b3a670b84ad5", 
     "key": "ponr8pudeploynmon", 
     "name": "PONR8 PU Deploy nmon", 
     "osCredKey": "linuxrootuser", 

@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "b0210855-3ac0-4ea9-a08e-0693fe6d0874", 
     "interpreter": 1, 
     "key": "peekv3linsetupvgs", 
     "name": "Peek v3 LIN Setup VGs", 

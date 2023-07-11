@@ -1,6 +1,7 @@
 {
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "ba9645fc-aa57-4ab1-a8ec-70bcb2f5ee97", 
     "isBlueprint": true, 
     "key": "rhelupdatecatrust", 
     "links": [

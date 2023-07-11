@@ -1,8 +1,10 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "9c1b5dae-1d5d-427d-9969-22d769d33a23", 
     "interpreter": 1, 
-    "key": "r8crsverifyclientyumconfig", 
-    "name": "R8CRS Verify Client Yum Config", 
+    "key": "rhel8crpmsetuprepofile", 
+    "name": "RHEL8 CRPM Setup Repo File", 
     "osCredKey": "linuxrootuser", 
     "serverKey": "targetserverlin", 
     "successExitCode": 0, 

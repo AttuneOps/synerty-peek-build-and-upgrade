@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "f3b5f3c4-f4d8-40e3-8ee7-d49970b030af", 
     "interpreter": 1, 
     "key": "changeownershipofstandbysignaldelete", 
     "name": "Change Ownership of standby.signal - DELETE", 

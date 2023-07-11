@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "1baad2c9-f5ed-4168-9997-ec2e22a05f08", 
     "interpreter": 1, 
     "key": "peekv3linpdrecheckpackageversions", 
     "name": "Peek v3 LIN PDRE Check Package Versions", 

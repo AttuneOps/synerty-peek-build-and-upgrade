@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "c139420f-9c96-4e40-9d0a-df87ff4215c4", 
     "interpreter": 1, 
     "key": "bpvorhrhelenablepowertoolsrepo", 
     "name": "BPVORH RHEL Enable Power Tools Repo", 

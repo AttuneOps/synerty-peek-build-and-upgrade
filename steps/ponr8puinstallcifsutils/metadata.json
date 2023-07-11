@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "9b961c53-2cf5-4615-9329-89c6220dc379", 
     "interpreter": 1, 
     "key": "ponr8puinstallcifsutils", 
     "name": "PONR8 PU Install CIFS Utils", 
