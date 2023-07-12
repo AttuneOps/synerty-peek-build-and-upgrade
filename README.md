@@ -107,9 +107,6 @@ https://synerty-peek.readthedocs.io/en/latest/setup_os_requirements/setup_os_req
 
 Instructions from https://www.itzgeek.com/how-tos/linux/centos-how-tos/how-to-install-pgadmin-4-on-centos-7-rhel-7-fedora-29-fedora-28.html
 
-### RHEL8 Connect to RPM Server - DELETE
-
-
 ### RHEL8 Setup OS
 
 Install the common server requirements for GE ADMS on RHEL8.
@@ -118,9 +115,6 @@ This applies to DB, JBOSS (DPF and TSDS), RPM, Attune, Peek, and Application ser
 ### RHEL8 SOS Setup Chrony NTP
 
 Chrony is the service used to keep all the servers time sync'd
-
-### RHEL Update CA Trust
-
 
 
 

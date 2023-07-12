@@ -7,27 +7,27 @@
     "key": "rhel8sosconfigureos", 
     "links": [
         {
-            "order": 20, 
-            "stepKey": "rhel8crpmdeployosconfigfiles"
-        }, 
-        {
-            "order": 40, 
-            "stepKey": "ponr8cosfixosconfigpermissions"
-        }, 
-        {
-            "order": 60, 
-            "stepKey": "ponrhel8sethostname"
-        }, 
-        {
-            "order": 80, 
-            "stepKey": "ponrhel8disableipv6"
-        }, 
-        {
-            "order": 100, 
-            "stepKey": "ponr8cosupdatednsservers"
+            "order": 70, 
+            "stepKey": "rhel8deployosconfigfiles"
         }, 
         {
             "order": 120, 
+            "stepKey": "ponr8cosfixosconfigpermissions"
+        }, 
+        {
+            "order": 170, 
+            "stepKey": "ponrhel8sethostname"
+        }, 
+        {
+            "order": 220, 
+            "stepKey": "ponrhel8disableipv6"
+        }, 
+        {
+            "order": 270, 
+            "stepKey": "ponr8cosupdatednsservers"
+        }, 
+        {
+            "order": 320, 
             "stepKey": "ponr8cossetuploginbanner"
         }
     ], 

@@ -1,0 +1,15 @@
+{
+    "actionOnStepFail": null, 
+    "blueprintName": "", 
+    "blueprintUuid": "d0ec219c-81a1-4235-8ee2-89bd5e32dfc3", 
+    "cloneUrl": "", 
+    "enabled": true, 
+    "externalUuid4": "c8a92a3e-a448-4fc2-9fd0-f8810bccd4e7", 
+    "key": "rhel8deployosconfigfiles", 
+    "name": "RHEL8 Deploy OS Config Files", 
+    "parameterMap": [], 
+    "projectName": "", 
+    "projectUuid": "d0c58a02-9cfc-483f-9777-9c8fe7285609", 
+    "projectVersion": "", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
+}

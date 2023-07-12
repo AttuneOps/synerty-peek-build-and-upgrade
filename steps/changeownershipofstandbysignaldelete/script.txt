@@ -1,1 +1,0 @@
-chown {linuxPeekUser.user}:{linuxPeekUser.user} /pgdata/12/standby.signal
