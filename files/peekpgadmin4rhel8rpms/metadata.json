@@ -3,9 +3,9 @@
     "fileName": "Peek_PGAdmin4_RHEL8_RPMs.tar", 
     "formatKey": "tar", 
     "key": "peekpgadmin4rhel8rpms", 
-    "md5": "80cd1be93e1b1f7ee9e8f6b17f5195d2", 
+    "md5": "959f20378ce64699e52595c5b4e1f5c0", 
     "name": "Peek PGAdmin4 RHEL8 RPMs", 
     "remoteUri": null, 
-    "size": 293253120, 
+    "size": 214394880, 
     "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
 }

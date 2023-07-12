@@ -8,6 +8,10 @@
     "links": [
         {
             "order": 0, 
+            "stepKey": "peekv3rhel8pga4cleanup"
+        }, 
+        {
+            "order": 50, 
             "stepKey": "peekv3rhel8pga4deployrpms"
         }, 
         {
@@ -25,6 +29,10 @@
         {
             "order": 300, 
             "stepKey": "peekv3rhel8pga4complete"
+        }, 
+        {
+            "order": 350, 
+            "stepKey": "peekv3rhel8pga4cleanup"
         }
     ], 
     "name": "Peek v3 RHEL8 Setup PGAdmin4", 

@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": null, 
+    "enabled": true, 
+    "externalUuid4": "88c7106d-8bed-46c7-bd1b-205a3862155e", 
+    "interpreter": 1, 
+    "key": "peekv3rhel8pga4cleanup", 
+    "name": "Peek v3 RHEL8 PGA4 Cleanup", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "peekserver", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

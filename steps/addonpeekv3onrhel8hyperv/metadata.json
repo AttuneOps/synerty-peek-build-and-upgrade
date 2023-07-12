@@ -4,7 +4,7 @@
     "enabled": true, 
     "externalUuid4": "28d04cc2-87ba-4693-bd2d-f250ce54619b", 
     "isBlueprint": true, 
-    "key": "buildpeekv3onrhel8hyperv", 
+    "key": "addonpeekv3onrhel8hyperv", 
     "links": [
         {
             "order": 50, 
@@ -28,7 +28,7 @@
         }, 
         {
             "order": 500, 
-            "stepKey": "buildpeekv3serverrhel8"
+            "stepKey": "addonpeekv3serverrhel8"
         }, 
         {
             "order": 550, 
@@ -47,6 +47,6 @@
             "stepKey": "peekv3lintestpeekdeployment"
         }
     ], 
-    "name": "Build Peek v3 on RHEL8+Hyper-V", 
+    "name": "Add-On Peek v3 on RHEL8+Hyper-V", 
     "type": "com.servertribe.attune.tuples.StepGroupTuple"
 }

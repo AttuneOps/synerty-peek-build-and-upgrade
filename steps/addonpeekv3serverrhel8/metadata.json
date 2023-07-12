@@ -4,7 +4,7 @@
     "enabled": true, 
     "externalUuid4": "6d346d96-9666-4191-a5bd-54c19b55eb85", 
     "isBlueprint": true, 
-    "key": "buildpeekv3serverrhel8", 
+    "key": "addonpeekv3serverrhel8", 
     "links": [
         {
             "order": 20, 
@@ -23,58 +23,58 @@
             "stepKey": "peekv3linsetuppeekuser"
         }, 
         {
-            "order": 120, 
+            "order": 200, 
             "stepKey": "rhelspuchownbackup"
         }, 
         {
-            "order": 140, 
+            "order": 250, 
             "stepKey": "peekv3rhel8setuppgadmin4"
         }, 
         {
-            "order": 200, 
+            "order": 350, 
             "stepKey": "peekv3rhel8installsrcpythonpostgresql"
         }, 
         {
-            "order": 220, 
+            "order": 400, 
             "stepKey": "peekv3lincreatepeekdb"
         }, 
         {
-            "order": 300, 
+            "order": 450, 
             "stepKey": "peekv3rhel8installredis"
         }, 
         {
-            "order": 340, 
+            "order": 500, 
             "stepKey": "peekv3rhel8installrabbitmq"
         }, 
         {
-            "order": 400, 
+            "order": 550, 
             "stepKey": "peekv3rhel8installoracleinstantclient"
         }, 
         {
-            "order": 440, 
+            "order": 600, 
             "stepKey": "peekv3rhel8installfreetds"
         }, 
         {
-            "order": 460, 
+            "order": 650, 
             "stepKey": "peekv3linconfigurejsonconfig"
         }, 
         {
-            "order": 540, 
+            "order": 700, 
             "stepKey": "rhelcleanuppackages"
         }, 
         {
-            "order": 590, 
+            "order": 750, 
             "stepKey": "rhel8rebootlink"
         }, 
         {
-            "order": 740, 
+            "order": 800, 
             "stepKey": "peekv3lindeployrelease"
         }, 
         {
-            "order": 790, 
+            "order": 850, 
             "stepKey": "peekv3linrestoredataset"
         }
     ], 
-    "name": "Build Peek v3 Server RHEL8", 
+    "name": "Add-On Peek v3 Server RHEL8", 
     "type": "com.servertribe.attune.tuples.StepGroupTuple"
 }

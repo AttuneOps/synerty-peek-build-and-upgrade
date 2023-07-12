@@ -54,18 +54,18 @@ This Project contains the following Blueprints.
 
 
 
-### Build Peek v3 on RHEL8+Hyper-V
+### Add-On Peek v3 on RHEL8+Hyper-V
 
+
+### Add-On Peek v3 Server RHEL8
+
+https://synerty-peek.readthedocs.io/en/latest/setup_os_requirements/setup_os_requirements_rhel/SetupOSRequirementsRhel.html#setup-os-requirements-rhel
 
 ### Build Peek v3 Server on RHEL8+ESXi
 
 
 ### Build Peek v3 Server on RHEL8+oVirt
 
-
-### Build Peek v3 Server RHEL8
-
-https://synerty-peek.readthedocs.io/en/latest/setup_os_requirements/setup_os_requirements_rhel/SetupOSRequirementsRhel.html#setup-os-requirements-rhel
 
 ### Kickstart RHEL8.4+oVirt
 
@@ -214,7 +214,6 @@ Chrony is the service used to keep all the servers time sync'd
 | Oracle InstantClient Linux "SDK Package" 18.5.0.0.0 | Version Controlled Files | Download the ZIP "SDK Package" instantclient-sdk-linux.x64-18.5.0.0.0dbru.zip from http://www.oracle.com/technetwork/topics/linuxx86-64soft-092277.html |
 | Peek Datacut bnnznp1pek3 | Large Archives |  |
 | Peek GIS Tiles (NZTE) | Version Controlled Files | The initial set of GIS tiles to build a peek server with. |
-| Peek PGAdmin4 RHEL8 RPMs | Large Archives |  |
 | Peek v3 Offline CMake Source | Large Archives |  |
 | Peek v3 Offline FreeTDS RHEL8 RPMs | Large Archives |  |
 | Peek v3 Offline GEOS RPMs | Large Archives |  |
@@ -233,6 +232,7 @@ Chrony is the service used to keep all the servers time sync'd
 | RHEL8 EPEL p7zip | Large Archives | These RPMs were gathered with a CentOS7 VM.<br><br>sudo yum install epel-release<br><br>mkdir pkg_p7zip && cd pkg_p7zip<br>yum install --downloadonly --downloaddir=. p7zip p7zip-plugins<br>cd ..<br>tar cf pkg_p7zip.tar pkg_p7zip<br>rm -rf pkg_p7zip |
 | RHEL8 etc Config NEW | Version Controlled Files |  |
 | RHEL8 Kickstart Config NEW 2 | Version Controlled Files |  |
+| Peek PGAdmin4 RHEL8 RPMs | Large Archives | Generated from:<br>`dnf -y install https://ftp.postgresql.org/pub/pgadmin/pgadmin4/yum/pgadmin4-redhat-repo-2-1.noarch.rpm<br>dnf install pgadmin4 policycoreutils-python-utils --downloadonly --downloaddir pgadmin_pkgs<br>tar cvf Peek_PGAdmin4_RHEL8_RPMs.tar * |
 
 
 

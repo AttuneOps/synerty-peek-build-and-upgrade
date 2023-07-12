@@ -166,8 +166,16 @@
         
 
                     <h6 class="text-muted pt-2">
+                        <a href="#peekv3rhel8pga4cleanup">
+                            <strong>Step 1 -</strong> Peek v3 RHEL8 PGA4 Cleanup
+                        </a>
+                    </h6>
+
+        
+
+                    <h6 class="text-muted pt-2">
                         <a href="#peekv3rhel8pga4deployrpms">
-                            <strong>Step 1 -</strong> Peek v3 RHEL8 PGA4 Deploy RPMs
+                            <strong>Step 2 -</strong> Peek v3 RHEL8 PGA4 Deploy RPMs
                         </a>
                     </h6>
 
@@ -175,7 +183,7 @@
 
                     <h6 class="text-muted pt-2">
                         <a href="#peekv3rhel8pga4cleanpackages">
-                            <strong>Step 2 -</strong> Peek v3 RHEL8 PGA4 Clean Packages
+                            <strong>Step 3 -</strong> Peek v3 RHEL8 PGA4 Clean Packages
                         </a>
                     </h6>
 
@@ -183,7 +191,7 @@
 
                     <h6 class="text-muted pt-2">
                         <a href="#peekv3rhel8pga4installrpms">
-                            <strong>Step 3 -</strong> Peek v3 RHEL8 PGA4 Install RPMs
+                            <strong>Step 4 -</strong> Peek v3 RHEL8 PGA4 Install RPMs
                         </a>
                     </h6>
 
@@ -191,7 +199,7 @@
 
                     <h6 class="text-muted pt-2">
                         <a href="#peekv3rhel8setuppgadmin4web">
-                            <strong>Step 4 -</strong> Peek v3 RHEL8 Setup pgadmin4-web
+                            <strong>Step 5 -</strong> Peek v3 RHEL8 Setup pgadmin4-web
                         </a>
                     </h6>
 
@@ -199,7 +207,15 @@
 
                     <h6 class="text-muted pt-2">
                         <a href="#peekv3rhel8pga4complete">
-                            <strong>Step 5 -</strong> Peek v3 RHEL8 PGA4 Complete
+                            <strong>Step 6 -</strong> Peek v3 RHEL8 PGA4 Complete
+                        </a>
+                    </h6>
+
+        
+
+                    <h6 class="text-muted pt-2">
+                        <a href="#peekv3rhel8pga4cleanup">
+                            <strong>Step 7 -</strong> Peek v3 RHEL8 PGA4 Cleanup
                         </a>
                     </h6>
 
@@ -293,18 +309,13 @@
 
 
                     <div class="row pt-5">
-                        <h4 id="peekv3rhel8pga4deployrpms">
-                            <a href="#peekv3rhel8pga4deployrpms">
-                                <strong>Step 1 -</strong> Peek v3 RHEL8 PGA4 Deploy RPMs
+                        <h4 id="peekv3rhel8pga4cleanup">
+                            <a href="#peekv3rhel8pga4cleanup">
+                                <strong>Step 1 -</strong> Peek v3 RHEL8 PGA4 Cleanup
                             </a>
                         </h4>
                     </div>
 
-                    <div class="blueprint-description row">
-                        <p>
-                            
-                        </p>
-                    </div>
 
 
 
@@ -327,13 +338,69 @@ ssh {linuxrootuser}@{peekserver}
                         </div>
 
 
+
     
 
 
 
     <div class="row">
         <p>
-            
+            Execute the following script:
+        </p>
+    </div>
+    <div class="row">
+        <div class="col px-0">
+            <pre>
+                <code class="language-sql py-0">
+cd /tmp
+rm -rvf pkg_pgadmin4
+                </code>
+            </pre>
+        </div>
+    </div>
+
+
+
+
+
+        
+
+
+
+                    <div class="row pt-5">
+                        <h4 id="peekv3rhel8pga4deployrpms">
+                            <a href="#peekv3rhel8pga4deployrpms">
+                                <strong>Step 2 -</strong> Peek v3 RHEL8 PGA4 Deploy RPMs
+                            </a>
+                        </h4>
+                    </div>
+
+                    <div class="blueprint-description row">
+                        <p>
+                            
+                        </p>
+                    </div>
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+    <div class="row">
+        <p>
+            <p>Generated from:
+`dnf -y install https://ftp.postgresql.org/pub/pgadmin/pgadmin4/yum/pgadmin4-redhat-repo-2-1.noarch.rpm
+dnf install pgadmin4 policycoreutils-python-utils --downloadonly --downloaddir pgadmin_pkgs
+tar cvf Peek_PGAdmin4_RHEL8_RPMs.tar *</p>
         </p>
         <p>
             Copy the File(s)
@@ -361,7 +428,7 @@ ssh {linuxrootuser}@{peekserver}
                     <div class="row pt-5">
                         <h4 id="peekv3rhel8pga4cleanpackages">
                             <a href="#peekv3rhel8pga4cleanpackages">
-                                <strong>Step 2 -</strong> Peek v3 RHEL8 PGA4 Clean Packages
+                                <strong>Step 3 -</strong> Peek v3 RHEL8 PGA4 Clean Packages
                             </a>
                         </h4>
                     </div>
@@ -413,7 +480,7 @@ yum -y clean packages
                     <div class="row pt-5">
                         <h4 id="peekv3rhel8pga4installrpms">
                             <a href="#peekv3rhel8pga4installrpms">
-                                <strong>Step 3 -</strong> Peek v3 RHEL8 PGA4 Install RPMs
+                                <strong>Step 4 -</strong> Peek v3 RHEL8 PGA4 Install RPMs
                             </a>
                         </h4>
                     </div>
@@ -467,7 +534,7 @@ yum install -y *.rpm --skip-broken
                     <div class="row pt-5">
                         <h4 id="peekv3rhel8setuppgadmin4web">
                             <a href="#peekv3rhel8setuppgadmin4web">
-                                <strong>Step 4 -</strong> Peek v3 RHEL8 Setup pgadmin4-web
+                                <strong>Step 5 -</strong> Peek v3 RHEL8 Setup pgadmin4-web
                             </a>
                         </h4>
                     </div>
@@ -592,7 +659,7 @@ y
                     <div class="row pt-5">
                         <h4 id="peekv3rhel8pga4complete">
                             <a href="#peekv3rhel8pga4complete">
-                                <strong>Step 5 -</strong> Peek v3 RHEL8 PGA4 Complete
+                                <strong>Step 6 -</strong> Peek v3 RHEL8 PGA4 Complete
                             </a>
                         </h4>
                     </div>
@@ -639,6 +706,54 @@ ssh {linuxrootuser}@{peekserver}
             <pre>
                 <code class="language-sql py-0">
 echo &quot;PGAdmin4 is setup and accessable on http://{peekServer.fqn}/pgadmin4&quot;
+                </code>
+            </pre>
+        </div>
+    </div>
+
+
+
+
+
+        
+
+
+
+                    <div class="row pt-5">
+                        <h4 id="peekv3rhel8pga4cleanup">
+                            <a href="#peekv3rhel8pga4cleanup">
+                                <strong>Step 7 -</strong> Peek v3 RHEL8 PGA4 Cleanup
+                            </a>
+                        </h4>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+
+
+    <div class="row">
+        <p>
+            Execute the following script:
+        </p>
+    </div>
+    <div class="row">
+        <div class="col px-0">
+            <pre>
+                <code class="language-sql py-0">
+cd /tmp
+rm -rvf pkg_pgadmin4
                 </code>
             </pre>
         </div>

@@ -1,0 +1,2 @@
+cd /tmp
+rm -rvf pkg_pgadmin4
